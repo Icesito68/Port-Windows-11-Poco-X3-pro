@@ -24,7 +24,7 @@ rm 32
 
 #####Crear particiones (adáptala a tu modelo de teléfono)#########
 
-#Crear particiones (256GB model,si tienes el de 128gb usa el comando de iniciar parted y luego pones P para ver las  particiones,pásame captura de eso y haré los comandos)
+#Crear particiones (modelos de 256Gb,Aún no está disponible para el de 128Gb)
 mkpart esp fat32 11.7GB 12.1GB
 mkpart win ntfs 12.1GB 92.1GB
 mkpart pe fat32 92.1GB 95.1GB
