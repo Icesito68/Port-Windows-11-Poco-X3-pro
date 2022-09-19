@@ -22,7 +22,7 @@ parted /dev/block/sda
 #Eliminar particiones rm {número partición} #
 rm 32
 
-#####Crear particiones (adáptala a tu modelo de teléfono)#########
+#####Crear particiones#########
 
 #Crear particiones (modelos de 256Gb,Aún no está disponible para el de 128Gb)
 mkpart esp fat32 11.7GB 12.1GB
