@@ -1,6 +1,7 @@
-Estos comandos están por probar aún,no es recomendable usarlos,pero si sigues queriendo,hazlo bajotu propio riesgo
+Estos comandos están por probar aún, no es recomendable usarlos, pero si sigues queriendo, hazlo bajo tu propio riesgo
 
-Iniciar TWRP recovery a través el PC con el comando fastboot boot <twrp.img>
+Iniciar TWRP recovery a través el PC con el comando 
+fastboot boot <twrp.img>
 
 No copiar las líneas con #
 
@@ -24,7 +25,7 @@ rm 32
 
 #####Crear particiones#########
 
-#Crear particiones (modelos de 256Gb,Aún no está disponible para el de 128Gb)
+#Crear particiones (modelos de 256Gb, Aún no está disponible para el de 128Gb)
 mkpart esp fat32 11.7GB 12.1GB
 mkpart win ntfs 12.1GB 92.1GB
 mkpart pe fat32 92.1GB 95.1GB
