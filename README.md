@@ -8,8 +8,4 @@ This repository will be updated in the next few days with information about the 
 ##Español
 Este repositorio se va a ir actualizando en los próximos días con información del proyecto
 
-Este proyecto está basado en el proyecto de gus33000 
-
-Check Copyright, License, Disclaimers and end user license agreement Here
-
-
+Los drivers usados en la carpeta de Surface Duo pertenecen a gus33000 [Aqui](https://github.com/WOA-Project/SurfaceDuo-Drivers)
