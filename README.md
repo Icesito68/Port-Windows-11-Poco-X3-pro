@@ -16,6 +16,6 @@ Este repositorio se va a ir actualizando en los próximos días con información
 
 ##################################Importante##################################
 
-Los drivers usados en la carpeta de Surface Duo pertenecen a gus33000 [Aqui](https://github.com/WOA-Project/SurfaceDuo-Drivers) puedes ver su proyecto
+Los drivers usados en este proyecto pertenecen a gus33000 en el port de la Surface Duo[Aqui](https://github.com/WOA-Project/SurfaceDuo-Drivers) puedes ver su proyecto
 
-Los drivers usados en la carpeta de Xiaomi Pad 5 pertenecen a map220v [Aqui](https://github.com/map220v/MiPad5-Drivers) puedes ver su proyecto
+Los drivers usados en este proyecto pertenecen a map220v en el port de la Xiaomi Mi Pad 5[Aqui](https://github.com/map220v/MiPad5-Drivers) puedes ver su proyecto
