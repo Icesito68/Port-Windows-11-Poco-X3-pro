@@ -1,6 +1,7 @@
-﻿These commands are yet to be tested, it is not recommended to use them, but if you still want to, do so at your own risk.
+These commands are yet to be tested, it is not recommended to use them, but if you still want to, do so at your own risk.
 
-Start TWRP recovery through the PC with the command fastboot boot <twrp.img>
+Start TWRP recovery through the PC with the command 
+fastboot boot <twrp.img>
 
 Don't copy lines with #
 
