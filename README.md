@@ -27,3 +27,7 @@ Los drivers usados en este proyecto pertenecen a gus33000 en el port de la Surfa
 Los drivers usados en este proyecto pertenecen a map220v en el port de la Xiaomi Mi Pad 5 [aquí](https://github.com/map220v/MiPad5-Drivers) puedes ver su proyecto.
 
 La imagen Uefi del Poco X3 Pro fue sacada de [aquí](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/).
+
+## Estado del proyecto
+
+Actualmente estamos tratando de solucionar un error, ("Too many primary partitions.") El cual sucede al tratar de crear la partición de Win, que es justo la segunda
