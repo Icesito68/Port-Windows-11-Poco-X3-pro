@@ -16,7 +16,7 @@ UEFI EDK2 image for Poco X3 Pro was taken from [here](https://forum.xda-develope
 
 # Español
 
-Este repositorio se va a ir actualizando en los próximos días con información del proyecto
+No me hago responsable de dispositivos brickeados, micro SD muertas,guerras nucleares o mascotas muertas.
 
 ## Importante
 
