@@ -16,7 +16,7 @@ UEFI EDK2 image for Poco X3 Pro was taken from [here](https://forum.xda-develope
 
 # Español
 
-No me hago responsable de dispositivos brickeados, micro SD muertas,guerras nucleares o mascotas muertas.
+No me hago responsable de dispositivos brickeados, micro SD muertas,guerras nucleares,mascotas muertas o que la app de alarma falle y te despidan del trabajo
 
 ## Importante
 
