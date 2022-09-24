@@ -2,7 +2,7 @@
 
 # English
 
-This repository will be updated in the next few days with information about the proyect
+We're not responsible for bricked devices, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because the alarm app didn't work.
 
 ## Important
 
@@ -14,9 +14,14 @@ Some drivers in this project belong to map220v [here](https://github.com/map220v
 
 UEFI EDK2 image for Poco X3 Pro was taken from [here](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/).
 
+## Project status
+
+At the moment, we are trying to solve the issue "Too many primary partitions" that happens when trying to make the Win partition.
+
+
 # Español
 
-No me hago responsable de dispositivos brickeados, micro SD muertas,guerras nucleares,mascotas muertas o que la app de alarma falle y te despidan del trabajo
+No nos hacemos responsables de dispositivos brickeados, micro SD muertas, guerras nucleares, mascotas muertas o que la app de alarma falle y te despidan del trabajo.
 
 ## Importante
 
@@ -30,4 +35,4 @@ La imagen Uefi del Poco X3 Pro fue sacada de [aquí](https://forum.xda-developer
 
 ## Estado del proyecto
 
-Actualmente estamos tratando de solucionar un error, ("Too many primary partitions.") El cual sucede al tratar de crear la partición de Win, que es justo la segunda
+Actualmente estamos tratando de solucionar un error, "Too many primary partitions" El cual sucede al tratar de crear la partición de Win, que es justo la segunda.
