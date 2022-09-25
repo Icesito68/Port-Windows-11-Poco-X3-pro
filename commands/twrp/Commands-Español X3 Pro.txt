@@ -1,0 +1,82 @@
+Estos comandos aún no funcionan, en las próximas semanas espero poder actualizarlos
+
+Iniciar TWRP recovery a través el PC con el comando 
+fastboot boot <twrp.img>
+
+No copiar las líneas con #
+
+#####push parted script to sdcard######
+adb push parted /sdcard/
+
+####iniciar adb shell#####
+adb shell
+
+#####mover parted a directorio sbin###
+cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
+
+#desmontar data y sdcard
+umount /data && umount /sdcard
+
+#Iniciar parted
+parted /dev/block/sda
+
+#Eliminar particiones rm {número partición} #
+rm 32
+
+#####Crear particiones#########
+
+#Crear particiones (modelos de 256Gb, Aún no está disponible para el de 128Gb)
+mkpart esp fat32 11.7GB 12.1GB
+mkpart win ntfs 12.1GB 92.1GB
+mkpart pe fat32 92.1GB 95.1GB
+mkpart userdata ext4 95.1GB 255GB
+
+
+#set esp on
+set 32 esp on
+
+#Quit
+quit
+
+#reiniciar a recovery twrp
+
+#formatea las nuevas particiones
+             mkfs.fat -F32 -s1 /dev/block/by-name/pe
+             mkfs.fat -F32 -s1 /dev/block/by-name/esp
+             mkfs.ntfs -f /dev/block/by-name/win
+             mke2fs -t ext4 /dev/block/by-name/userdata
+
+#montar PE partición como mnt
+mount /dev/block/by-name/pe /mnt
+
+#Copiar archivos Windows Preinstall Environment por OTG al recovery TWRP
+
+cp -r /usbstorage/20h2pe_new/* /mnt
+
+
+Comprueba si inicia Android
+
+
+###############Inicia con la imagen UEFI de arranque de Windows##############
+
+fastboot flash boot_<*> dispositivo.IMG
+
+
+################ commandos en el teléfono(Desde Windows Pe)################
+diskpart
+
+select disk 0
+
+list part
+
+select part 32
+
+assign letter=Y
+
+exit
+
+bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} testsigning on
+
+bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
+
+shutdown -s -t 0
