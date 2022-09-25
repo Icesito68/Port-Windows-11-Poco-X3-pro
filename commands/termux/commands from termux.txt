@@ -1,1 +1,12 @@
-.
+These commands are executed from termux in android itself 
+
+Pkg install root-repo
+
+Pkg install partes -y
+
+Pkg install tsu
+
+Tsu 
+
+parted /dev/block/sda
+
