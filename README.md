@@ -20,6 +20,7 @@ At the moment, we are trying to solve the issue "Too many primary partitions" th
 
 In theory, the error is because [GPT disks can't have more than 32 partitions](https://en.wikipedia.org/wiki/GUID_Partition_Table#Partition_entries_(LBA_2%E2%80%9333))  and Xiaomi filled those 32 partitions, so we will investigate if we can remove some of them.
 
+A user already found the solution, you have to use [Gparted](https://unix.stackexchange.com/a/90224) , so the commands here are wrong, I hope to be able to correct them soon
 
 # Español
 
