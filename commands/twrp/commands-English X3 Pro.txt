@@ -1,0 +1,83 @@
+These commands do not work yet, in the next few weeks I hope to update them
+
+Start TWRP recovery through the PC with the command 
+fastboot boot <twrp.img>
+
+Don't copy lines with #
+
+#####push parted script to sdcard######
+adb push parted /sdcard/
+
+####start adb shell#####
+adb shell
+
+#####move parted to directory sbin###
+cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
+
+#unmount data y sdcard
+umount /data && umount /sdcard
+
+#start parted
+parted /dev/block/sda
+
+#delete partitions rm {número partición} #
+rm 32
+
+#####Create partitions#########
+
+#Create partitions(only 256Gb models, not yet available for 128Gb)
+mkpart esp fat32 11.7GB 12.1GB
+mkpart win ntfs 12.1GB 92.1GB
+mkpart pe fat32 92.1GB 95.1GB
+mkpart userdata ext4 95.1GB 255GB
+
+
+#set esp on
+set 32 esp on
+
+#Quit
+quit
+
+#reboot to twrp recovery
+
+#format the new partitions
+             mkfs.fat -F32 -s1 /dev/block/by-name/pe
+             mkfs.fat -F32 -s1 /dev/block/by-name/esp
+             mkfs.ntfs -f /dev/block/by-name/win
+             mke2fs -t ext4 /dev/block/by-name/userdata
+
+#mount PE partition as mnt
+mount /dev/block/by-name/pe /mnt
+
+#Copy Windows Preinstall Environment files by OTG to TWRP recovery
+
+cp -r /usbstorage/20h2pe_new/* /mnt
+
+
+Check if Android starts
+
+
+###############Boot with Windows bootable UEFI image##############
+
+fastboot flash boot_<*> dispositivo.IMG
+
+
+################ commands on the phone(From Windows Pe) ################
+diskpart
+
+select disk 0
+
+list part
+
+select part 32
+
+assign letter=Y
+
+exit
+
+bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} testsigning on
+
+bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
+
+shutdown -s -t 0
+
