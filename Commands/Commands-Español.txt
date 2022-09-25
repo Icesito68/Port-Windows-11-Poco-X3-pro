@@ -1,4 +1,4 @@
-Estos comandos están por probar aún, no es recomendable usarlos, pero si sigues queriendo, hazlo bajo tu propio riesgo
+Estos comandos aún no funcionan, en las próximas semanas espero poder actualizarlos
 
 Iniciar TWRP recovery a través el PC con el comando 
 fastboot boot <twrp.img>
