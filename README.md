@@ -40,3 +40,5 @@ La imagen Uefi del Poco X3 Pro fue sacada de [aquí](https://forum.xda-developer
 Actualmente estamos tratando de solucionar un error, "Too many primary partitions" El cual sucede al tratar de crear la partición de Win, que es justo la segunda.
 
 Teóricamente el error se debe a que [los discos GPT no pueden tener más de 32 particiones](https://en.wikipedia.org/wiki/GUID_Partition_Table#Partition_entries_(LBA_2%E2%80%9333)) y los desarrolladores de Xiaomi llenaron esas 32 a voluntad por algún motivo, investigaremos en base a esto para tratar de solucionarlo.
+
+Ya un usuario dió con la solución, hay que usar [Gparted](https://unix.stackexchange.com/a/90224) , así que los comandos que están aquí están mal, en breves espero poder corregirlos
