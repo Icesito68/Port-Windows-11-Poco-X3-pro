@@ -8,5 +8,10 @@ Pkg install tsu
 
 Tsu 
 
-parted /dev/block/sda
+pkg install gptfdisk
 
+Tsu 
+
+fdisk /dev/block/sda
+
+P
