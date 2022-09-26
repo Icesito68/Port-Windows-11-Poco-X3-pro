@@ -1,12 +1,12 @@
 Estos comandos son ejecutados desde termux en el propio android 
 
+Aún están en fase de pruebas por lo que no se recomienda usarlos, además de que no están completos
+
 Pkg install root-repo
 
 Pkg install parted -y
 
 Pkg install tsu
-
-Tsu 
 
 pkg install gptfdisk
 
