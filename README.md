@@ -20,7 +20,7 @@ At the moment, we are trying to solve the issue "Too many primary partitions" th
 
 In theory, the error is because [GPT disks can't have more than 32 partitions](https://en.wikipedia.org/wiki/GUID_Partition_Table#Partition_entries_(LBA_2%E2%80%9333))  and Xiaomi filled those 32 partitions, so we will investigate if we can remove some of them.
 
-A user already found the solution, you have to use [Gparted](https://unix.stackexchange.com/a/90224) , so the commands here are wrong, I hope to be able to correct them soon
+A user already found the solution, you have to use [gptfdisk](https://unix.stackexchange.com/a/90224) , so the commands here are wrong, I hope to be able to correct them soon
 
 Even if you manage to make the partitions, windows pe won't start because it's not compiled for the 855, 855+ and 860.
 
@@ -44,6 +44,6 @@ Actualmente estamos tratando de solucionar un error, "Too many primary partition
 
 Teóricamente el error se debe a que [los discos GPT no pueden tener más de 32 particiones](https://en.wikipedia.org/wiki/GUID_Partition_Table#Partition_entries_(LBA_2%E2%80%9333)) y los desarrolladores de Xiaomi llenaron esas 32 a voluntad por algún motivo, investigaremos en base a esto para tratar de solucionarlo.
 
-Ya un usuario dió con la solución, hay que usar [Gparted](https://unix.stackexchange.com/a/90224) , así que los comandos que están aquí están mal, en breves espero poder corregirlos
+Ya un usuario dió con la solución, hay que usar [gptfdisk](https://unix.stackexchange.com/a/90224) , así que los comandos que están aquí están mal, en breves espero poder corregirlos
 
 Aunque consigas hacer las particiones, windows pe no arrancará por no estar compilado para el 855, 855+ y 860
