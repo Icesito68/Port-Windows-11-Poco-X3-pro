@@ -2,7 +2,7 @@ These commands are executed from termux in android itself
 
 Pkg install root-repo
 
-Pkg install partes -y
+Pkg install parted -y
 
 Pkg install tsu
 
