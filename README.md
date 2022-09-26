@@ -46,4 +46,4 @@ Teóricamente el error se debe a que [los discos GPT no pueden tener más de 32 
 
 Ya un usuario dió con la solución, hay que usar [gptfdisk](https://unix.stackexchange.com/a/90224) , así que los comandos que están aquí están mal, en breves espero poder corregirlos
 
-Aunque consigas hacer las particiones, windows pe no arrancará por no estar compilado para el 855, 855+ y 860
+Tenemos windows pe compilado específicamente para el snapdragon 855,lo que significa que el 860 tiene soporte [además se usa en la mi pad 5](https://youtu.be/IKLjTv5ooZU)
