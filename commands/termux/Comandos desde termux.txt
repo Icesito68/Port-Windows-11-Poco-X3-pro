@@ -1,22 +1,25 @@
 Estos comandos son ejecutados desde termux en el propio android 
 
-Aún están en fase de pruebas por lo que no se recomienda usarlos, además de que no están completos
+no copiar las lineas con #
 
 (módulo de magisk)(https://github.com/evdenis/disk)
 
 (Tener root)
 
+#Entrar como superusuario (Si no funciona escribe pkg install tsu)
+
 Tsu 
 
+#Hacer un archivo con la tabla de particiones
 sfdisk -d /dev/block/sda > /sdcard/sda.part
 
+#Instalar nano
 pkg install nano
 
+#Abrir el archivo creado con nano
 nano /sdcard/sda.part
 
-(remover bk 1-4)
-
-/sdcard/sda.part file 
+(remover bk1-4)
 
 
 
