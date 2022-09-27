@@ -2,9 +2,9 @@ Estos comandos son ejecutados desde termux en el propio android
 
 Aún están en fase de pruebas por lo que no se recomienda usarlos, además de que no están completos
 
-Pkg install tsu
+(módulo de magisk)(https://github.com/evdenis/disk)
 
-pkg install gptfdiskn (módulo de magisk)(https://github.com/evdenis/disk)
+(Tener root)
 
 Tsu 
 
@@ -14,8 +14,9 @@ pkg install nano
 
 nano /sdcard/sda.part
 
+(remover bk 1-4)
+
 /sdcard/sda.part file 
 
-pkg install nano
 
-(remover bk 1-4)
+
