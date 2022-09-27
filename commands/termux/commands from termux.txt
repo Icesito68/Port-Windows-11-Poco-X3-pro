@@ -1,13 +1,22 @@
-These commands are executed from termux in android itself 
+These commands are executed from termux in android itself
 
-They are still in the testing phase, so it is not recommended to use them, in addition to the fact that they are not complete
+do not copy lines with #
 
-Pkg install tsu
+(magisk module)(https://github.com/evdenis/disk)
 
-pkg install gptfdisk
+(root of have)
 
-Tsu 
+#Login as root (If that doesn't work, type pkg install tsu)
 
-fdisk /dev/block/sda
+Tsu
 
-P
+# Make a file with the partition table
+sfdisk -d /dev/block/sda > /sdcard/sda.part
+
+#Install nano
+install nano package
+
+#Open the file created with nano
+nano /sdcard/sda.part
+
+(remove bk 1-4)
