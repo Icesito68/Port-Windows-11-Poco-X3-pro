@@ -14,7 +14,7 @@ Some drivers in this project belong to map220v [here](https://github.com/map220v
 
 UEFI EDK2 image for Poco X3 Pro was taken from [here](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/).
 
-The compiled Windows Pe for the snapdragon 855,855+ and 860 [we got it here](https://youtu.be/IKLjTv5ooZU)
+The compiled Windows Pe for the snapdragon 855, 855+ and 860 [source](https://youtu.be/IKLjTv5ooZU)
 
 ## Project status
 
@@ -22,11 +22,11 @@ At the moment, we are trying to solve the issue "Too many primary partitions" th
 
 In theory, the error is because [GPT disks can't have more than 32 partitions](https://en.wikipedia.org/wiki/GUID_Partition_Table#Partition_entries_(LBA_2%E2%80%9333))  and Xiaomi filled those 32 partitions, so we will investigate if we can remove some of them.
 
-A user already found the solution, you have to use [gptfdisk](https://unix.stackexchange.com/a/90224) , so the commands here are wrong, I hope to be able to correct them soon
+A user already found the solution, you have to use [gptfdisk](https://unix.stackexchange.com/a/90224) , so the commands here are wrong, I hope to be able to correct them soon.
 
 ## Required Files
 
-Soon
+Coming soon...
 
 # Español
 
@@ -42,7 +42,7 @@ Los drivers usados en este proyecto pertenecen a map220v en el port de la Xiaomi
 
 La imagen Uefi del Poco X3 Pro fue sacada de [aquí](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/).
 
-El Windows Pe compilado para el snapdragon 855,855+ y 860 [lo obtuvimos aqui](https://youtu.be/IKLjTv5ooZU)
+El Windows Pe compilado para el snapdragon 855, 855+ y 860 [lo obtuvimos aqui](https://youtu.be/IKLjTv5ooZU)
 
 ## Estado del proyecto
 
@@ -54,4 +54,4 @@ Ya un usuario dió con la solución, hay que usar [gptfdisk](https://unix.stacke
 
 ## Archivos necesarios
 
-Pronto
+Próximamente...
