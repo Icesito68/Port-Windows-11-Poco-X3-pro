@@ -24,6 +24,10 @@ A user already found the solution, you have to use [gptfdisk](https://unix.stack
 
 We have windows pe compiled specifically for the snapdragon 855, which means the 860 is supported, [it's also used on the mi pad 5](https://youtu.be/IKLjTv5ooZU)
 
+## Required Files
+
+Soon
+
 # Español
 
 No nos hacemos responsables de dispositivos brickeados, micro SD muertas, guerras nucleares, mascotas muertas o que la app de alarma falle y te despidan del trabajo.
@@ -47,3 +51,8 @@ Teóricamente el error se debe a que [los discos GPT no pueden tener más de 32 
 Ya un usuario dió con la solución, hay que usar [gptfdisk](https://unix.stackexchange.com/a/90224) , así que los comandos que están aquí están mal, en breves espero poder corregirlos
 
 Tenemos windows pe compilado específicamente para el snapdragon 855,lo que significa que el 860 tiene soporte, [además se usa en la mi pad 5](https://youtu.be/IKLjTv5ooZU)
+
+
+## Archivos necesarios
+
+Pronto
