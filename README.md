@@ -22,7 +22,7 @@ In theory, the error is because [GPT disks can't have more than 32 partitions](h
 
 A user already found the solution, you have to use [gptfdisk](https://unix.stackexchange.com/a/90224) , so the commands here are wrong, I hope to be able to correct them soon
 
-Even if you manage to make the partitions, windows pe won't start because it's not compiled for the 855, 855+ and 860.
+
 
 # Español
 
