@@ -11,3 +11,8 @@ Tsu
 fdisk /dev/block/sda
 
 P
+
+sfdisk -d /dev/block/sda > /sdcard/sda.part
+/sdcard/sda.part file 
+
+(remover bk)
