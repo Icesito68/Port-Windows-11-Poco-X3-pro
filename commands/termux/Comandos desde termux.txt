@@ -15,4 +15,4 @@ P
 sfdisk -d /dev/block/sda > /sdcard/sda.part
 /sdcard/sda.part file 
 
-(remover bk)
+(remover bk 1-4)
