@@ -22,7 +22,7 @@ In theory, the error is because [GPT disks can't have more than 32 partitions](h
 
 A user already found the solution, you have to use [gptfdisk](https://unix.stackexchange.com/a/90224) , so the commands here are wrong, I hope to be able to correct them soon
 
-
+We have windows pe compiled specifically for the snapdragon 855, which means the 860 is supported, [it's also used on the mi pad 5](https://youtu.be/IKLjTv5ooZU)
 
 # Español
 
