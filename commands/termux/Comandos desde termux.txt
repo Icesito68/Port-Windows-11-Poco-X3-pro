@@ -4,15 +4,16 @@ Aún están en fase de pruebas por lo que no se recomienda usarlos, además de q
 
 Pkg install tsu
 
-pkg install gptfdisk
+pkg install gptfdiskn (módulo de magisk)(https://github.com/evdenis/disk)
 
 Tsu 
 
-fdisk /dev/block/sda
-
-P
-
 sfdisk -d /dev/block/sda > /sdcard/sda.part
+
+pkg install nano
+
+nano /sdcard/sda.part
+
 /sdcard/sda.part file 
 
 pkg install nano
