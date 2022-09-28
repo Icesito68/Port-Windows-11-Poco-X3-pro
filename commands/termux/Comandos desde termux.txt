@@ -7,7 +7,6 @@ no copiar las lineas con #
 (Tener root)
 
 #Entrar como superusuario (Si no funciona escribe pkg install tsu)
-
 Tsu 
 
 #Hacer un archivo con la tabla de particiones
