@@ -34,6 +34,8 @@ No nos hacemos responsables de dispositivos brickeados, micro SD muertas, guerra
 
 ## Importante
 
+La mayoría de información fue proporcionada por un usuario del discord de Renegade Project
+
 Este proyecto por ahora está en una fase experimental muy temprana, todos los archivos han sido aportados por otros usuarios de la comunidad, aquí realmente tendrás una guía con la documentación que hemos sido capaces de reunir.
 
 Los drivers usados en este proyecto pertenecen a gus33000 en el port de la Surface Duo [aquí](https://github.com/WOA-Project/SurfaceDuo-Drivers) puedes ver su proyecto.
