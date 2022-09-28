@@ -30,7 +30,7 @@ Coming soon...
 
 # Español
 
-#3 ¡Advertencia!
+## ¡Advertencia!
 No nos hacemos responsables de dispositivos brickeados, micro SD muertas, guerras nucleares, mascotas muertas o que la app de alarma falle y te despidan del trabajo.
 
 Esto es un proceso delicado, hágalo bajo su propio riesgo y sin saltarse pasos del tutorial
