@@ -44,6 +44,8 @@ Los drivers usados en este proyecto pertenecen a map220v en el port de la Xiaomi
 
 La imagen Uefi del Poco X3 Pro fue sacada de [aquí](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/), (Actualmente tiene un error que se está tratando de solucionar.)
 
+Se está trabajando sobre [esta imagen uefi](https://github.com/halal-beef/MU-sm8150pkg-auto-complie/tree/main/Platforms/SurfaceDuoPkg/Device/xiaomi-vayu)
+
 El Windows Pe compilado para el snapdragon 855, 855+ y 860 [lo obtuvimos aqui](https://youtu.be/IKLjTv5ooZU)
 
 ## Estado del proyecto
