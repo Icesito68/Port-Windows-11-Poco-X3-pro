@@ -13,7 +13,7 @@ Tsu
 #Hacer un archivo con la tabla de particiones
 sfdisk -d /dev/block/sda > /sdcard/sda.part
 
-#Salir del modo root
+#Salir del modo superusuario
 Exit
 
 #Instalar nano
