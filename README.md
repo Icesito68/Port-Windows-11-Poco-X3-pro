@@ -42,7 +42,7 @@ Los drivers usados en este proyecto pertenecen a gus33000 en el port de la Surfa
 
 Los drivers usados en este proyecto pertenecen a map220v en el port de la Xiaomi Mi Pad 5 [aquí](https://github.com/map220v/MiPad5-Drivers) puedes ver su proyecto.
 
-La imagen Uefi del Poco X3 Pro fue sacada de [aquí](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/).
+La imagen Uefi del Poco X3 Pro fue sacada de [aquí](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/) (Actualmente tiene un error que se está tratando de solucionar).
 
 El Windows Pe compilado para el snapdragon 855, 855+ y 860 [lo obtuvimos aqui](https://youtu.be/IKLjTv5ooZU)
 
