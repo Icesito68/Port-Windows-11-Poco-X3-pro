@@ -24,7 +24,8 @@ Tsu
 #Abrir el archivo creado con nano
 nano /sdcard/sda.part
 
-(remover bk1-4)
+(Borrar particiones necesarias (4-7))
 
 
+sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
 
