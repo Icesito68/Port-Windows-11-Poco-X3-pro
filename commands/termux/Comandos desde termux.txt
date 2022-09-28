@@ -26,6 +26,7 @@ nano /sdcard/sda.part
 
 (Borrar particiones necesarias (4-7))
 
-
+#Importar la nueva tabla de particionds
 sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
 
+¡¡¡REINICIAR AUTOMATICAMENTE DESPUÉS DE ESTO!!!
