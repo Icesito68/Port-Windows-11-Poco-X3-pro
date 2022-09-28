@@ -4,19 +4,29 @@ do not copy lines with #
 
 (magisk module)(https://github.com/evdenis/disk)
 
-(root of have)
+(Have root)
 
 #Login as root (If that doesn't work, type pkg install tsu)
-
 Tsu
 
 # Make a file with the partition table
 sfdisk -d /dev/block/sda > /sdcard/sda.part
 
+#Exit superuser mode
+Exit
+
 #Install nano
-install nano package
+pkg install nano
+
+#Login as superuser
+Tsu
 
 #Open the file created with nano
 nano /sdcard/sda.part
 
-(remove bk 1-4)
+(Delete necessary partitions (4-7))
+
+#Import the new partition table
+sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
+
+RESTART AUTOMATICALLY AFTER THIS!!!
