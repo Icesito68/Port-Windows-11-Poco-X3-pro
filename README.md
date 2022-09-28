@@ -50,7 +50,7 @@ El Windows Pe compilado para el snapdragon 855, 855+ y 860 [lo obtuvimos aqui](h
 
 ## Estado del proyecto
 
-Ahora estamos tratando de solucionar un error que impide al poco X3 pro arrancar Windows, falla incluso teniendo un Windows pe compatible con el 860
+Ahora se está tratando de solucionar un error que impide al poco X3 pro arrancar Windows, falla incluso teniendo un Windows pe compatible con el 860
 
 ## Archivos necesarios
 
