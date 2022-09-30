@@ -2,6 +2,8 @@ Estos comandos son ejecutados desde termux en el propio android
 
 no copiar las lineas con #
 
+
+Primero hay que instalar el módulo de Magisk que se encuentra en la sección de archivos
 (módulo de magisk)(https://github.com/evdenis/disk)
 
 (Tener root)
