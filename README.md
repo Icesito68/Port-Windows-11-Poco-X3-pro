@@ -29,7 +29,13 @@ Now we are trying to solve an issue related to the UEFI image that prevents the 
 
 ## Required Files
 
-Coming soon...
+You will need the TWRP compatible with the Poco X3 Pro, you can download it [Here](https://twrp.me/xiaomi/xiaomipocox3pro.html)
+
+We will have to be a root user, you can download Magisk [Here](https://github.com/topjohnwu/Magisk)
+
+For the commands from android we will use termux, you can download it [Here](https://play.google.com/store/apps/details?id=com.termux&hl=es_419&gl=US)
+
+You need a Magisk module to do the termux operations, you can download it [Here](https://github.com/evdenis/disk)
 
 # Español
 
