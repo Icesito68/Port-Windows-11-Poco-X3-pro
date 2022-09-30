@@ -1,4 +1,4 @@
-Estos comandos aún no funcionan, en las próximas semanas espero poder actualizarlos
+Estos comandos han sido testeados y funcionan perfectamente (Sin embargo aún no se puede iniciar Windows Pe)
 
 Este proceso hay que realizarlo después de haber hecho los comandos en termux
 
