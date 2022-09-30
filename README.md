@@ -62,4 +62,4 @@ Tratamos de arrancar Windows Pe y se congela dando un código de error (PROGRESS
 
 ## Archivos necesarios
 
-Próximamente...
+Necesitas un módulo de Magisk para hacer las operaciones con termux, lo puedes descargar [Aquí](https://github.com/evdenis/disk)
