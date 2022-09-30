@@ -27,6 +27,10 @@ The compiled Windows PE for the Snapdragon 855, 855+ and 860 [source](https://yo
 
 Now we are trying to solve an issue related to the UEFI image that prevents the Poco X3 Pro to boot Windows, even when using a Windows PE image compatible with the SD860.
 
+We try to start Windows Pe and it freezes giving an error code (PROGRESS CODE: V03101019 I0)
+
+The uefi is being rebuilt to see if the X3 Pro is able to boot Windows Pe
+
 ## Required Files
 
 You will need the TWRP compatible with the Poco X3 Pro, you can download it [Here](https://twrp.me/xiaomi/xiaomipocox3pro.html)
@@ -65,6 +69,8 @@ El Windows PE compilado para el Snapdragon 855, 855+ y 860 [lo obtuvimos aqui](h
 Ahora se está tratando de solucionar un error que impide al Poco X3 Pro arrancar Windows, falla incluso teniendo un Windows PE compatible con el SD860.
 
 Tratamos de arrancar Windows Pe y se congela dando un código de error (PROGRESS CODE: V03101019 I0)
+
+Se está reconstruyendo el uefi para ver si así el X3 Pro es capaz de arrancar Windows Pe
 
 ## Archivos necesarios
 
