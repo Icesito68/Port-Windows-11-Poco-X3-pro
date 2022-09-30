@@ -62,4 +62,10 @@ Tratamos de arrancar Windows Pe y se congela dando un código de error (PROGRESS
 
 ## Archivos necesarios
 
+Necesitarás el TWRP compatible con el Poco X3 Pro, lo puedes descargar [Aquí](https://twrp.me/xiaomi/xiaomipocox3pro.html)
+
+Tendremos que ser usuarior root,puedes descargar Magisk [Aquí](https://github.com/topjohnwu/Magisk)
+
+Para los comandos desde android usaremos termux, lo puedes descargar [Aquí](https://play.google.com/store/apps/details?id=com.termux&hl=es_419&gl=US)
+
 Necesitas un módulo de Magisk para hacer las operaciones con termux, lo puedes descargar [Aquí](https://github.com/evdenis/disk)
