@@ -2,7 +2,7 @@ These commands are executed from termux in android itself
 
 do not copy lines with #
 
-(magisk module)(https://github.com/evdenis/disk)
+First you have to install the Magisk module found in the files section
 
 (Have root)
 
