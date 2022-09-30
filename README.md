@@ -76,7 +76,7 @@ Se está reconstruyendo el uefi para ver si así el X3 Pro es capaz de arrancar 
 
 Necesitarás el TWRP compatible con el Poco X3 Pro, lo puedes descargar [Aquí](https://twrp.me/xiaomi/xiaomipocox3pro.html)
 
-Tendremos que ser usuarior root,puedes descargar Magisk [Aquí](https://github.com/topjohnwu/Magisk)
+Tendremos que ser usuario root,puedes descargar Magisk [Aquí](https://github.com/topjohnwu/Magisk)
 
 Para los comandos desde android usaremos termux, lo puedes descargar [Aquí](https://play.google.com/store/apps/details?id=com.termux&hl=es_419&gl=US)
 
