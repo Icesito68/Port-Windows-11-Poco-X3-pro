@@ -58,7 +58,7 @@ El Windows PE compilado para el Snapdragon 855, 855+ y 860 [lo obtuvimos aqui](h
 
 Ahora se está tratando de solucionar un error que impide al Poco X3 Pro arrancar Windows, falla incluso teniendo un Windows PE compatible con el SD860.
 
-Tratamos de arrancar Windows Pe y se congela dando un código de error (PROGRESS CODE: V03101019 10)
+Tratamos de arrancar Windows Pe y se congela dando un código de error (PROGRESS CODE: V03101019 I0)
 
 ## Archivos necesarios
 
