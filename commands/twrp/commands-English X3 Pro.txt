@@ -49,7 +49,7 @@ mkfs.ntfs -f /dev/block/by-name/win
 
 mke2fs -t ext4 /dev/block/by-name/userdata
 
-##with these commands your pc will be able to detect the mobile as a disk to carry out the installation
+##with these commands your pc will be able to detect the mobile as a disk to carry out the installation (Have MTP disabled in Mount)
 
 #Move msc.sh to internal memory
 adb push msc.sh /sdcard
