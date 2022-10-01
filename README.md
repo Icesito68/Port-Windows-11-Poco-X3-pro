@@ -31,6 +31,8 @@ We try to start Windows Pe and it freezes giving an error code (PROGRESS CODE: V
 
 The uefi is being rebuilt to see if the X3 Pro is able to boot Windows Pe
 
+As it can also be a Windows Pe error, it is being modified with drivers compatible with the Poco X3 Pro
+
 ## Required Files
 
 You will need the TWRP compatible with the Poco X3 Pro, you can download it [Here](https://twrp.me/xiaomi/xiaomipocox3pro.html)
@@ -77,6 +79,8 @@ Ahora se está tratando de solucionar un error que impide al Poco X3 Pro arranca
 Tratamos de arrancar Windows Pe y se congela dando un código de error (PROGRESS CODE: V03101019 I0)
 
 Se está reconstruyendo el uefi para ver si así el X3 Pro es capaz de arrancar Windows Pe
+
+Como también puede ser error de Windows Pe, se está modificando con drivers compatibles con el Poco X3 Pro
 
 ## Archivos necesarios
 
