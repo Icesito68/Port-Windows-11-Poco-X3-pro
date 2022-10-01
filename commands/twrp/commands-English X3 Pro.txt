@@ -43,8 +43,6 @@ quit
 
 #format the new partitions
 
-mkfs.fat -F32 -s1 /dev/block/by-name/pe
-
 mkfs.fat -F32 -s1 /dev/block/by-name/esp
 
 mkfs.ntfs -f /dev/block/by-name/win
