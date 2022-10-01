@@ -1,6 +1,6 @@
 # Port-Windows-11-Poco-X3-pro
 
-# English
+# English 
 
 ## Warning!
 We're not responsible for bricked devices, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because the alarm app didn't work.
@@ -23,13 +23,11 @@ The compiled Windows PE for the Snapdragon 855, 855+ and 860 [source](https://yo
 
 ## Project status
 
-Now we are trying to solve an issue related to the UEFI image that prevents the Poco X3 Pro to boot Windows, even when using a Windows PE image compatible with the SD860.
+The project Its almost finished, now we are waiting to be able to run Windows 11
 
-We try to start Windows Pe and it freezes giving an error code (PROGRESS CODE: V03101019 I0)
+Windows 11 Its trying to run but never launch
 
-The uefi is being rebuilt to see if the X3 Pro is able to boot Windows Pe
-
-As it can also be a Windows Pe error, it is being modified with drivers compatible with the Poco X3 Pro
+We are porting drivers from Xiaomi Pad 5 in hope that It will work
 
 ## Required Files
 
@@ -46,6 +44,14 @@ In termux you will have to execute some commands that we provide in this reposit
 On a pc you use the platform tools, you can download them [Here](https://developer.android.com/studio/releases/platform-tools)
 
 The Uefi image is the one provided in this same repository, you can find it [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
+
+On Pc you will need the platform-tools, you can download [Here](https://developer.android.com/studio/releases/platform-tools)
+
+This file is required to continue with the installation, you can download [Here](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) (The file belongs to gus33000)
+
+The UEFI Image have been built by this repository, you can download [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
+
+You will need a Windows compiled for ARM, choose whatever version you like [Here](https://uupdump.net/)
 
 # Español
 
