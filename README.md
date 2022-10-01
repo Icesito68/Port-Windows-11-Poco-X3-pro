@@ -35,9 +35,17 @@ The uefi is being rebuilt to see if the X3 Pro is able to boot Windows Pe
 
 You will need the TWRP compatible with the Poco X3 Pro, you can download it [Here](https://twrp.me/xiaomi/xiaomipocox3pro.html)
 
-We will have to be a root user, you can download Magisk [Here](https://github.com/topjohnwu/Magisk)
+We will have to be root user, you can download Magisk [Here](https://github.com/topjohnwu/Magisk)
 
 For the commands from android we will use termux, you can download it [Here](https://play.google.com/store/apps/details?id=com.termux&hl=es_419&gl=US)
+
+You need a Magisk module to do the termux operations, you can download it [Here](https://github.com/evdenis/disk)
+
+In termux you will have to execute some commands that we provide in this repository, you can see them [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
+
+On a pc you use the platform tools, you can download them [Here](https://developer.android.com/studio/releases/platform-tools)
+
+The Uefi image is the one provided in this same repository, you can find it [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
 You need a Magisk module to do the termux operations, you can download it [Here](https://github.com/evdenis/disk)
 
