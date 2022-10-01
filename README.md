@@ -82,4 +82,6 @@ Para los comandos desde android usaremos termux, lo puedes descargar [Aquí](htt
 
 Necesitas un módulo de Magisk para hacer las operaciones con termux, lo puedes descargar [Aquí](https://github.com/evdenis/disk)
 
+En termux tendrás que ejecutar unos comandos que proporcionamos en este repositorio, los puedes ver [Aquí](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
+
 La imagen Uefi es la proporcionada en este mismo repositorio, la encuentras [Aquí](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
