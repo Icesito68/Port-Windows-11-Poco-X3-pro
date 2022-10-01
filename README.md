@@ -81,3 +81,5 @@ Tendremos que ser usuario root,puedes descargar Magisk [Aquí](https://github.co
 Para los comandos desde android usaremos termux, lo puedes descargar [Aquí](https://play.google.com/store/apps/details?id=com.termux&hl=es_419&gl=US)
 
 Necesitas un módulo de Magisk para hacer las operaciones con termux, lo puedes descargar [Aquí](https://github.com/evdenis/disk)
+
+La imagen Uefi es la proporcionada en este mismo repositorio, la encuentras [Aquí](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
