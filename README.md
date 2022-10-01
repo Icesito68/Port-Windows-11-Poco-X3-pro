@@ -90,4 +90,8 @@ En termux tendrás que ejecutar unos comandos que proporcionamos en este reposit
 
 En un pc necesitarás las platform-tools, las puedes descargar [Aquí](https://developer.android.com/studio/releases/platform-tools)
 
+Este es un archivo necesario para llevar a cabo la instalación, lo puedes descargar [Aquí](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) (El archivo pertenece a gus)
+
 La imagen Uefi es la proporcionada en este mismo repositorio, la encuentras [Aquí](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
+
+
