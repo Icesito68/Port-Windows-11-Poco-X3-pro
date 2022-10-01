@@ -17,9 +17,7 @@ Some drivers in this project belong to gus33000 [here](https://github.com/WOA-Pr
 
 Some drivers in this project belong to map220v [here](https://github.com/map220v/MiPad5-Drivers) you can see his project.
 
-UEFI EDK2 image for Poco X3 Pro was taken from [here](https://forum.xda-developers.com/t/uefi-poco-x3-pro.4441163/) (At the moment, it does have a problem that we are trying to solve).
-
-We are working on [this UEFI image](https://github.com/halal-beef/MU-sm8150pkg-auto-complie/tree/main/Platforms/SurfaceDuoPkg/Device/xiaomi-vayu).
+UEFI EDK2 image for Poco X3 Pro was taken from [here](https://github.com/halal-beef/MU-sm8150pkg/actions/runs/3164583519).
 
 The compiled Windows PE for the Snapdragon 855, 855+ and 860 [source](https://youtu.be/IKLjTv5ooZU).
 
