@@ -70,13 +70,11 @@ El Windows PE compilado para el Snapdragon 855, 855+ y 860 [lo obtuvimos aqui](h
 
 ## Estado del proyecto
 
-Ahora se está tratando de solucionar un error que impide al Poco X3 Pro arrancar Windows, falla incluso teniendo un Windows PE compatible con el SD860.
+El proyecto está casi finalizado, ahora solo queda que Windows 11 arranque.
 
-Tratamos de arrancar Windows Pe y se congela dando un código de error (PROGRESS CODE: V03101019 I0)
+Windows 11 trata de arrancar pero no llega a iniciar nunca
 
-Se está reconstruyendo el uefi para ver si así el X3 Pro es capaz de arrancar Windows Pe
-
-Como también puede ser error de Windows Pe, se está modificando con drivers compatibles con el Poco X3 Pro
+Se esán porteando los drivers de la Xiaomi Pad 5 con la esperanza de que funcionen.
 
 ## Archivos necesarios
 
