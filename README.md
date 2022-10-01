@@ -41,10 +41,6 @@ You need a Magisk module to do the termux operations, you can download it [Here]
 
 In termux you will have to execute some commands that we provide in this repository, you can see them [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
 
-On a pc you use the platform tools, you can download them [Here](https://developer.android.com/studio/releases/platform-tools)
-
-The Uefi image is the one provided in this same repository, you can find it [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
-
 On Pc you will need the platform-tools, you can download [Here](https://developer.android.com/studio/releases/platform-tools)
 
 This file is required to continue with the installation, you can download [Here](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) (The file belongs to gus33000)
