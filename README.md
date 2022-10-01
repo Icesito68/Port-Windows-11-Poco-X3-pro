@@ -47,8 +47,6 @@ On a pc you use the platform tools, you can download them [Here](https://develop
 
 The Uefi image is the one provided in this same repository, you can find it [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
-You need a Magisk module to do the termux operations, you can download it [Here](https://github.com/evdenis/disk)
-
 # Español
 
 ## ¡Advertencia!
