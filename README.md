@@ -23,7 +23,7 @@ The compiled Windows PE for the Snapdragon 855, 855+ and 860 [source](https://yo
 
 ## Project status
 
-The project Its almost finished, now we are waiting to be able to run Windows 11
+The project Its almost finished, now we are waiting for Windows 11 recognize the usb for initialize the start configuration
 
 We are porting drivers from Xiaomi Pad 5 in hope that It will work
 
