@@ -1,4 +1,4 @@
-These commands have been tested and work perfectly (However still can't start Windows Pe)
+These commands have been tested and work perfectly
 
 This process must be done after having done the commands in termux
 
