@@ -1,4 +1,4 @@
-# Port-Windows-11-Poco-X3-pro g
+# Port-Windows-11-Poco-X3-pro 
 
 # English 
 
