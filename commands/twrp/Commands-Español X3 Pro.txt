@@ -49,7 +49,7 @@ mkfs.ntfs -f /dev/block/by-name/win
 
 #Formatear desde twrp 
 
-Comprueba si inicia Android
+#Comprueba si inicia Android
 
 ##con estos comandos tu pc podra detectar el movil como un disco para llevar a cabo la instalacion (Tener desactivado el MTP en Mount)
 
