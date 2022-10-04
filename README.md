@@ -2,6 +2,31 @@
 
 # Compatibility
 
+Working: ✅|
+In process: 🔶️|
+Not working: ❌
+
+|| Aditional notes | Status |
+|---------------|------------------------|--------------------------|
+| USB | Currently working on it | 🔶️|
+| UFS |  | ✅|
+| Display |  | ✅|
+| UEFI Buttons |  | ✅|
+| Touchscreen |  | 🔶️|
+| WiFi |  | ❌|
+| Bluetooth |  | ❌|
+| WiFi |  | ❌|
+| Battery |  | ❌|
+| Charge |  | ❌|
+| Virtualization |  | ❌|
+| GPU |  | 🔶️|
+| LTE |  | ❌|
+| Audio |  | ❌|
+| Location |  | ❌|
+| Sensors |  | ❌|
+| Camera |  | ❌|
+| NFC |  | ❌|
+
 # English 
 
 ## Warning!
