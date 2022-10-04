@@ -95,3 +95,5 @@ Este es un archivo necesario para llevar a cabo la instalación, lo puedes desca
 La imagen Uefi es la proporcionada en este mismo repositorio, la encuentras [Aquí](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
 Necesitarás Windows compilado para Arm, elige la version que quieres y descargala [Aquí](https://uupdump.net/)
+
+Para instalar los drivers puedes hacerlo [Aquí](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/InstallWindows.md#enabling-usb-only-if-you-get-issues)
