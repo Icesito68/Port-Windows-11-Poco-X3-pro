@@ -27,8 +27,6 @@ Not working: ❌
 | Camera |  | ❌|
 | NFC |  | ❌|
 
-# English 
-
 ## Warning!
 We're not responsible for bricked devices, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because the alarm app didn't work.
 
