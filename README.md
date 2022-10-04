@@ -71,3 +71,7 @@ This file is required to continue with the installation, you can download [Here]
 The UEFI Image have been built by this repository, you can download [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
 You will need a Windows compiled for ARM, choose whatever version you like [Here](https://uupdump.net/)
+
+you need a program to install the drivers, you can get it [here](Releases · WOA-Project/DriverUpdater)
+
+you can get the drivers [here](https://github.com/halal-beef/MiPad5-Drivers)
