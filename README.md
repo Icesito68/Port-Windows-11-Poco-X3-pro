@@ -15,7 +15,6 @@ Not working: ❌
 | Touchscreen |  | 🔶️|
 | WiFi |  | ❌|
 | Bluetooth |  | ❌|
-| WiFi |  | ❌|
 | Battery |  | ❌|
 | Charge |  | ❌|
 | Virtualization |  | ❌|
