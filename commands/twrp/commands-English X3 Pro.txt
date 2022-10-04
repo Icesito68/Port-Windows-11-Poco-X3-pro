@@ -47,7 +47,9 @@ mkfs.fat -F32 -s1 /dev/block/by-name/esp
 
 mkfs.ntfs -f /dev/block/by-name/win
 
-mke2fs -t ext4 /dev/block/by-name/userdata
+#format from twrp
+
+#Check if Android starts
 
 ##with these commands your pc will be able to detect the mobile as a disk to carry out the installation (Have MTP disabled in Mount)
 
@@ -64,9 +66,6 @@ cd/sd card
 chmod +x msc.sh
 
 ./msc.sh
-
-Check if Android starts
-
 
 ###############Boots with Windows bootable UEFI image##############
 
