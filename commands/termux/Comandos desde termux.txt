@@ -6,20 +6,14 @@ Primero hay que instalar el módulo de Magisk que se encuentra en la sección de
 
 (Tener root)
 
+#Instalar nano
+pkg install nano
+
 #Entrar como superusuario (Si no funciona escribe pkg install tsu)
 Tsu 
 
 #Hacer un archivo con la tabla de particiones
 sfdisk -d /dev/block/sda > /sdcard/sda.part
-
-#Salir del modo superusuario
-Exit
-
-#Instalar nano
-pkg install nano
-
-#Entrar como superusuario
-Tsu
 
 #Abrir el archivo creado con nano
 nano /sdcard/sda.part
