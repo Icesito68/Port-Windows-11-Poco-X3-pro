@@ -62,10 +62,32 @@ adb shell
 #indicar que queremos usar la raiz
 cd /sdcard
 
-#no se que hacen pero funcionan xd
+#Estos dos comandos arrancan el programa 
 chmod +x msc.sh
 
 ./msc.sh
+
+###Una vez se detecte al X3 pro como disco###
+
+#abrimos un cmd 
+
+#Esto arrancará la herramienta de administración de discos de Windows 
+diskpart
+
+#Selecciona el disco que sea tu x3 pro
+sel disk 1 (o el que sea tu poco x3 pro)
+
+#Seleccionamos el volumen donde vamos a instalar Windows 
+sel vol 3 
+
+#Le asignamos la letra x al volumen donde vamos a instalar Windows 
+assign letter=x
+
+#Seleccionamos el volumen donde instalaremos los drivers
+sel vol 4 
+
+#Le asignamos la letra y al volumen donde instalaremos los drivers
+assign letter=y
 
 
 ###############Inicia con la imagen UEFI de arranque de Windows##############
