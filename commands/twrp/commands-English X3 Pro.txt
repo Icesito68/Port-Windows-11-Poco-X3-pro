@@ -62,10 +62,32 @@ adb shell
 # indicate that we want to use the root
 cd/sd card
 
-#I don't know what they do but they work xd
+#These two commands start the program
 chmod +x msc.sh
 
 ./msc.sh
+
+###Once the X3 pro is detected as a disk###
+
+# we open a cmd
+
+#This will start the Windows Disk Management tool
+diskpart
+
+#Select the disk that is your x3 pro
+sel disk 1 (or whatever your poco x3 pro is)
+
+# Select the volume where we are going to install Windows
+sel vol 3
+
+# We assign the letter x to the volume where we are going to install Windows
+assign letter=x
+
+# Select the volume where we will install the drivers
+sel vol 4
+
+# We assign the letter and the volume where we will install the drivers
+assign letter=y
 
 ###############Boots with Windows bootable UEFI image##############
 
