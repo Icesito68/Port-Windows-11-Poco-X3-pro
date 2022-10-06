@@ -89,6 +89,10 @@ sel vol 4
 # We assign the letter and the volume where we will install the drivers
 assign letter=y
 
+#Install Windows 11 on the X3 Pro (replace "Usuario" with your username and "WindowsarmFolder" with your folder that contains windows arm, but no spaces)
+
+dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\WindowsarmFolder\sources\install.wim" /index:1 /ApplyDir:X:\
+
 ###############Boots with Windows bootable UEFI image##############
 
 fastboot flash boot (device uefi.img)
