@@ -12,7 +12,7 @@ Not working: ❌
 | UFS |  | ✅|
 | Display |  | ✅|
 | UEFI Buttons |  | ✅|
-| Touchscreen |  | 🔶️|
+| Touchscreen |  | ❌|
 | WiFi |  | ❌|
 | Bluetooth |  | ❌|
 | Battery |  | ❌|
