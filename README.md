@@ -71,6 +71,6 @@ The UEFI Image have been built by this repository, you can download [Here](https
 
 You will need a Windows compiled for ARM, choose whatever version you like [Here](https://uupdump.net/)
 
-you need a program to install the drivers, you can get it here (this will be corrected, there is an error)
+you need a program to install the drivers, you can get it [here](https://github.com/WOA-Project/DriverUpdater/releases/)
 
 you can get the drivers [here](https://github.com/halal-beef/MiPad5-Drivers)
