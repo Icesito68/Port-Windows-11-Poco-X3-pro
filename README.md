@@ -12,7 +12,7 @@ Not working: ❌
 | UFS |  | ✅|
 | Display |  | ✅|
 | UEFI Buttons |  | ✅|
-| Touchscreen |  | ❌|
+| Touchscreen | in theory it uses the same controller as the nabu | ❌|
 | WiFi |  | ❌|
 | Bluetooth |  | ❌|
 | Battery |  | ❌|
