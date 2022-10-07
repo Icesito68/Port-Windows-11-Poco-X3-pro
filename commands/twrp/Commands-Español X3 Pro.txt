@@ -90,8 +90,18 @@ sel vol 4
 assign letter=y
 
 #Instalar Windows 11 en el X3 Pro (sustituir "Usuario" por tu usuario y "Carpetadewindowsarm"por tu carpeta que contiene windows arm,importante que sea sin espacios)
-
 dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\Carpetadewindowsarm\sources\install.wim" /index:1 /ApplyDir:X:\ 
+
+#Instalar drivers (sustituir mipad5folder por el nombre de la carpeta de los drivers)(abrir en powershell como administrador)
+.\driverupdater.exe -d (mipad5folder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (mipad5folder) -p X:```
+
+#Ahora se tienen que permitir los drivers no firmados
+bcdboot X:\Windows /s Y: /f UEFI
+
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {bootmgr} displaybootmenu yes
+
 
 ###############Inicia con la imagen UEFI de arranque de Windows##############
 
