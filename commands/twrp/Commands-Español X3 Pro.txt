@@ -89,7 +89,7 @@ sel vol 4
 #Le asignamos la letra y al volumen donde instalaremos los drivers
 assign letter=y
 
-#Instalar Windows 11 en el X3 Pro (sustiruir "Usuario" por tu usuario y "Carpetadewindowsarm"por tu carpeta que contiene windows arm,pero sin espacios)
+#Instalar Windows 11 en el X3 Pro (sustituir "Usuario" por tu usuario y "Carpetadewindowsarm"por tu carpeta que contiene windows arm,importante que sea sin espacios)
 
 dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\Carpetadewindowsarm\sources\install.wim" /index:1 /ApplyDir:X:\ 
 
