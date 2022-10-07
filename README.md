@@ -37,13 +37,15 @@ This project is in a very early stage, all the files here have been contributed 
 
 Many information here was provided thanks to Renegade Project Discord server members.
 
+Thanks to degdag for helping in the process.
+
+special thanks to halal-beef who has done the whole process and has also helped me install windows on my x3 pro, and also to gus33000 and map220v for dedicating their time to the project and responding
+
 Some drivers in this project belong to gus33000 [here](https://github.com/WOA-Project/SurfaceDuo-Drivers) you can see his project.
 
 Some drivers in this project belong to map220v [here](https://github.com/map220v/MiPad5-Drivers) you can see his project.
 
 UEFI EDK2 image for Poco X3 Pro was taken from [here](https://github.com/halal-beef/MU-sm8150pkg/actions/runs/3164583519).
-
-The compiled Windows PE for the Snapdragon 855, 855+ and 860 [source](https://youtu.be/IKLjTv5ooZU).
 
 ## Project status
 
