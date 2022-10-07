@@ -8,7 +8,7 @@ fastboot boot <twrp.img>
 Don't copy lines with #
 
 #####push partitioned script to sdcard######
-adb push partitioned /sdcard/
+adb push parted /sdcard/
 
 ####start adb shell#####
 adb shell
@@ -19,8 +19,8 @@ cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
 #unmount data and sdcard
 umount /data && umount /sdcard
 
-#Start partition
-partitioned /dev/block/sda
+#Start parted
+Parted /dev/block/sda
 
 #Delete partitions rm {partition number} #
 rm 32
