@@ -17,7 +17,7 @@ Not working: ❌
 | Bluetooth |  | ❌|
 | Battery |  | ❌|
 | Charge |  | ❌|
-| Virtualization |  | ❌|
+| Virtualization | it is impossible for this to work | ❌|
 | GPU | should be similar to nabu | 🔶️|
 | LTE |  | ❌|
 | Audio |  | ❌|
