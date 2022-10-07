@@ -93,6 +93,16 @@ assign letter=y
 
 dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\WindowsarmFolder\sources\install.wim" /index:1 /ApplyDir:X:\
 
+#Install drivers (replace mipad5folder with the location of the drivers folder)(open in powershell as administrator)
+.\driverupdater.exe -d (mipad5 folder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (mipad5 folder) -p X:```
+
+# Now unsigned drivers must be allowed
+bcdboot X:\Windows /s Y: /f UEFI
+
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {bootmgr} displaybootmenu yes
+
 ###############Boots with Windows bootable UEFI image##############
 
 fastboot flash boot (device uefi.img)
