@@ -8,7 +8,7 @@ Not working: ❌
 
 || Aditional notes | Status |
 |---------------|------------------------|--------------------------|
-| USB | Currently working on it, powers the keyboard but does not detect it | 🔶️|
+| USB | Powered hub needed | ✅|
 | UFS |  | ✅|
 | Display |  | ✅|
 | UEFI Buttons |  | ✅|
