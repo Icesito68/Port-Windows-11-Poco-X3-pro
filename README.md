@@ -12,9 +12,9 @@ Not working: ❌
 | UFS |  | ✅|
 | Display |  | ✅|
 | UEFI Buttons |  | ✅|
-| Touchscreen | in theory it uses the same controller as the nabu | ❌|
+| Touchscreen | in theory it uses the similar controller as the nabu | 🔶️|
 | WiFi |  | ❌|
-| Bluetooth |  | ❌|
+| Bluetooth | they are working together with the touch, both give the same error | 🔶️|
 | Battery |  | ❌|
 | Charge |  | ❌|
 | Virtualization | it is impossible for this to work | ❌|
