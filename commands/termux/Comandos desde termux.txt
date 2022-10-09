@@ -18,7 +18,7 @@ sfdisk -d /dev/block/sda > /sdcard/sda.part
 #Abrir el archivo creado con nano
 nano /sdcard/sda.part
 
-(Borrar particiones necesarias (4-7))
+(Borrar particiones necesarias,(4-7) y cambiar el número de las siguientes: Sda8 = Sda4 al final Sda32 tiene que ser sda 28)
 
 #Importar la nueva tabla de particiones
 sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
