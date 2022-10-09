@@ -49,9 +49,7 @@ UEFI EDK2 image for Poco X3 Pro was taken from [here](https://github.com/halal-b
 
 ## Project status
 
-The project Its almost finished, now we are waiting for Windows 11 recognize the usb for initialize the start configuration
-
-We are porting drivers from Xiaomi Pad 5 in hope that It will work
+We are porting drivers from Xiaomi Pad 5 in hope that it will work on the Poco X3 Pro
 
 ## Required Files
 
