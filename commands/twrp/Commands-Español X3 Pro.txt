@@ -93,7 +93,7 @@ assign letter=y
 dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\Carpetadewindowsarm\sources\install.wim" /index:1 /ApplyDir:X:\ 
 
 #Instalar drivers (sustituir mipad5folder por la ubicacion de la carpeta de los drivers)(abrir en powershell como administrador)
-.\driverupdater.exe -d (mipad5folder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (mipad5folder) -p X:```
+.\driverupdater.exe -d (mipad5folder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (mipad5folder) -p X:
 
 #Ahora se tienen que permitir los drivers no firmados
 bcdboot X:\Windows /s Y: /f UEFI
