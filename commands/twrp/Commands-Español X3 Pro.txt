@@ -100,6 +100,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
+#Este comando es opcional,es para que salga un menú de inicio
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {bootmgr} displaybootmenu yes
 
 
