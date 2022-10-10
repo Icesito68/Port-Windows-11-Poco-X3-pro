@@ -23,7 +23,7 @@ umount /data && umount /sdcard
 Parted /dev/block/sda
 
 #Delete partitions rm {partition number} #
-rm 32
+rm 28
 
 #####Create partitions#########
 
