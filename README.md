@@ -20,7 +20,7 @@ Not working: ❌
 | Virtualization | it is impossible for this to work | ❌|
 | GPU | should be similar to nabu | 🔶️|
 | LTE |  | ❌|
-| Audio |  | ❌|
+| Audio | does not work even with headphones connected to the jack | ❌|
 | Location |  | ❌|
 | Sensors |  | ❌|
 | Camera |  | ❌|
