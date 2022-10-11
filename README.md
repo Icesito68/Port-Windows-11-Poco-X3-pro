@@ -18,7 +18,7 @@ Not working: ❌
 | Battery |  | ❌|
 | Charge |  | ✅|
 | Virtualization | it is impossible for this to work | ❌|
-| GPU | should be similar to nabu | 🔶️|
+| GPU | should be similar to nabu, currently working on it | 🔶️|
 | LTE |  | ❌|
 | Audio |  | ❌|
 | Location |  | ❌|
