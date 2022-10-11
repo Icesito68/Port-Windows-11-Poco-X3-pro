@@ -23,8 +23,8 @@ Not working: ❌
 | Audio | only if it is by usb | ❌|
 | Location |  | ❌|
 | Sensors |  | ❌|
-| Camera |  | ❌|
-| NFC |  | ❌|
+| Camera | it is almost impossible in this project | ❌|
+| NFC | does not work on any device | ❌|
 
 ## Warning!
 We're not responsible for bricked devices, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because the alarm app didn't work.
