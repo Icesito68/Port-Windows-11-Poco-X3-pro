@@ -16,7 +16,7 @@ Not working: ❌
 | WiFi |  | ❌|
 | Bluetooth | they are working together with the touch, both give the same error | 🔶️|
 | Battery |  | ❌|
-| Charge |  | ❌|
+| Charge |  | ✅|
 | Virtualization | it is impossible for this to work | ❌|
 | GPU | should be similar to nabu | 🔶️|
 | LTE |  | ❌|
