@@ -16,11 +16,11 @@ Not working: ❌
 | WiFi |  | ❌|
 | Bluetooth | they are working together with the touch, both give the same error | 🔶️|
 | Battery |  | ❌|
-| Charge |  | ✅|
+| Charge | Not sure if it's fast charging | ✅|
 | Virtualization | it is impossible for this to work | ❌|
 | GPU | should be similar to nabu, currently working on it | 🔶️|
 | LTE |  | ❌|
-| Audio |  | ❌|
+| Audio | only if it is by usb | ❌|
 | Location |  | ❌|
 | Sensors |  | ❌|
 | Camera |  | ❌|
