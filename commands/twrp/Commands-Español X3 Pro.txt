@@ -95,9 +95,10 @@ dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\Carpetadewindowsarm\sou
 #Instalar drivers (sustituir mipad5folder por la ubicacion de la carpeta de los drivers)(abrir en powershell como administrador)
 .\driverupdater.exe -d (mipad5folder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (mipad5folder) -p X:
 
-#Ahora se tienen que permitir los drivers no firmados
+#Esto es para seleccionar Y como uefi
 bcdboot X:\Windows /s Y: /f UEFI
 
+#Ahora se tienen que permitir los drivers no firmados
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 #Este comando es opcional,es para que salga un menú de inicio
