@@ -96,11 +96,13 @@ dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\WindowsarmFolder\source
 #Install drivers (replace mipad5folder with the location of the drivers folder)(open in powershell as administrator)
 .\driverupdater.exe -d (mipad5 folder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (mipad5 folder) -p X:
 
-# Now unsigned drivers must be allowed
+#this is to select Y as uefi
 bcdboot X:\Windows /s Y: /f UEFI
 
+# Now unsigned drivers must be allowed
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
+#This command is optional, it is to bring up a start menu
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {bootmgr} displaybootmenu yes
 
 ###############Boots with Windows bootable UEFI image##############
