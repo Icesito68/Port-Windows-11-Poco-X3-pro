@@ -41,13 +41,21 @@ quit
 
 #reiniciar a recovery twrp
 
+#Iniciamos Shell de nuevo
+
+Adb shell
+
 #formatea las nuevas particiones
 
 mkfs.fat -F32 -s1 /dev/block/by-name/esp
 
 mkfs.ntfs -f /dev/block/by-name/win
 
-#Formatear desde twrp 
+#Salimos de Shell
+
+Exit
+
+#Formatear desde wipe twrp escribiendo yes
 
 #Comprueba si inicia Android
 
