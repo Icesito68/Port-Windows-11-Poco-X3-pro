@@ -39,7 +39,11 @@ set 28 esp on
 #Quit
 quit
 
-#reboot to recovery twrp
+#reboot to twrp
+
+# start shell again
+
+adb shell
 
 #format the new partitions
 
@@ -47,7 +51,11 @@ mkfs.fat -F32 -s1 /dev/block/by-name/esp
 
 mkfs.ntfs -f /dev/block/by-name/win
 
-#format from twrp
+#exit shell
+
+Exit
+
+#Format from wipe twrp by typing yes
 
 #Check if Android starts
 
