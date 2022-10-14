@@ -20,7 +20,7 @@ Not working: ❌
 | Virtualization | it is impossible for this to work | ❌|
 | GPU | should be similar to nabu, currently working on it | 🔶️|
 | LTE |  | ❌|
-| Audio | only if it is by usb | ❌|
+| Audio | only if it is by usb | 🔶️|
 | Location |  | ❌|
 | Sensors |  | ❌|
 | Camera | it is almost impossible in this project | ❌|
