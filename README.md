@@ -18,7 +18,7 @@ Not working: ❌
 | Battery |  | ❌|
 | Charge | Not sure if it's fast charging | ✅|
 | Virtualization | it is impossible for this to work | ❌|
-| GPU | should be similar to nabu, currently working on it (Error Code: 31 | 🔶️|
+| GPU | should be similar to nabu, currently working on it (Error Code: 31) | 🔶️|
 | LTE |  | ❌|
 | Audio | only if it is by usb | 🔶️|
 | Location |  | ❌|
