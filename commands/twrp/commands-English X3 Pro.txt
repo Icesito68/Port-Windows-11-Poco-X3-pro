@@ -27,7 +27,12 @@ rm 28
 
 #####Create partitions#########
 
-#Create partitions (256Gb models, Not yet available for 128Gb)
+#Create partitions (128Gb models)
+mkpart esp fat32 11.8GB 12.2GB
+mkpart win ntfs 12.2GB 70.2GB
+mkpart userdata ext4 70.2GB 127GB
+
+#Create partitions (256Gb models)
 mkpart esp fat32 11.8GB 12.2GB
 mkpart win ntfs 12.2GB 92.2GB
 mkpart userdata ext4 92.2GB 255GB
