@@ -19,7 +19,7 @@ Not working: ❌
 | Charge | Not sure if it's fast charging | ✅|
 | Virtualization | it is impossible for this to work | ❌|
 | GPU | should be similar to nabu, currently working on it (Error Code: 31) | 🔶️|
-| LTE |  | ❌|
+| LTE |  | 🔶️|
 | Audio | only if it is by usb, in theory with more acpi edits audio can work driverless| 🔶️|
 | Location |  | ❌|
 | Sensors |  | ❌|
