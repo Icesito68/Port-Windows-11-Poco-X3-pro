@@ -14,7 +14,7 @@ Not working: ❌
 | UEFI Buttons |  | ✅|
 | Touchscreen | in theory it uses the similar controller as the nabu | 🔶️|
 | WiFi | I have random reboots, maybe it's the wifi's fault, but it's not sure | ✅|
-| Bluetooth | they are working together with the touch, both give the same error | 🔶️|
+| Bluetooth | | ✅|
 | Battery |  | ❌|
 | Charge | Not sure if it's fast charging | ✅|
 | Virtualization | it is impossible for this to work | ❌|
