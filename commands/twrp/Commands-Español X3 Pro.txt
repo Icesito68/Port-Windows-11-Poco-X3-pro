@@ -34,8 +34,8 @@ mkpart userdata ext4 70.2GB 127GB
 
 #Crear particiones (modelos de 256Gb)
 mkpart esp fat32 11.8GB 12.2GB
-mkpart win ntfs 12.2GB 92.2GB
-mkpart userdata ext4 92.2GB 255GB
+mkpart win ntfs 12.2GB 132.2GB
+mkpart userdata ext4 132.2GB 255GB
 
 
 #set esp on
