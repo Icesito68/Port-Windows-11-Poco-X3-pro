@@ -10,7 +10,7 @@ Not working: ❌
 |---------------|------------------------|--------------------------|
 | USB | Powered hub needed | ✅|
 | UFS |  | ✅|
-| Display | still working at 120hz | ✅|
+| Display | | ✅|
 | UEFI Buttons |  | ✅|
 | Touchscreen | in theory it uses the similar controller as the nabu | 🔶️|
 | WiFi | I have random reboots, maybe it's the wifi's fault, but it's not sure | ✅|
