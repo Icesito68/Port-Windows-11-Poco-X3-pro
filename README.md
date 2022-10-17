@@ -13,7 +13,7 @@ Not working: ❌
 | Display | still not working at 120hz | ✅|
 | UEFI Buttons |  | ✅|
 | Touchscreen | in theory it uses the similar controller as the nabu | 🔶️|
-| WiFi | there is a problem in the acpi table (Error code: 10) | 🔶️|
+| WiFi | | ✅|
 | Bluetooth | they are working together with the touch, both give the same error | 🔶️|
 | Battery |  | ❌|
 | Charge | Not sure if it's fast charging | ✅|
