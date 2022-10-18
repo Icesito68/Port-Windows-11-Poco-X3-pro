@@ -33,7 +33,7 @@ This is a delicate process, do it under your own risk and follow all the steps c
 
 ## Important
 
-This project is in a very early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get.
+This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get.
 
 Many information here was provided thanks to Renegade Project Discord server members.
 
@@ -63,9 +63,9 @@ You need a Magisk module to do the termux operations, you can download it [Here]
 
 In termux you will have to execute some commands that we provide in this repository, you can see them [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
 
-we will need parted for dual boot [Here](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view)
+We will need parted for dual boot [Here](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view)
 
-On Pc you will need the platform-tools, you can download [Here](https://developer.android.com/studio/releases/platform-tools)
+On PC you will need the platform-tools, you can download [Here](https://developer.android.com/studio/releases/platform-tools)
 
 This file is required to continue with the installation, you can download [Here](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) (The file belongs to gus33000)
 
@@ -73,6 +73,6 @@ The UEFI Image have been built by this repository, you can download [Here](https
 
 You will need a Windows compiled for ARM, choose whatever version you like [Here](https://uupdump.net/)
 
-you need a program to install the drivers, you can get it [here](https://github.com/WOA-Project/DriverUpdater/releases/)
+You need a program to install the drivers, you can get it [here](https://github.com/WOA-Project/DriverUpdater/releases/)
 
-you can get the drivers [here](https://github.com/halal-beef/MiPad5-Drivers)
+You can get the drivers [here](https://github.com/halal-beef/MiPad5-Drivers)
