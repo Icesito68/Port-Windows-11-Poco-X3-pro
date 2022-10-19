@@ -12,7 +12,7 @@ Not working: ❌
 | UFS |  | ✅|
 | Display | | ✅|
 | UEFI Buttons |  | ✅|
-| Touchscreen | there are two different models, we will work on one of them first | 🔶️|
+| Touchscreen | | ❌|
 | WiFi | I have random reboots, maybe it's the wifi's fault, but it's not sure | ✅|
 | Bluetooth | | ✅|
 | Battery |  | ❌|
