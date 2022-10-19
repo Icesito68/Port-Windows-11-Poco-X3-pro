@@ -35,6 +35,9 @@ This is a delicate process, do it under your own risk and follow all the steps c
 
 This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get.
 
+
+## Credits
+
 Many information here was provided thanks to Renegade Project Discord server members.
 
 Thanks to [degdag](https://GitHub.com/degdag) for helping in the process.
