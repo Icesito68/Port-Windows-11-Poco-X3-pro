@@ -71,8 +71,8 @@ This file is required to continue with the installation, you can download [Here]
 
 The UEFI Image have been built by this repository, you can download [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
-You will need a Windows compiled for ARM, choose whatever version you like [Here](https://uupdump.net/)
+You will need a Windows compiled for ARM, choose whatever version you like [Here](https://uupdump.net/), Right Now Windows 11 Is Recommended
 
 You need a program to install the drivers, you can get it [here](https://github.com/WOA-Project/DriverUpdater/releases/)
 
-You can get the drivers [here](https://github.com/halal-beef/MiPad5-Drivers)
+You can get the drivers [here](https://github.com/halal-beef/Vayu-Drivers)
