@@ -1,8 +1,5 @@
 # Port-Windows-11-Poco-X3-pro 
 
-# для российских читателей
-жмите [сюда](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/README_ru.md)
-
 # Compatibility
 
 Working: ✅|
