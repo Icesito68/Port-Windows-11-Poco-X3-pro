@@ -13,7 +13,7 @@ Not working: ❌
 | Display | | ✅|
 | UEFI Buttons |  | ✅|
 | Touchscreen | | ❌|
-| WiFi | I have random reboots, maybe it's the wifi's fault, but it's not sure | ✅|
+| WiFi | | ✅|
 | Bluetooth | | ✅|
 | Battery |  | ❌|
 | Charge | Not Implemented | ❌|
