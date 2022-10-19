@@ -72,7 +72,7 @@ We will need parted for dual boot [Here](https://drive.google.com/file/d/1e8kDC2
 
 On PC you will need the platform-tools, you can download [Here](https://developer.android.com/studio/releases/platform-tools)
 
-This file is required to continue with the installation, you can download [Here](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) (The file belongs to gus33000)
+This file is required to continue with the installation, you can download [Here](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) (The file belongs to [gus33000](https://GitHub.com/gus33000))
 
 The UEFI Image have been built by this repository, you can download [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
