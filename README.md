@@ -40,9 +40,11 @@ This project is in an early stage, all the files here have been contributed by o
 
 Many information here was provided thanks to Renegade Project Discord server members.
 
-Thanks to [degdag](https://GitHub.com/degdag) for helping in the process.
+Thanks to [degdag](https://GitHub.com/degdag) for porting many of the drivers and solve doubts.
 
-special thanks to [halal-beef](https://github.com/halal-beef) who has done the whole process and has also helped me install windows on my x3 pro, and also to [gus33000](https://GitHub.com/gus33000) and [map220v](https://GitHub.com/map220v) for dedicating their time to the project and responding
+special thanks to [halal-beef](https://github.com/halal-beef) who has done the whole process and has also helped me install windows on my x3 pro 
+
+And also to [gus33000](https://GitHub.com/gus33000) and [map220v](https://GitHub.com/map220v) for dedicating their time to the project and responding
 
 Some drivers in this project belong to gus33000 [here](https://github.com/WOA-Project/SurfaceDuo-Drivers) you can see his project.
 
