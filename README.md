@@ -16,10 +16,10 @@ Not working: ❌
 | WiFi | I have random reboots, maybe it's the wifi's fault, but it's not sure | ✅|
 | Bluetooth | | ✅|
 | Battery |  | ❌|
-| Charge | Not sure if it's fast charging | ✅|
+| Charge | Not Implemented | ❌|
 | Virtualization | it is impossible for this to work | ❌|
 | GPU | | ✅|
-| LTE |  | 🔶️|
+| LTE | Nearly Working | 🔶️|
 | Audio | only if it is by usb, in theory with more acpi edits audio can work driverless| 🔶️|
 | Location |  | ❌|
 | Sensors |  | ❌|
