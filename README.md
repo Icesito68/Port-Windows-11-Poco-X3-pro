@@ -37,7 +37,7 @@ We're trying to porting drivers from Xiaomi Pad 5 in hope that it will work on t
 
 <summary><strong>All Files Needed</strong></summary>
  
-- You will need the [Windows ARM image](https://uupdump.net/)(11 is Recommended)
+- You will need the [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
 
 - [UEFI image for Poco X3 Pro](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
