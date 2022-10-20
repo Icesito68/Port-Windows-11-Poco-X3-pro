@@ -87,7 +87,7 @@ Alpha, we're porting drivers from Xiaomi Pad 5 in hope that it will work on the 
 
 - [Renegade Project Discord members](https://discord.gg/XXBWfag) ```Provided Help```
  
-- To anyone we forgot
+- [ArturoGC06](https://github.com/ArturoGC06) ```helped in the beginning of the project to the translations and gived windows data```
 
 </details>  
 
