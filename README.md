@@ -1,85 +1,93 @@
-# Port-Windows-11-Poco-X3-pro 
+# Running Windows 11 On The Poco X3 Pro
 
-# Compatibility
+<img align="right" src="https://github.com/halal-beef/res/blob/main/vayuwindows.png" height="550">
 
-Working: ✅|
-In progess: 🔶️|
-Not working: ❌
+## ⚠️ **Disclaimer:**
 
-|| Aditional notes | Status |
-|---------------|------------------------|--------------------------|
-| USB | Powered hub needed | ✅|
-| UFS |  | ✅|
-| Display | | ✅|
-| UEFI Buttons |  | ✅|
-| Touchscreen | | ❌|
-| WiFi | | ✅|
-| Bluetooth | | ✅|
-| Battery |  | ❌|
-| Charge | Not Implemented | ❌|
-| Virtualization | it is impossible for this to work | ❌|
-| GPU | | ✅|
-| LTE | Nearly Working | 🔶️|
-| Audio | only if it is by usb, in theory with more acpi edits audio can work driverless| 🔶️|
-| Location |  | ❌|
-| Sensors |  | ❌|
-| Camera | it is almost impossible in this project | ❌|
-| NFC | does not work on any device | ❌|
+We're not responsible for bricked devices, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
-## Warning!
-We're not responsible for bricked devices, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because the alarm app didn't work.
+This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
-This is a delicate process, do it under your own risk and follow all the steps carefully.
+## Project Status
 
-## Important
+We're trying to porting drivers from Xiaomi Pad 5 in hope that it will work on the Poco X3 Pro.
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get.
+## Hardware status
+- [x] USB(Note: powered hub needed)
+- [x] UFS
+- [x] Display
+- [x] UEFI buttons
+- [ ] Touchscreen
+- [x] WiFi
+- [x] Bluetooth
+- [ ] Battery
+- [ ] Charge
+- [ ] Virtualization ```It's impossible for this to work```
+- [x] GPU
+- [ ] LTE ```Nearly Working```
+- [ ] Audio ```Only if it is by usb, in theory with more acpi edits audio can work driverless```
+- [ ] Location
+- [ ] Sensors
+- [ ] Camera ```It is almost impossible in this project```
+- [ ] NFC ```Does not work on any device```
 
+## Installation instructions
 
-## Credits
+<details> 
 
-Many information here was provided thanks to Renegade Project Discord server members.
+<summary><strong>All Files Needed</strong></summary>
+ 
+- You will need the [Windows ARM image](https://uupdump.net/)(11 is Recommended)
 
-Thanks to [degdag](https://GitHub.com/degdag) for porting many of the drivers and solving issues.
+- [UEFI image for Poco X3 Pro](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
 
-special thanks to [halal-beef](https://github.com/halal-beef) who has done the whole process and has also helped me install windows on my x3 pro 
+- [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
 
-And also to [gus33000](https://GitHub.com/gus33000) and [map220v](https://GitHub.com/map220v) for dedicating their time to the project and responding
+- [Magisk](https://github.com/topjohnwu/Magisk)
 
-## Where everything came from
+- [Termux](https://f-droid.org/en/packages/com.termux/)
 
-Some drivers in this project belong to gus33000 [here](https://github.com/WOA-Project/SurfaceDuo-Drivers) you can see his project.
+- [Magisk module](https://github.com/evdenis/disk) for disk partitioning tools in Termux.
 
-Some drivers in this project belong to map220v [here](https://github.com/map220v/MiPad5-Drivers) you can see his project.
+- [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
 
-UEFI EDK2 image for Poco X3 Pro was taken from [here](https://github.com/halal-beef/MU-sm8150pkg).
+- On PC you will need the [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
-## Project status
+- On PC you will also need a [program](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/halal-beef/Vayu-Drivers)
 
-We are porting drivers from Xiaomi Pad 5 in hope that it will work on the Poco X3 Pro
+- We will need [parted](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view) for partitioning.
+  
+ </details> 
 
-## Required Files
+### Commands
 
-You will need the TWRP compatible with the Poco X3 Pro, you can download it [Here](https://twrp.me/xiaomi/xiaomipocox3pro.html)
+**Make sure to install TWRP, Magisk And The Magisk Module Before Proceeding.**
 
-We will have to be root user, you can download Magisk [Here](https://github.com/topjohnwu/Magisk)
+[Do these commands first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
 
-For the commands from android we will use termux, you can download it [Here](https://play.google.com/store/apps/details?id=com.termux&hl=es_419&gl=US)
+[Do these commands after doing the first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp)
 
-You need a Magisk module to do the termux operations, you can download it [Here](https://github.com/evdenis/disk)
+## Contributors
 
-In termux you will have to execute some commands that we provide in this repository, you can see them [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
+<details> 
 
-We will need parted for dual boot [Here](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view)
+<summary><b><strong>Credits</strong></b></summary>
 
-On PC you will need the platform-tools, you can download [Here](https://developer.android.com/studio/releases/platform-tools)
+- [Icesito68](https://github.com/Icesito68) ```Made windows partitioning commands and made this repo```
 
-This file is required to continue with the installation, you can download [Here](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) (The file belongs to [gus33000](https://GitHub.com/gus33000))
+- [Map220v](https://github.com/map220v) ```Provided help and vayu UEFI uses nabu UFS patches and ACPI and also ported mi pad 5 drivers```
 
-The UEFI Image have been built by this repository, you can download [Here](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
+- [Degdag](https://github.com/degdag) ```Improves UEFI and ported drivers```
 
-You will need a Windows compiled for ARM, choose whatever version you like [Here](https://uupdump.net/), Right Now Windows 11 Is Recommended
+- [Halal-Beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot windows, also ported drivers```
+  
+- [Renegade Project](https://github.com/edk2-porting) ```Making the core of this project```
 
-You need a program to install the drivers, you can get it [here](https://github.com/WOA-Project/DriverUpdater/releases/)
+- [gus33000](https://github.com/gus33000) ```Providing help, also made base install guide and made all of the original drivers```
 
-You can get the drivers [here](https://github.com/halal-beef/Vayu-Drivers)
+- [Renegade Project Discord members](https://discord.gg/XXBWfag) ```Provided Help```
+ 
+- To anyone we forgot
+
+</details>  
+
