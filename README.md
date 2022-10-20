@@ -40,17 +40,19 @@ This project is in an early stage, all the files here have been contributed by o
 
 Many information here was provided thanks to Renegade Project Discord server members.
 
-Thanks to [degdag](https://GitHub.com/degdag) for porting many of the drivers and solve doubts.
+Thanks to [degdag](https://GitHub.com/degdag) for porting many of the drivers and solving issues.
 
 special thanks to [halal-beef](https://github.com/halal-beef) who has done the whole process and has also helped me install windows on my x3 pro 
 
 And also to [gus33000](https://GitHub.com/gus33000) and [map220v](https://GitHub.com/map220v) for dedicating their time to the project and responding
 
+## Where everything came from
+
 Some drivers in this project belong to gus33000 [here](https://github.com/WOA-Project/SurfaceDuo-Drivers) you can see his project.
 
 Some drivers in this project belong to map220v [here](https://github.com/map220v/MiPad5-Drivers) you can see his project.
 
-UEFI EDK2 image for Poco X3 Pro was taken from [here](https://github.com/halal-beef/MU-sm8150pkg/actions/runs/3164583519).
+UEFI EDK2 image for Poco X3 Pro was taken from [here](https://github.com/halal-beef/MU-sm8150pkg).
 
 ## Project status
 
