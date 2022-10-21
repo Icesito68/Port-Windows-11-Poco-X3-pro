@@ -49,7 +49,7 @@ Alpha, we're porting drivers from Xiaomi Pad 5 in hope that it will work on the 
 
 - [Magisk module](https://github.com/evdenis/disk) for disk partitioning tools in Termux.
 
-- [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
+- On PC you will need the [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
 
 - On PC you will need the [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
