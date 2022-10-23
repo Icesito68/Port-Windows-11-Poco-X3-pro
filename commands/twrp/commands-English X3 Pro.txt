@@ -72,7 +72,7 @@ adb push msc.sh /sdcard
 adb shell
 
 # indicate that we want to use the root
-cd/sd card
+cd /sdcard
 
 #These two commands start the program
 chmod +x msc.sh
