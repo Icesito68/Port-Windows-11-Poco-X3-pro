@@ -20,7 +20,7 @@ cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
 umount /data && umount /sdcard
 
 #Start parted
-Parted /dev/block/sda
+parted /dev/block/sda
 
 #Delete partitions rm {partition number} #
 rm 28
