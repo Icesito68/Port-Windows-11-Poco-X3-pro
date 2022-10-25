@@ -1,0 +1,27 @@
+name: "Bug report"
+description: Report an issue to help the project improve.
+title: "[QUESTION] - <title>"
+labels: [
+  "Not an issue"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Question"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      description: By creating this issue I made sure that ...
+      options:
+        - label: I am asking a sensible question.
+          required: true
+        - label: I am not trying to waste time.
+          required: true
+        - label: There is no issue already describing my problem.
+          required: true
