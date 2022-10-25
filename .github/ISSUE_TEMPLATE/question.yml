@@ -1,5 +1,5 @@
-name: "Bug report"
-description: Report an issue to help the project improve.
+name: "Question"
+description: Ask a question.
 title: "[QUESTION] - <title>"
 labels: [
   "Not an issue"
