@@ -20,6 +20,8 @@ nano /sdcard/sda.part
 
 (Delete necessary partitions (4-7))
 
+(RENUMBER SDA NUMBER SO THEYRE BACK IN ORDER)
+
 #Import the new partition table
 sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
 
