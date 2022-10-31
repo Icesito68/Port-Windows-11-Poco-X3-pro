@@ -89,7 +89,7 @@ Alpha, we're porting drivers from Xiaomi Pad 5 in hope that it will work on the 
  
 - [ArturoGC06](https://github.com/ArturoGC06) ```Helped in the beginning of the project to the translations and gave windows data```
 
-- [ArturoGC06](https://github.com/SebastianZSXS) ```helped patch windows pe```
+- [SebastianZSXS](https://github.com/SebastianZSXS) ```helped patch windows pe```
 
 </details>  
 
