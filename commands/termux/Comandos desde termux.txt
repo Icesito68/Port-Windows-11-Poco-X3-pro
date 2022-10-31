@@ -20,7 +20,7 @@ nano /sdcard/sda.part
 
 (Borrar particiones necesarias,(4-7))
 
-#Renombrar todas las particiones para que vuelvan a estar en orden
+(Renombrar todas las particiones para que vuelvan a estar en orden)
 
 #Importar la nueva tabla de particiones
 sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
