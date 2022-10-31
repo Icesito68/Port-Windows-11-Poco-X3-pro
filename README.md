@@ -27,7 +27,7 @@ Alpha, we're porting drivers from Xiaomi Pad 5 in hope that it will work on the 
 - [ ] LTE ```Nearly Working```
 - [ ] Audio ```Only if it is by usb or bluetooth, in theory with more acpi edits audio can work driverless```
 - [ ] Location
-- [ ] Sensors
+- [x] Sensors
 - [ ] Camera ```It is almost impossible in this project```
 - [ ] NFC ```Does not work on any device```
 
