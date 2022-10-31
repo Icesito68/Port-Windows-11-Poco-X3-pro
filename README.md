@@ -25,7 +25,7 @@ Alpha, we're porting drivers from Xiaomi Pad 5 in hope that it will work on the 
 - [ ] Virtualization ```It's impossible for this to work```
 - [x] GPU
 - [ ] LTE ```Nearly Working```
-- [ ] Audio ```Only if it is by usb, in theory with more acpi edits audio can work driverless```
+- [ ] Audio ```Only if it is by usb or bluetooth, in theory with more acpi edits audio can work driverless```
 - [ ] Location
 - [ ] Sensors
 - [ ] Camera ```It is almost impossible in this project```
