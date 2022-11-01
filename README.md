@@ -13,7 +13,7 @@ This project is in an early stage, all the files here have been contributed by o
 Alpha, we're porting drivers from Xiaomi Pad 5 in hope that it will work on the Poco X3 Pro.
 
 ## Hardware status
-- [x] USB ```Note: powered hub needed)```
+- [x] USB ```(Note: powered hub needed)```
 - [x] UFS
 - [x] Display
 - [x] UEFI buttons
