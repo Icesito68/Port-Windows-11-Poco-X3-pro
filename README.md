@@ -21,7 +21,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] WiFi
 - [x] Bluetooth
 - [ ] Battery
-- [ ] Charge
+- [ ] Charge ```It only charge sometimes```
 - [ ] Virtualization ```It's impossible for this to work```
 - [x] GPU
 - [ ] LTE ```Nearly Working, Windows detects it but does not allow access to the mobile network```
