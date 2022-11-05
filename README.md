@@ -2,7 +2,7 @@
 
 <img align="right" src="https://github.com/halal-beef/res/blob/main/vayuwindows.png" height="550">
 
-## ⚠️ **Disclaimer:**
+## **Warning**
 
 We're not responsible for bricked devices, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
