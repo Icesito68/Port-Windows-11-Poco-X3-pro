@@ -30,7 +30,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [ ] Audio ```Only if it is by usb or bluetooth, in theory with more acpi edits audio can work driverless```
 - [ ] Location
 - [x] Sensors ```not all sensors work```
-- [x] Rotation 
+- [x] Gyroscope 
 - [x] Accelerometer
 - [ ] Light Sensor
 - [ ] Camera ```It is almost impossible in this project```
