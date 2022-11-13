@@ -16,7 +16,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] USB ```Powered hub needed```
 - [x] UFS
 - [x] Display
-- [ ] Brightness
+- [X] Brightness ```Waiting for new uefi```
 - [x] UEFI buttons
 - [ ] Touchscreen
 - [x] WiFi
