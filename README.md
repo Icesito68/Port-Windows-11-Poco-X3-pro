@@ -27,7 +27,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] I2C
 - [ ] LTE ```Nearly Working, Windows detects it but does not allow access to the mobile network```
 - [ ] Audio ```Only if it is by usb or bluetooth, in theory with more acpi edits audio can work driverless```
-- [ ] Location ```Should work outside buildings, has not been tested```
+- [x] Location 
 - [x] Gyroscope 
 - [x] Accelerometer
 - [ ] Light Sensor
