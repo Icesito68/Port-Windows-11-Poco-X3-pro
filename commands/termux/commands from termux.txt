@@ -15,6 +15,9 @@ Tsu
 # Make a file with the partition table
 sfdisk -d /dev/block/sda > /sdcard/sda.part
 
+# MAKE A BACKUP OF THIS SDA.PART IF YOU WANT TO RELOCK YUUR BOOTLOADER
+# THE EDITED SDA.PART WILL BE USELESS IN A LOCKED BOOTLOADER
+
 #Open the file created with nano
 nano /sdcard/sda.part
 
