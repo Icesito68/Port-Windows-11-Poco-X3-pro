@@ -68,7 +68,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 [Do these commands first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
 
-[Do these commands after doing the first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp)
+[Do these commands after doing the first]https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Install%20Windows)
 
 ## Contributors
 
