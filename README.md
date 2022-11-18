@@ -22,7 +22,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] WiFi
 - [x] Bluetooth
 - [x] Battery ```Waiting for the new drivers```
-- [x] Charge ```It only charge sometimes, is not defined```
+- [ ] Charge ```It only charge sometimes, is not defined```
 - [x] GPU
 - [x] I2C
 - [ ] LTE ```Nearly Working, Windows detects it but does not allow access to the mobile network```
