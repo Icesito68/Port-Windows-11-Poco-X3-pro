@@ -21,19 +21,19 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] Display
 - [X] Brightness
 - [x] WiFi
-- [x] Battery Status ```Still being tested```
-- [ ] Charge 
+- [x] Battery status ```Still being tested```
+- [ ] Charger
 - [x] GPU
 - [ ] Audio ```Only if it is by usb or bluetooth```
 - [x] Bluetooth
 - [ ] Camera ```It is almost impossible in this project```
-- [x] GPS 
 - [ ] LTE ```Nearly working, Windows detects it but does not allow access to the mobile network```
 - [ ] NFC ```Does not work on any device```
 ### Sensors
 - [x] Accelerometer
 - [X] Magnetometer
 - [x] Gyroscope 
+- [x] GPS
 - [X] Proximity
 - [X] Light sensor
 - [ ] Fingerprint
