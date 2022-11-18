@@ -36,6 +36,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] Gyroscope 
 - [ ] Proximity
 - [ ] Light sensor
+- [ ] Fingerprint
 
 ## Installation instructions
 
