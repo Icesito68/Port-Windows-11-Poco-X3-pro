@@ -98,7 +98,9 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
  
 - [ArturoGC06](https://github.com/ArturoGC06) ```Helped in the beginning of the project to the translations and gave windows data```
 
-- [SebastianZSXS](https://github.com/SebastianZSXS) ```helped patch windows pe```
+- [SebastianZSXS](https://github.com/SebastianZSXS) ```Helped patch windows pe```
+
+- [MollySophia](https://GitHub.com/MollySophia) ```Helped fix battery status```
 
 </details>  
 
