@@ -13,26 +13,29 @@ This project is in an early stage, all the files here have been contributed by o
 Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it will work on the Poco X3 Pro.
 
 ## Hardware status
+### Features
 - [x] USB ```Powered hub needed```
+- [x] UEFI buttons
 - [x] UFS
+- [ ] Touchscreen
 - [x] Display
 - [X] Brightness
-- [x] UEFI buttons
-- [ ] Touchscreen
 - [x] WiFi
-- [x] Bluetooth
-- [x] Battery Monitoring ```Waiting for the new drivers```
-- [ ] Charge ```It only charge sometimes, is not defined```
+- [x] Fuel gauge ```Waiting for the new drivers```
+- [ ] Charge 
 - [x] GPU
-- [x] I2C
-- [ ] LTE ```Nearly Working, Windows detects it but does not allow access to the mobile network```
 - [ ] Audio ```Only if it is by usb or bluetooth```
-- [x] Location 
-- [x] Gyroscope 
-- [x] Accelerometer
-- [ ] Light Sensor
+- [x] Bluetooth
 - [ ] Camera ```It is almost impossible in this project```
+- [x] GPS 
+- [ ] LTE ```Nearly working, Windows detects it but does not allow access to the mobile network```
 - [ ] NFC ```Does not work on any device```
+### Sensors
+- [x] Accelerometer
+- [ ] Magnetometer
+- [x] Gyroscope 
+- [ ] Proximity
+- [ ] Light sensor
 
 ## Installation instructions
 
