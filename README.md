@@ -21,7 +21,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [ ] Touchscreen
 - [x] WiFi
 - [x] Bluetooth
-- [x] Battery ```Waiting for the new drivers```
+- [x] Battery Monitoring ```Waiting for the new drivers```
 - [ ] Charge ```It only charge sometimes, is not defined```
 - [x] GPU
 - [x] I2C
