@@ -32,10 +32,10 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [ ] NFC ```Does not work on any device```
 ### Sensors
 - [x] Accelerometer
-- [ ] Magnetometer
+- [X] Magnetometer
 - [x] Gyroscope 
-- [ ] Proximity
-- [ ] Light sensor
+- [X] Proximity
+- [X] Light sensor
 - [ ] Fingerprint
 
 ## Installation instructions
