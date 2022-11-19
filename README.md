@@ -21,7 +21,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] Display
 - [X] Brightness
 - [x] WiFi
-- [x] Battery status ```Still being tested```
+- [x] Battery status
 - [ ] Charging
 - [x] GPU
 - [ ] Audio ```Only if it is by usb or bluetooth```
