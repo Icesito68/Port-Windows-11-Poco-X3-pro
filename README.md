@@ -17,18 +17,18 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] USB ```Powered hub needed```
 - [x] UEFI buttons
 - [x] UFS
-- [ ] Touchscreen
+- [*] Touchscreen
 - [x] Display
 - [X] Brightness
 - [x] WiFi
 - [x] Battery status
-- [ ] Charging
+- [*] Charging
 - [x] GPU
-- [ ] Audio ```Only if it is by usb or bluetooth```
+- [*] Audio ```Only if it is by usb or bluetooth```
 - [x] Bluetooth
-- [ ] Camera ```It is almost impossible in this project```
-- [ ] LTE ```Nearly working, Windows detects it but does not allow access to the mobile network```
-- [ ] NFC ```Does not work on any device```
+- [*] Camera ```It is almost impossible in this project```
+- [*] LTE ```Nearly working, Windows detects it but does not allow access to the mobile network```
+- [*] NFC ```Does not work on any device```
 ### Sensors
 - [x] Accelerometer
 - [X] Magnetometer
@@ -36,7 +36,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] GPS
 - [X] Proximity
 - [X] Light sensor
-- [ ] Fingerprint
+- [*] Fingerprint
 
 ## Installation instructions
 
