@@ -105,8 +105,8 @@ assign letter=y
 
 dism /apply-image /ImageFile:"C:\Users\Usuario\Downloads\WindowsarmFolder\sources\install.wim" /index:1 /ApplyDir:X:\
 
-#Install drivers (replace mipad5folder with the location of the drivers folder)(open in powershell as administrator)
-.\driverupdater.exe -d (mipad5 folder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (mipad5 folder) -p X:
+#Install drivers (replace vayudriversfolder with the location of the drivers folder)(open in powershell as administrator)
+.\driverupdater.exe -d (vayudriversfolder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (vayudriversfolder) -p X:
 
 #this is to select Y as uefi
 bcdboot X:\Windows /s Y: /f UEFI
