@@ -68,6 +68,8 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 ### Commands
 
+<details>
+
 **Make sure to install TWRP, Magisk And The Magisk Module Before Proceeding.**
 
 [Do these commands first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
@@ -78,6 +80,8 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 [If you want to uninstall Windows follow these commands](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Delete%20Windows)
 
+  </details> 
+ 
 ## Contributors
 
 <details> 
