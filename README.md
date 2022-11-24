@@ -56,11 +56,11 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 - [Magisk module](https://github.com/evdenis/disk) for disk partitioning tools in Termux.
 
-- On PC you will need the [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
+- On PC you will need the [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000``` (msc.sh file)
 
-- On PC you will need [platform-tools](https://developer.android.com/studio/releases/platform-tools).
+- On PC you will need [platform-tools](https://developer.android.com/studio/releases/platform-tools). (adb)
 
-- On PC you will also need a [program](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/halal-beef/Vayu-Drivers-1/releases/tag/degdag-is-a-legend)
+- On PC you will also need [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/halal-beef/Vayu-Drivers-1/releases/tag/degdag-is-a-legend)
 
 - We will need [parted](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view) for partitioning.
   
