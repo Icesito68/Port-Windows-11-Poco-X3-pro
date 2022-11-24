@@ -22,25 +22,47 @@ umount /data && umount /sdcard
 #Start parted
 parted /dev/block/sda
 
-#Delete partitions rm {partition number} #
-rm 28
+
+##### Repartitioning, WITH CAUSION #####
+#First find the `userdata` partition by running the command
+print all
+# it will show you list of partitions with their name at the end of the line
+
+# delete it with this command, ex: `rm 28`
+rm {partition number}
+
 
 #####Create partitions#########
 
-#Create partitions (128Gb models)
+#- Create partitions (128Gb models)
+
+#Create the esp partition
 mkpart esp fat32 11.8GB 12.2GB
+
+#Create the windows partition
 mkpart win ntfs 12.2GB 70.2GB
+
+#Create the android data partition
 mkpart userdata ext4 70.2GB 127GB
 
-#Create partitions (256Gb models)
+
+
+#- Create partitions (256Gb models)
+
+#Create the esp partition
 mkpart esp fat32 11.8GB 12.2GB
+
+#Create the windows partition
 mkpart win ntfs 12.2GB 132.2GB
+
+#Create the android data partition
 mkpart userdata ext4 132.2GB 255GB
 
-#set esp on
-set 28 esp on
+#set the esp as bootable,
+#use the command `print all`, to find the esp partition and get its partition number. ex: `set 28 esp on`
+set {partition number} esp on
 
-#Quit
+#Quit the parted
 quit
 
 #reboot to twrp
@@ -51,8 +73,10 @@ adb shell
 
 #format the new partitions
 
+#Format the esp partition as fat32
 mkfs.fat -F32 -s1 /dev/block/by-name/esp
 
+#Format the windows partition as ntfs
 mkfs.ntfs -f /dev/block/by-name/win
 
 #exit shell
