@@ -9,6 +9,9 @@ First you have to install the Magisk module found in the files section
 #Install nano
 pkg install nano
 
+# If you face a repo is under maintainance issue, run this command and change the repo, until you find a one that works.
+termux-change-repo
+
 #Login as root (If that doesn't work, type pkg install tsu)
 Tsu
 
@@ -21,7 +24,7 @@ sfdisk -d /dev/block/sda > /sdcard/sda.part
 #Open the file created with nano
 nano /sdcard/sda.part
 
-(Delete necessary partitions (4-7))
+# Comment/delete necessary partitions from 4 to 7
 
 (RENUMBER SDA NUMBER SO THEYRE BACK IN ORDER)
 
