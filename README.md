@@ -8,6 +8,8 @@ We're not responsible for bricked devices, missing recovery partitions, dead mic
 
 This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
+**IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR U ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU SRE AN YOUR OWN IF U BRICK YOUR DEVICE!!! AGAIN! U HAVE BEEN WARNED!!!**
+
 ## Project Status
 
 Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it will work on the Poco X3 Pro.
