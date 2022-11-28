@@ -15,7 +15,7 @@ adb push parted /sbin/
 #### Start adb shell #####
 adb shell
 
-##### Move parted to sbin directory #####
+# Give parted correct permissions
 chmod 755 /sbin/parted
 
 # Change directory
