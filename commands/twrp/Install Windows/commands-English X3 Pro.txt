@@ -12,7 +12,7 @@ fastboot boot <twrp.img>
 ##### Push parted to sbin (temp storage) ######
 adb push parted /sbin/
 
-#### start adb shell #####
+#### Start adb shell #####
 adb shell
 
 ##### Move parted to sbin directory #####
