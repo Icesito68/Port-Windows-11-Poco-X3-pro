@@ -108,7 +108,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 - [MollySophia](https://github.com/MollySophia) ```Helped fix battery status```
 
-- [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes```
+- [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes, also made the validator script```
 
 </details>  
 
