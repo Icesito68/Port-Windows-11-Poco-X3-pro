@@ -58,6 +58,8 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 - [Magisk module](https://github.com/evdenis/disk) for disk partitioning tools in Termux.
 
+- On PC you need the partition [table validating script](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/Utils/validator.sh)
+
 - On PC you will need the [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
 
 - On PC you will need [platform-tools](https://developer.android.com/studio/releases/platform-tools).
