@@ -10,10 +10,18 @@ Don't copy lines with #
 fastboot boot <twrp.img>
 
 ##### Push parted to sbin (temp storage) ######
-adb push parted /sbin/
+adb push parted /sbin
+
+##### Push partition validation script to sbin (temp storage) #####
+adb push validator.sj /sbin
 
 #### Start adb shell #####
 adb shell
+
+# Validate if you have made your partition table correctly
+sh /sbin/validator.sh
+
+##### IF YOU HAVE FORGOT TO RENUMBER SDA, YOU WILL SEE A MESSAGE, MAKE SURE TO RENUMBER ALL SDA PARTITIONS IF YOU HAVENT DONE SO #####
 
 # Give parted correct permissions
 chmod 755 /sbin/parted
