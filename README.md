@@ -19,7 +19,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] USB ```Powered hub needed```
 - [x] UEFI buttons
 - [x] UFS
-- [ ] Touchscreen ```Driver completed, but when installing the driver windows infinitely reboots until the driver is removed, i'm gonna debug to find out whats the root cause of the problem```
+- [x] Touchscreen 
 - [x] Display
 - [X] Brightness
 - [x] WiFi
