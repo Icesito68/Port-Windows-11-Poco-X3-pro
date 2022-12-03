@@ -115,7 +115,7 @@ Phone:
 
 - [MollySophia](https://github.com/MollySophia) ```Helped fix battery status```
 
-- [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes, also made the validator script```
+- [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes, also made the new guide```
 
 </details>  
 
