@@ -1,5 +1,5 @@
 # Install Windows
-> You will need to have MTP disabled in mount
+> You will need to have MTP disabled in Mount
 
 ## Push needed tools:
 ```cmd

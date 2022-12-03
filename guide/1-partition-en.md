@@ -17,7 +17,7 @@ Go to TWRP settings and unmount all partitions
 
 ## Push needed tools:
 ```cmd
-adb push parted sfdisk msc /sbin
+adb push parted sfdisk /sbin
 ```
 
 ## Start the ADB shell
@@ -123,7 +123,7 @@ mkfs.fat -F32 -s1 /dev/block/by-name/esp
 mkfs.ntfs -f /dev/block/by-name/win
 ```
 
-- Fromat data
+- Format data
 Go to Wipe menu and press Format Data, 
 then type `yes`.
 
