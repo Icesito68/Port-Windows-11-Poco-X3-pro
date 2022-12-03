@@ -40,15 +40,24 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [X] Light sensor
 - [ ] Fingerprint
 
+
 ## Installation instructions
 
 <details> 
 
-<summary><strong>All Files Needed</strong></summary>
- 
-- You will need the [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
+<summary><strong>Required Tools/Files</strong></summary>
 
-- [UEFI image for Poco X3 Pro](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
+Pc:
+- [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
+
+- [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
+
+- [platform-tools](https://developer.android.com/studio/releases/platform-tools).
+
+- [program](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/halal-beef/Vayu-Drivers-1/releases/latest)
+
+Phone:
+- UEFI image for Poco X3 Pro, found in the releases page
 
 - [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
 
@@ -58,29 +67,27 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 - [Magisk module](https://github.com/evdenis/disk) for disk partitioning tools in Termux.
 
-- On PC you need the [partition table validating script](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/Utils/validator.sh)
+- [parted](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view) for partitioning.
 
-- On PC you will need the [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
-
-- On PC you will need [platform-tools](https://developer.android.com/studio/releases/platform-tools).
-
-- On PC you will also need a [program](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
-
-- We will need [parted](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view) for partitioning.
-  
  </details> 
 
-### Commands
+## Installation:
 
-**Make sure to install TWRP, Magisk And The Magisk Module Before Proceeding.**
+1- [Resize the sda table](guide/1-resize-en.md)
 
-[Do these commands first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
+2- [Partition](guide/2-partition-en.md)
 
-[Do these commands after doing the first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Install%20Windows)
+3- [Install windows](guide/3-install-en.md)
 
-[If you just want to update the drivers follow these commands](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Update%20Drivers)
+## Other Commands:
 
-[If you want to uninstall Windows follow these commands](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Delete%20Windows)
+[If you just want to update the drivers follow these commands](guide/update-en.md)
+
+[If you want to uninstall Windows follow these commands](guide/delete-en.md)
+
+
+## For people that followed the old guide or people who broke their partition table:
+0 - [Transition from the old guide](guide/0-transition-en.md)
 
 ## Contributors
 
