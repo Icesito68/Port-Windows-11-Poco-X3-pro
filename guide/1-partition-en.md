@@ -123,8 +123,8 @@ mkfs.fat -F32 -s1 /dev/block/by-name/esp
 mkfs.ntfs -f /dev/block/by-name/win
 ```
 
-- Fromat daya
-Go to TWRP menu and press Format Data, 
+- Fromat data
+Go to Wipe menu and press Format Data, 
 then type `yes`.
 
 ### Check if Android still starts

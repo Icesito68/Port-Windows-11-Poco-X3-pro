@@ -1,72 +1,56 @@
 #### Start TWRP recovery through the PC with the command
 
 ```cmd
-
 fastboot boot <twrp.img>
-
 ```
 
-> or if you already have twrp, you can hold the power button and vol+ at startup
+> or if you already have TWRP installed, just hold the power and vol+ buttons at startup
 
 
-## Push script:
+## Push script
 
 ```cmd
-adb push msc.sh /sbin
+adb push msc /sbin
 ```
 
 ### Execute script
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell sh /sbin/msc
 ```
 
 ## Assign letters to disks
 
-#### Start the windows disk manager
+#### Start the Windows disk manager
 
-> Once the X3 pro is detected as a disk
+> Once the X3 Pro is detected as a disk
 
 ```cmd
 diskpart
 ```
 
-#### List all disks
+
+### Assign `x` to Windows volume
+
+#### Select the Windows volume of the phone
+> use `list volume` to find it, it's usually the one before the last
 
 ```diskpart
-list disk
-```
-
-### Select the disk that is your X3 Pro
-
-> The X3 Pro should be the last disk usually
-
-```
-sel disk <disk number found via previous command>
-```
-
-  
-### Assign `x` to windows volume
-
-#### Select the volume
-
-```diskpart
-sel vol 3
+select volume <number>
 ```
 
 #### Assign the letter x
-
 ```diskpart
 assign letter=x
 ```
 
-  
 ### Assign `y` to esp volume
 
-#### Select the volume
+#### Select the esp volume of the phone
+> use `list volume` to find it, it's usually the last one
 
 ```diskpart
-sel vol 4
+select volume <number>
 ```
 
 #### Assign the letter y
@@ -75,10 +59,16 @@ sel vol 4
 assign letter=y
 ```
 
+### Exit diskpart:
+```diskpart
+exit
+```
+
 
 # Install Drivers
 
 > replace `<vayudriversfolder>` with the location of the drivers folder
+
 > open cmd as administrator
 
 
@@ -87,7 +77,7 @@ assign letter=y
 ```
 
 
-# Create windows bootloader files for the EFI
+# Create Windows bootloader files for the EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
@@ -96,18 +86,10 @@ bcdboot X:\Windows /s Y: /f UEFI
   
 # Allow unsigned driver
 
-> if u don't do this you'll get a blue screen
+> if you don't do this you'll get a BSOD
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
-
-  
-
-# bring up a boot menu (optional)
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {bootmgr} displaybootmenu yes
 ```
 
   

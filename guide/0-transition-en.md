@@ -3,15 +3,13 @@
 
 
 
-> Replace <gpt_both0.bin> with the path to the gpt_both0.bin file
-
-> you can find it on the releases page.
+> Replace <gpt_both0.bin> with the path to the gpt_both0.bin file. you can find it on the releases page
 
 
-run this command in cmd, after you plug your phone:
+run this command in cmd, after you plug your phone
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
 
-## [Next step: Resize](/guide/1-resize-en.md)
+## [Next step: Partiton](/guide/1-partition-en.md)

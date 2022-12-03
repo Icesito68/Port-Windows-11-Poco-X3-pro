@@ -7,7 +7,7 @@ adb shell
 
 #### Set the right permissions for parted
 ```sh
-chmod 755 /sbin/parted
+chmod +x /sbin/*
 ```
 
 
@@ -49,15 +49,15 @@ mkpart userdata ext4 11.8GB 255GB
 
 
 # Finally
-- Reboot to recovery twrp.
-- Fromat data Go to your twrp menu, and press format data, then type `yes`.
+- Reboot to recovery.
+- Go to Wipe menu and press Format Data, then type `yes`.
 - Check that Android starts.
 
 # Optional
 ## Resize the table back to 32
-> THIS IS A DANGEROUS STEP, BE SURE TO HAVE REMOVED WINDOWS AND ESP PARTITION BEFORE PROCCEDING.
-> After you install the required files from step 1, again
-> run
+> THIS IS A DANGEROUS STEP, MAKE SURE TO REMOVE WINDOWS AND ESP PARTITION BEFORE PROCCEDING.
+
+> After you install the required files from step 1 again, run
 ```sh
-sgdisk --resize-table=32 /dev/block/sda
+sgdisk -S=32 /dev/block/sda
 ```
