@@ -82,6 +82,8 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 [If you want to uninstall Windows follow these commands](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Delete%20Windows)
 
+[New guide](https://github.com/haouarihk/Port-Windows-11-Poco-X3-pro)
+
 ## Contributors
 
 <details> 
