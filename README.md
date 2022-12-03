@@ -21,23 +21,23 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] UFS
 - [x] Touchscreen
 - [x] Display
-- [X] Brightness
+- [x] Brightness
 - [x] WiFi
 - [x] Battery status
-- [ ] Charging ```In progress```
+- [ ] Charging ```In progress, working partially```
 - [x] GPU
 - [ ] Audio ```Only if it is by usb or bluetooth```
 - [x] Bluetooth
-- [ ] Camera ```It is almost impossible in this project```
+- [ ] Camera ```In progress```
 - [ ] LTE ```Nearly working, Windows detects it but does not allow access to the mobile network```
 
 ### Sensors
 - [x] Accelerometer
-- [X] Magnetometer
+- [x] Magnetometer
 - [x] Gyroscope 
 - [x] GPS
-- [X] Proximity
-- [X] Light sensor
+- [x] Proximity
+- [x] Light sensor
 - [ ] Fingerprint
 
 
@@ -47,37 +47,29 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 <summary><strong>Required Tools/Files</strong></summary>
 
-Pc:
+PC:
 - [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
 
-- [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
+- Binaries required for partitioning, found on the releases page
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
-- [program](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/halal-beef/Vayu-Drivers-1/releases/latest)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
 
 Phone:
-- UEFI image for Poco X3 Pro, found in the releases page
+- UEFI image for Poco X3 Pro, found on the releases page
 
 - [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
 
-- [Magisk](https://github.com/topjohnwu/Magisk)
 
-- [Termux](https://f-droid.org/en/packages/com.termux/)
 
-- [Magisk module](https://github.com/evdenis/disk) for disk partitioning tools in Termux.
-
-- [parted](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view) for partitioning.
-
- </details> 
+</details> 
 
 ## Installation:
 
-1- [Resize the sda table](guide/1-resize-en.md)
+1- [Partition](guide/1-partition-en.md)
 
-2- [Partition](guide/2-partition-en.md)
-
-3- [Install windows](guide/3-install-en.md)
+2- [Install Windows](guide/2-install-en.md)
 
 ## Other Commands:
 
@@ -86,8 +78,8 @@ Phone:
 [If you want to uninstall Windows follow these commands](guide/delete-en.md)
 
 
-## For people that followed the old guide or people who broke their partition table:
-0 - [Transition from the old guide](guide/0-transition-en.md)
+## For people who followed the old guide or broke their partition table:
+1- [Transition from the old guide](guide/0-transition-en.md)
 
 ## Contributors
 
@@ -95,27 +87,29 @@ Phone:
 
 <summary><b><strong>Credits</strong></b></summary>
 
-- [Icesito68](https://github.com/Icesito68) ```Made windows partitioning commands and made this repo```
+- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made this repo```
 
 - [Map220v](https://github.com/map220v) ```Provided help and vayu UEFI uses nabu UFS patches and ACPI and also ported mi pad 5 drivers```
 
 - [Degdag](https://github.com/degdag) ```Improves UEFI and ported drivers```
 
-- [Halal-Beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot windows, also ported drivers```
+- [Halal-Beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot Windows, also ported drivers```
   
 - [Renegade Project](https://github.com/edk2-porting) ```Making the core of this project```
 
-- [gus33000](https://github.com/gus33000) ```Providing help, also made base install guide and made all of the original drivers```
+- [gus33000](https://github.com/gus33000) ```Providing help, also made base install guide, all of the original drivers and the msc script```
 
 - [Renegade Project Discord members](https://discord.gg/XXBWfag) ```Provided Help```
  
-- [ArturoGC06](https://github.com/ArturoGC06) ```Helped in the beginning of the project to the translations and gave windows data```
+- [ArturoGC06](https://github.com/ArturoGC06) ```Helped in the beginning of the project to the translations and gave Windows data```
 
-- [SebastianZSXS](https://github.com/SebastianZSXS) ```Helped patch windows pe```
+- [SebastianZSXS](https://github.com/SebastianZSXS) ```Helped to patch Windows PE```
 
-- [MollySophia](https://github.com/MollySophia) ```Helped fix battery status```
+- [MollySophia](https://github.com/MollySophia) ```Helped to fix battery status```
 
 - [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes, also made the new guide```
+
+- [bibarub](https://github.com/bibarub) ```Guide improvenents```
 
 </details>  
 
