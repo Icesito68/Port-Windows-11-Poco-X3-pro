@@ -31,12 +31,6 @@ adb shell
 chmod +x /sbin/*
 ```
 
-### Backup the partiton table
-```sh
-sfdisk -d /dev/block/sda > /sdcard/sda.part
-```
-> put the file somewhere safe
-
 ### Resize the partition table
 > so that the Windows partitions would fit
 ```sh
