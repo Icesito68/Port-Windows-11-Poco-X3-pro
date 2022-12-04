@@ -40,7 +40,7 @@ sfdisk -d /dev/block/sda > /sdcard/sda.part
 ### Resize the partition table
 > so that the Windows partitions would fit
 ```sh
-sgdisk -S=64 /dev/block/sda
+sgdisk -S 64 /dev/block/sda
 ```
 
 ### Start parted
