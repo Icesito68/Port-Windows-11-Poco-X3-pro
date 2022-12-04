@@ -17,7 +17,7 @@ Go to TWRP settings and unmount all partitions
 
 ## Push needed tools:
 ```cmd
-adb push parted sfdisk /sbin
+adb push parted /sbin
 ```
 
 ## Start the ADB shell
