@@ -3,13 +3,13 @@
 
 ## Push needed tools:
 ```cmd
-adb push msc /sbin
+adb push msc.sh /sbin
 ```
 
 ### Execute script
 
 ```cmd
-adb shell sh /sbin/msc
+adb shell sh /sbin/msc.sh
 ```
 
   
