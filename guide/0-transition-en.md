@@ -3,7 +3,7 @@
 
 
 
-> Replace <gpt_both0.bin> with the path to the gpt_both0.bin file. you can find it on the releases page
+> Replace <gpt_both0.bin> with the path to the gpt_both0.bin file. you can find it on the [releases page](../../../releases/tag/binaries)
 
 
 run this command in cmd, after you plug your phone

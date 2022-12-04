@@ -50,17 +50,16 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 PC:
 - [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
 
-- Binaries required for partitioning, found on the releases page
-
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
 
 Phone:
-- UEFI image for Poco X3 Pro, found on the releases page
+- [UEFI image](https://github.com/degdag/edk2-msm/releases/tag/latest) for Poco X3 Pro
 
 - [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
 
+- [Binaries](../../releases/tag/binaries) required for partitioning
 
 
 </details> 
