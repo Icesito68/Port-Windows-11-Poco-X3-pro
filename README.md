@@ -21,66 +21,65 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] UFS
 - [x] Touchscreen
 - [x] Display
-- [X] Brightness
+- [x] Brightness
 - [x] WiFi
 - [x] Battery status
-- [ ] Charging ```In progress```
+- [ ] Charging ```In progress, working partially```
 - [x] GPU
 - [ ] Audio ```Only if it is by usb or bluetooth```
 - [x] Bluetooth
-- [ ] Camera ```It is almost impossible in this project```
+- [ ] Camera ```In progress```
 - [ ] LTE ```Nearly working, Windows detects it but does not allow access to the mobile network```
 
 ### Sensors
 - [x] Accelerometer
-- [X] Magnetometer
+- [x] Magnetometer
 - [x] Gyroscope 
 - [x] GPS
-- [X] Proximity
-- [X] Light sensor
+- [x] Proximity
+- [x] Light sensor
 - [ ] Fingerprint
+
 
 ## Installation instructions
 
 <details> 
 
-<summary><strong>All Files Needed</strong></summary>
- 
-- You will need the [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
+<summary><strong>Required Tools/Files</strong></summary>
 
-- [UEFI image for Poco X3 Pro](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/Uefi)
+PC:
+- [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
+
+- Binaries required for partitioning, found on the releases page
+
+- [platform-tools](https://developer.android.com/studio/releases/platform-tools).
+
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+
+Phone:
+- UEFI image for Poco X3 Pro, found on the releases page
 
 - [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
 
-- [Magisk](https://github.com/topjohnwu/Magisk)
 
-- [Termux](https://f-droid.org/en/packages/com.termux/)
 
-- [Magisk module](https://github.com/evdenis/disk) for disk partitioning tools in Termux.
+</details> 
 
-- On PC you need the [partition table validating script](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/Utils/validator.sh)
+## Installation:
 
-- On PC you will need the [Mass Storage Mode Script](https://www.mediafire.com/file/bvibrl34nawl2wg/msc.sh/file) ```This file belongs to gus33000```
+1- [Partition](guide/1-partition-en.md)
 
-- On PC you will need [platform-tools](https://developer.android.com/studio/releases/platform-tools).
+2- [Install Windows](guide/2-install-en.md)
 
-- On PC you will also need a [program](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+## Other Commands:
 
-- We will need [parted](https://drive.google.com/file/d/1e8kDC2fylkvJuHimlViHOuHyk8xljr6p/view) for partitioning.
-  
- </details> 
+[If you just want to update the drivers follow these commands](guide/update-en.md)
 
-### Commands
+[If you want to uninstall Windows follow these commands](guide/delete-en.md)
 
-**Make sure to install TWRP, Magisk And The Magisk Module Before Proceeding.**
 
-[Do these commands first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/termux)
-
-[Do these commands after doing the first](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Install%20Windows)
-
-[If you just want to update the drivers follow these commands](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Update%20Drivers)
-
-[If you want to uninstall Windows follow these commands](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/tree/main/commands/twrp/Delete%20Windows)
+## For people who followed the old guide or broke their partition table:
+1- [Transition from the old guide](guide/0-transition-en.md)
 
 ## Contributors
 
@@ -88,27 +87,29 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 <summary><b><strong>Credits</strong></b></summary>
 
-- [Icesito68](https://github.com/Icesito68) ```Made windows partitioning commands and made this repo```
+- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made this repo```
 
 - [Map220v](https://github.com/map220v) ```Provided help and vayu UEFI uses nabu UFS patches and ACPI and also ported mi pad 5 drivers```
 
 - [Degdag](https://github.com/degdag) ```Improves UEFI and ported drivers```
 
-- [Halal-Beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot windows, also ported drivers```
+- [Halal-Beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot Windows, also ported drivers```
   
 - [Renegade Project](https://github.com/edk2-porting) ```Making the core of this project```
 
-- [gus33000](https://github.com/gus33000) ```Providing help, also made base install guide and made all of the original drivers```
+- [gus33000](https://github.com/gus33000) ```Providing help, also made base install guide, all of the original drivers and the msc script```
 
 - [Renegade Project Discord members](https://discord.gg/XXBWfag) ```Provided Help```
  
-- [ArturoGC06](https://github.com/ArturoGC06) ```Helped in the beginning of the project to the translations and gave windows data```
+- [ArturoGC06](https://github.com/ArturoGC06) ```Helped in the beginning of the project to the translations and gave Windows data```
 
-- [SebastianZSXS](https://github.com/SebastianZSXS) ```Helped patch windows pe```
+- [SebastianZSXS](https://github.com/SebastianZSXS) ```Helped to patch Windows PE```
 
-- [MollySophia](https://github.com/MollySophia) ```Helped fix battery status```
+- [MollySophia](https://github.com/MollySophia) ```Helped to fix battery status```
 
-- [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes, also made the validator script```
+- [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes, also made the new guide```
+
+- [bibarub](https://github.com/bibarub) ```Guide improvenents```
 
 </details>  
 
