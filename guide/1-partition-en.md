@@ -67,7 +67,7 @@ mkpart win ntfs 12.2GB 70.2GB
 
 - Create Android's data partition
 ```sh
-mkpart userdata f2fs 70.2GB 127GB
+mkpart userdata ext4 70.2GB 127GB
 ```
 
 
