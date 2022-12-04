@@ -44,21 +44,6 @@ select volume <number>
 assign letter=x
 ```
 
-### Assign `y` to esp volume
-
-#### Select the esp volume of the phone
-> use `list volume` to find it, it's usually the last one
-
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter y
-
-```diskpart
-assign letter=y
-```
-
 ### Exit diskpart:
 ```diskpart
 exit
@@ -76,23 +61,6 @@ exit
 .\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
 ```
 
-
-# Create Windows bootloader files for the EFI
-
-```cmd
-bcdboot X:\Windows /s Y: /f UEFI
-```
-
-  
-# Allow unsigned driver
-
-> if you don't do this you'll get a BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
-
-  
 
 ##### Boot with Windows bootable UEFI image #####
 
