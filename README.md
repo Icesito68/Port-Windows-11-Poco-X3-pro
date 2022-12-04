@@ -55,7 +55,7 @@ PC:
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
 
 Phone:
-- [UEFI image](https://github.com/degdag/edk2-msm/releases/tag/latest) for Poco X3 Pro
+- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest) for Poco X3 Pro
 
 - [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
 
