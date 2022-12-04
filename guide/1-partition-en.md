@@ -17,7 +17,7 @@ Go to TWRP settings and unmount all partitions
 
 ## Push needed tools:
 ```cmd
-adb push parted sfdisk /sbin
+adb push parted /sbin
 ```
 
 ## Start the ADB shell
@@ -30,12 +30,6 @@ adb shell
 ```sh
 chmod +x /sbin/*
 ```
-
-### Backup the partiton table
-```sh
-sfdisk -d /dev/block/sda > /sdcard/sda.part
-```
-> put the file somewhere safe
 
 ### Resize the partition table
 > so that the Windows partitions would fit
