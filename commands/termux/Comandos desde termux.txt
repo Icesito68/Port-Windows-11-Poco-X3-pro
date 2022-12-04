@@ -1,0 +1,31 @@
+Estos comandos son ejecutados desde termux en el propio android 
+
+no copiar las lineas con #
+
+Primero hay que instalar el módulo de Magisk que se encuentra en la sección de archivos
+
+(Tener root)
+
+#Instalar nano
+pkg install nano
+
+#Entrar como superusuario (Si no funciona escribe pkg install tsu)
+Tsu 
+
+#Hacer un archivo con la tabla de particiones
+sfdisk -d /dev/block/sda > /sdcard/sda.part
+
+# HAGA UNA COPIA DE SEGURIDAD DE ESTA SDA.PART SI DESEA VOLVER A BLOQUEAR SU BOOTLOADER
+# LA SDA.PART EDITADA SERÁ INÚTIL EN UN BOOTLOADER BLOQUEADO
+
+#Abrir el archivo creado con nano
+nano /sdcard/sda.part
+
+(Borrar particiones necesarias,(4-7))
+
+(Renombrar todas las particiones para que vuelvan a estar en orden)
+
+#Importar la nueva tabla de particiones
+sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
+
+¡¡¡REINICIAR AUTOMATICAMENTE DESPUÉS DE ESTO!!!

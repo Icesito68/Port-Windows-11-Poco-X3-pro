@@ -1,0 +1,54 @@
+##with these commands your pc will be able to detect the mobile as a disk to carry out the installation (Have MTP disabled in Mount)
+
+#Move msc.sh to internal memory
+adb push msc.sh /sdcard
+
+#start shell
+adb shell
+
+# indicate that we want to use the root
+cd /sdcard
+
+#These two commands start the program
+chmod +x msc.sh
+
+./msc.sh
+
+###Once the X3 pro is detected as a disk###
+
+# we open a cmd
+
+#This will start the Windows Disk Management tool
+diskpart
+
+#Select the disk that is your x3 pro
+sel disk 1 (or whatever your poco x3 pro is)
+
+# Select the volume where we are going to install Windows
+sel vol 3
+
+# We assign the letter x to the volume where we are going to install Windows
+assign letter=x
+
+# Select the volume where we will install the drivers
+sel vol 4
+
+# We assign the letter and the volume where we will install the drivers
+assign letter=y
+
+#Update drivers (replace vayudriversfolder with the location of the drivers folder)(open in powershell as administrator)
+.\driverupdater.exe -d (vayudriversfolder)\definitions\Desktop\ARM64\Internal\vayu.txt -r (vayudriversfolder) -p X:
+
+#this is to select Y as uefi
+bcdboot X:\Windows /s Y: /f UEFI
+
+# Now unsigned drivers must be allowed
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+
+#This command is optional, it is to bring up a start menu
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {bootmgr} displaybootmenu yes
+
+###############Boots with Windows bootable UEFI image##############
+
+fastboot flash boot (device uefi.img)
+

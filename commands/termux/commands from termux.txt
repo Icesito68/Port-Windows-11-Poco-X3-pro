@@ -1,0 +1,34 @@
+These commands are executed from termux in android itself
+
+do not copy lines with #
+
+First you have to install the Magisk module found in the files section
+
+(Have root)
+
+# If you face a repo is under maintainance issue, run this command and change the repo, until you find a one that works.
+termux-change-repo
+
+# Install nano
+pkg install nano
+
+# Login as root (If that doesn't work, type pkg install tsu)
+Tsu
+
+# Make a file with the partition table
+sfdisk -d /dev/block/sda > /sdcard/sda.part
+
+# MAKE A BACKUP OF THIS SDA.PART IF YOU WANT TO RELOCK YUUR BOOTLOADER
+# THE EDITED SDA.PART WILL BE USELESS IN A LOCKED BOOTLOADER
+
+# Open the file created with nano
+nano /sdcard/sda.part
+
+(Delete the necessary partitions (SDA 4-7))
+
+(RENUMBER SDA NUMBER SO THEYRE BACK IN ORDER)
+
+# Import the new partition table
+sfdisk --no-reread -f /dev/block/sda < /sdcard/sda.part
+
+RESTART YOUR PHONE AFTER THIS!!!
