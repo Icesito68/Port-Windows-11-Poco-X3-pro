@@ -43,6 +43,10 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 ## Installation instructions
 
+## For people who followed the old guide or broke their partition table:
+
+[Transition from the old guide](guide/0-transition-en.md)
+
 <details> 
 
 <summary><strong>Required Tools/Files</strong></summary>
@@ -54,15 +58,15 @@ PC:
 
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
 
+- [Binaries](../../releases/tag/binaries) required for partitioning
+
 Phone:
-- [UEFI image](https://github.com/degdag/edk2-msm/releases/tag/latest) for Poco X3 Pro
+- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest) for Poco X3 Pro
 
 - [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
 
-- [Binaries](../../releases/tag/binaries) required for partitioning
-
-
 </details> 
+
 
 ## Installation:
 
@@ -75,10 +79,6 @@ Phone:
 [If you just want to update the drivers follow these commands](guide/update-en.md)
 
 [If you want to uninstall Windows follow these commands](guide/delete-en.md)
-
-
-## For people who followed the old guide or broke their partition table:
-1- [Transition from the old guide](guide/0-transition-en.md)
 
 ## Contributors
 
