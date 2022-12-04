@@ -50,7 +50,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 PC:
 - [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
 
-- Binaries required for partitioning, found on the releases page
+- [Binaries](../../releases/tag/binaries) required for partitioning, found on the releases page
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
