@@ -43,9 +43,6 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 ## Installation instructions
 
-## For people who followed the old guide or broke their partition table:
-
-[Transition from the old guide](guide/0-transition-en.md)
 
 <details> 
 
@@ -67,6 +64,10 @@ Phone:
 
 </details> 
 
+
+## For people who followed the old guide or broke their partition table:
+
+[Transition from the old guide](guide/0-transition-en.md)
 
 ## Installation:
 
