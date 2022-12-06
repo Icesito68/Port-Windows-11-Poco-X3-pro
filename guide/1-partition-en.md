@@ -5,7 +5,7 @@ This step is required so that we make partitions where our Windows installation 
 - These commands have been tested.
 - Ignore `udevadm` warnings
 - Do not run the same command twice
-- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayuagain)
+- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayu)
 
 #### Boot TWRP recovery through the PC with the command
 ```cmd
