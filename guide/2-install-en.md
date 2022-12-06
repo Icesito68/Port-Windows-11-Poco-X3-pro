@@ -112,8 +112,8 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 > In TWRP go to Advanced, Terminal
 
- ```cat 
- /proc/cmdline
+ ```
+ cat /proc/cmdline
 ```
 > Look for display almost at the bottom
 
