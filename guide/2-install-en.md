@@ -114,7 +114,6 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
  ```cat /proc/cmdline
 ```
-
 > Look for display almost at the bottom
 
 > If your device is tianma: j20s_36 
