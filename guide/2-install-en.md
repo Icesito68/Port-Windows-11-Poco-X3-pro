@@ -105,7 +105,22 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
-  
+
+
+
+# Check what type of panel you have
+
+> In TWRP go to Advanced, Terminal
+
+ ```cat /proc/cmdline
+```
+
+> Look for display almost at the bottom
+
+> If your device is tianma: j20s_36 
+
+> If your device is huaxing: j20s_42
+
 
 # Boot into Windows
 > i recommend having a microSD you store the boot images on
