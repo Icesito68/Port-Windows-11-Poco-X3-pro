@@ -1,7 +1,7 @@
 This step is required so that we make partitions where our Windows installation will be
 
 ## Notes:
-> **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all ur ufs
+> **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
 - These commands have been tested.
 - Ignore `udevadm` warnings
 - Do not run the same command twice
