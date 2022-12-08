@@ -76,10 +76,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
   
   
-
-# Install Drivers
-
-# Check what type of panel you have
+  
+  # Check what type of panel you have
 
 > In TWRP go to Advanced, Terminal
 
@@ -91,6 +89,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 > If your device is `<tianma>`: j20s_36 
 
 > If your device is `<huaxing>`: j20s_42 and Go to drivers folder (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) and delete j20s_novatek_ts_fw01.bin, finally rename j20s_novatek_ts_fw02.bin to j20s_novatek_ts_fw01.bin
+
+# Install Drivers
 
 > replace `<vayudriversfolder>` with the location of the drivers folder
 
