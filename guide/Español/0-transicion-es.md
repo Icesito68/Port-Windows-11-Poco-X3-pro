@@ -3,7 +3,7 @@
 
 
 
-> Reemplaza <gpt_both0.bin> por la ruta de gpt_both0.bin . Lo puedes encontrar en la [página de lanzamientos](../../../releases/tag/binaries)
+> Reemplaza <gpt_both0.bin> por la ruta de gpt_both0.bin . Lo puedes encontrar en la [página de lanzamientos](../../../../releases/tag/binaries)
 
 
 # Restaurar la tabla de particiones stock
