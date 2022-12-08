@@ -72,11 +72,11 @@ Phone:
 
 ## For people who followed the old guide or broke their partition table:
 
-# English
+#### English
 
 [Transition from the old guide](guide/English/0-transition-en.md)
 
-# Spanish
+#### Spanish
 
 [Transicion desde la guia vieja](guide/Español/0-transicion-es.md)
 
