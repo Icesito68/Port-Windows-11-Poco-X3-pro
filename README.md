@@ -82,13 +82,13 @@ Phone:
 
 ## Installation:
 
-# English
+#### English
 
 1- [Partition](guide/English/1-partition-en.md)
 
 2- [Install Windows](guide/English/2-install-en.md)
 
-# Spanish
+#### Spanish
 
 1- [Particiones](guide/Español/1-particiones-es.md)
 
@@ -96,13 +96,13 @@ Phone:
 
 ## Other Commands:
 
-# English
+#### English
 
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
 
 - [If you want to uninstall Windows follow these commands](guide/English/delete-en.md)
 
-# Spanish
+#### Spanish
 
 - [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
