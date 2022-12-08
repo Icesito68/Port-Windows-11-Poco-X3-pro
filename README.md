@@ -49,7 +49,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 <summary><strong>Required Tools/Files</strong></summary>
 Human:
 
-- Understand English, understand how to use twrp and cmd and if you're the one guy who raided our group because you couldn't meet any of these requirements, you can suck a fat one lmao
+- Understand English or Spanish, understand how to use twrp and cmd and if you're the one guy who raided our group because you couldn't meet any of these requirements, you can suck a fat one lmao
 
 - Functioning brain
 
@@ -72,27 +72,39 @@ Phone:
 
 ## For people who followed the old guide or broke their partition table:
 
+# English
+
 [Transition from the old guide](guide/English/0-transition-en.md)
+
+# Spanish
 
 [Transicion desde la guia vieja](guide/Español/0-transicion-es.md)
 
 ## Installation:
 
+# English
+
 1- [Partition](guide/English/1-partition-en.md)
 
-1- [Particiones](guide/Español/1-particiones-es.md)
-
 2- [Install Windows](guide/English/2-install-en.md)
+
+# Spanish
+
+1- [Particiones](guide/Español/1-particiones-es.md)
 
 2- [Instalar Windows](guide/Español/2-instalacion-es.md)
 
 ## Other Commands:
 
+# English
+
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
 
-- [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
-
 - [If you want to uninstall Windows follow these commands](guide/English/delete-en.md)
+
+# Spanish
+
+- [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
 - [Si solo quieres desinstalar Windows sigue estos comandos commands](guide/Español/Eliminar-es.md)
 
