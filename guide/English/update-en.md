@@ -4,7 +4,7 @@
 fastboot boot <twrp.img>
 ```
 
-> Or if you already have TWRP installed, just hold the power and vol+ buttons at startup
+> If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
 
 ## Push script
