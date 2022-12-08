@@ -88,13 +88,13 @@ Phone:
 
 ## Other Commands:
 
-[If you just want to update the drivers follow these commands](guide/English/update-en.md)
+- [If you just want to update the drivers follow these commands](guide/English/update-en.md)
 
-[Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
+- [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
-[If you want to uninstall Windows follow these commands](guide/English/delete-en.md)
+- [If you want to uninstall Windows follow these commands](guide/English/delete-en.md)
 
-[Si solo quieres desinstalar Windows sigue estos comandos commands](guide/Español/Eliminar-es.md)
+- [Si solo quieres desinstalar Windows sigue estos comandos commands](guide/Español/Eliminar-es.md)
 
 ## Contributors
 
