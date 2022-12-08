@@ -65,19 +65,6 @@ exit
 
 ## Install
 
-# Check what type of panel you have
-
-> In TWRP go to Advanced, Terminal
-
- ```cmd
- cat /proc/cmdline
-```
-> Look for display almost at the bottom
-
-> If your device is `<tianma>`: j20s_36 
-
-> If your device is `<huaxing>`: j20s_42 and Go to drivers folder (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) and delete j20s_novatek_ts_fw01.bin, finally rename j20s_novatek_ts_fw02.bin to j20s_novatek_ts_fw01.bin
-
 > replace `<path/to/Install.wim>` with the actual install.wim path,
 
 > `install.wim` is located in sources folder inside your iso
@@ -91,6 +78,19 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
   
 
 # Install Drivers
+
+# Check what type of panel you have
+
+> In TWRP go to Advanced, Terminal
+
+ ```cmd
+ cat /proc/cmdline
+```
+> Look for display almost at the bottom
+
+> If your device is `<tianma>`: j20s_36 
+
+> If your device is `<huaxing>`: j20s_42 and Go to drivers folder (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) and delete j20s_novatek_ts_fw01.bin, finally rename j20s_novatek_ts_fw02.bin to j20s_novatek_ts_fw01.bin
 
 > replace `<vayudriversfolder>` with the location of the drivers folder
 
