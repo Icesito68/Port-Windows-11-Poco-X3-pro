@@ -29,7 +29,7 @@ diskpart
 ### Assign `x` to Windows volume
 
 #### Select the Windows volume of the phone
-> use `list volume` to find it, it's usually the one before the last
+> Use `list volume` to find it, it's usually the one before the last
 
 ```diskpart
 select volume <number>
@@ -43,7 +43,7 @@ assign letter=x
 ### Assign `y` to esp volume
 
 #### Select the esp volume of the phone
-> use `list volume` to find it, it's usually the last one
+> Use `list volume` to find it, it's usually the last one
 
 ```diskpart
 select volume <number>
@@ -65,19 +65,16 @@ exit
 
 ## Install
 
-> replace `<path/to/Install.wim>` with the actual install.wim path,
+> Replace `<path/to/Install.wim>` with the actual install.wim path,
 
 > `install.wim` is located in sources folder inside your iso
-> you can get it either by mounting or extracting it
+> You can get it either by mounting or extracting it
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-  
-  
-  
-  # Check what type of panel you have
+# Check what type of panel you have
 
 > In TWRP go to Advanced, Terminal
 
@@ -92,9 +89,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Install Drivers
 
-> replace `<vayudriversfolder>` with the location of the drivers folder
+> Replace `<vayudriversfolder>` with the location of the drivers folder
 
-> open cmd as an Administrator
+> Open cmd as an Administrator
 
 ```cmd
 driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
@@ -113,16 +110,16 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 # Allow unsigned driver
 
-> if you don't do this you'll get a BSOD
+> If you don't do this you'll get a BSOD
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 # Boot into Windows
-> i recommend having a microSD you store the boot images on
+> I recommend having a microSD you store the boot images on
 
-> so that you don't need a pc to push the files.
+> So that you don't need a pc to push the files.
 
 ### Move the `<uefi.img>` file to the device
 
@@ -138,9 +135,9 @@ adb push <uefi.img> /external_sd
 
 
 ### Make a backup of your existing boot image
-> you need to do it just once
+> You need to do it just once
 
-> put it to the microSD card if possible
+> Put it to the microSD card if possible
 
 
 ### Flash the uefi image from twrp.
