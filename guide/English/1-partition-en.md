@@ -11,7 +11,7 @@ This step is required so that we make partitions where our Windows installation 
 ```cmd
 fastboot boot <twrp.img>
 ```
-> if you already have TWRP installed, just hold the power and vol+ buttons at startup
+> If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
 #### Unmount all partitions
 Go to TWRP settings and unmount all partitions
@@ -33,7 +33,7 @@ chmod +x /sbin/*
 ```
 
 ### Resize the partition table
-> so that the Windows partitions would fit
+> So that the Windows partitions would fit
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
@@ -45,7 +45,7 @@ parted /dev/block/sda
 
 
 ### Delete the `userdata` partition
-> you can make sure that 32 is the userdata partition number by running
+> You can make sure that 32 is the userdata partition number by running
 >  `print all`
 ```sh
 rm 32
