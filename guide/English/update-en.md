@@ -4,7 +4,7 @@
 fastboot boot <twrp.img>
 ```
 
-> or if you already have TWRP installed, just hold the power and vol+ buttons at startup
+> Or if you already have TWRP installed, just hold the power and vol+ buttons at startup
 
 
 ## Push script
@@ -33,7 +33,7 @@ diskpart
 ### Assign `x` to Windows volume
 
 #### Select the Windows volume of the phone
-> use `list volume` to find it, it's usually the one before the last
+> Use `list volume` to find it, it's usually the one before the last
 
 ```diskpart
 select volume <number>
@@ -52,9 +52,9 @@ exit
 
 # Install Drivers
 
-> replace `<vayudriversfolder>` with the location of the drivers folder
+> Replace `<vayudriversfolder>` with the location of the drivers folder
 
-> open cmd as administrator
+> Open cmd as administrator
 
 
 ```cmd
