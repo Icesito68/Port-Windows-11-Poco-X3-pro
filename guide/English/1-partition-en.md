@@ -126,4 +126,4 @@ then type `yes`.
 just restart the phone, and see if Android still works
 
 
-## [Next step: Install Windows](/guide/english/2-install-en.md)
+## [Next step: Install Windows](/guide/English/2-install-en.md)
