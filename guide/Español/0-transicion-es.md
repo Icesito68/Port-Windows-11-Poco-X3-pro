@@ -3,7 +3,7 @@
 
 
 
-> Reemplaza <gpt_both0.bin> por la ruta de gpt_both0.bin . Lo puedes encontrar en la [página de lanzamientos](../../../../releases/tag/binaries)
+> Reemplaza <gpt_both0.bin> por la ruta de gpt_both0.bin . Lo puedes encontrar en la [página de lanzamientos](../../../../../releases/tag/binaries)
 
 
 # Restaurar la tabla de particiones stock
@@ -17,4 +17,4 @@ fastboot flash partition:0 <gpt_both0.bin>
 fastboot -w
 ```
 
-## [Siguiente paso: particiones](/guide/1-partition-es.md)
+## [Siguiente paso: particiones](/guide/Español/1-partition-es.md)
