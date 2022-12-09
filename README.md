@@ -48,6 +48,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 <summary><strong>Required Tools/Files</strong></summary>
 PC:
+
 - [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
