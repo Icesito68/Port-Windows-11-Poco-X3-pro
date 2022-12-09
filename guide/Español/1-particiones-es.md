@@ -126,4 +126,4 @@ después escribe `yes`.
 Solo reinicia el teléfono y comprueba si Android inicia
 
 
-## [Siguiente paso: Instalar Windows](/guide/2-instalacion-es.md)
+## [Siguiente paso: Instalar Windows](/guide/Español/2-instalacion-es.md)
