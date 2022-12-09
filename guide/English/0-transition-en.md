@@ -17,4 +17,4 @@ fastboot flash partition:0 <gpt_both0.bin>
 fastboot -w
 ```
 
-## [Next step: Partiton](/guide/1-partition-en.md)
+## [Next step: Partiton](/guide/English/1-partition-en.md)
