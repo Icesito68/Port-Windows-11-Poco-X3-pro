@@ -47,12 +47,6 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 <details> 
 
 <summary><strong>Required Tools/Files</strong></summary>
-Human:
-
-- Understand English or Spanish, understand how to use twrp and cmd and if you're the one guy who raided our group because you couldn't meet any of these requirements, you can suck a fat one lmao
-
-- Functioning brain
-
 PC:
 - [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
 
