@@ -47,6 +47,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 <details> 
 
 <summary><strong>Required Tools/Files</strong></summary>
+
 Human:
 
 - Understand English or Spanish 
