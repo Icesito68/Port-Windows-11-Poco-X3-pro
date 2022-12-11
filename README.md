@@ -29,7 +29,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [ ] Audio ```Only if it is by usb or bluetooth```
 - [x] Bluetooth
 - [ ] Camera
-- [ ] LTE ```Nearly working, Windows detects it but does not allow access to the mobile network```
+- [x] LTE ```Only SIM1 now work```
 
 ### Sensors
 - [x] Accelerometer
