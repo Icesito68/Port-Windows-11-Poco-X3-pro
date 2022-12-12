@@ -86,6 +86,10 @@ Phone:
 
 [Transicion desde la guia vieja](guide/Español/0-transicion-es.md)
 
+#### Russian
+
+[Переход со старого руководства](/guide/Russian/0-transicion-ru.md)
+
 ## Installation:
 
 #### English
@@ -100,6 +104,12 @@ Phone:
 
 2- [Instalar Windows](guide/Español/2-instalacion-es.md)
 
+#### Russian
+
+1- [Разделы](/guide/Russian/1-partitions-ru.md)
+
+2- [Установка Windows](/guide/Russian/2-install-ru.md)
+
 ## Other Commands:
 
 #### English
@@ -113,6 +123,12 @@ Phone:
 - [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
 - [Si solo quieres desinstalar Windows sigue estos comandos commands](guide/Español/Eliminar-es.md)
+
+#### Russian
+
+- [Если вы хотите обновить драйвера следуйте этим командам](guide/Russian/update-ru.md)
+
+- [Если вы хотите удалить Windows следуйте этим командам](guide/Russian/delete-ru.md)
 
 ## Contributors
 
