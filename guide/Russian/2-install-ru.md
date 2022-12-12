@@ -61,9 +61,10 @@ exit
 
 ## Установка Windows
 
-> Замените `<path/to/Install.wim>` действительным путём к  install.wim,
+> Замените `<path/to/Install.wim>` действительным путём к install.wim,
 
 > `install.wim` находится в папке sources внутри вашего iso
+
 > Вы можете получить этот файл распаковав его(или смонтировав)
 
 ```cmd
