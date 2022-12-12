@@ -16,4 +16,4 @@ fastboot flash partition:0 <gpt_both0.bin>
 fastboot -w
 ```
 
-## [Следующий шаг: Разделы](/guide/Russian/1-partition-ru.md)
+## [Следующий шаг: Разделы](/guide/Russian/1-partitions-ru.md)
