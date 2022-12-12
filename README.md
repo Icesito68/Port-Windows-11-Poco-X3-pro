@@ -86,6 +86,10 @@ Phone:
 
 [Transicion desde la guia vieja](guide/Español/0-transicion-es.md)
 
+#### Portuguese
+
+[Transição do antigo guia](guide/Português/0-transicao-pt.md)
+
 ## Installation:
 
 #### English
@@ -100,6 +104,12 @@ Phone:
 
 2- [Instalar Windows](guide/Español/2-instalacion-es.md)
 
+#### Portuguese
+
+1- [Partição](guide/Português/1-particao-pt.md)
+
+2- [Instalar Windows](guide/Português/2-instalacao-pt.md)
+
 ## Other Commands:
 
 #### English
@@ -113,6 +123,12 @@ Phone:
 - [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
 - [Si solo quieres desinstalar Windows sigue estos comandos commands](guide/Español/Eliminar-es.md)
+
+#### Portuguese
+
+- [Se você deseja apenas atualizar os drivers, siga estes comandos](guide/Português/atualizar-pt.md)
+
+- [Se você deseja desinstalar o Windows, siga estes comandos](guide/Português/deletar-pt.md)
 
 ## Contributors
 
@@ -143,6 +159,8 @@ Phone:
 - [haouarihk](https://github.com/haouarihk) ```Great suggestions on the command notes, also made the new guide```
 
 - [bibarub](https://github.com/bibarub) ```Guide improvenents```
+
+- [juanfariasdev](https://github.com/juanfariasdev) ```Translation into Portuguese```
 
 </details>  
 
