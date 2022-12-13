@@ -50,7 +50,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 
 Human:
 
-- Understand English or Spanish 
+- Understand English, Spanish or Russian 
 
 - Understand how to use TWRP
 
