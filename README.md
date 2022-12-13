@@ -41,7 +41,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [ ] Fingerprint
 
 
-## Installation instructions
+## Guides and requirements
 
 
 <details> 
@@ -75,60 +75,99 @@ Phone:
 
 </details> 
 
+<details> 
 
-## For people who followed the old guide or broke their partition table:
+<summary><strong>For people who followed the old guide or broke their partition table</strong></summary>
+  
+<details> 
 
-#### English
+<summary><strong>English</strong></summary>
 
 [Transition from the old guide](guide/English/0-transition-en.md)
+  
+</details> 
 
-#### Spanish
+<details> 
+
+<summary><strong>Spanish</strong></summary>
 
 [Transicion desde la guia vieja](guide/Español/0-transicion-es.md)
+  
+</details> 
 
-#### Russian
+<details> 
+
+<summary><strong>Russian</strong></summary>
 
 [Переход со старого руководства](/guide/Russian/0-transicion-ru.md)
+  
+</details> 
 
-## Installation:
+</details> 
 
-#### English
+### Windows installation instructions
 
-1- [Partition](guide/English/1-partition-en.md)
+<details> 
 
-2- [Install Windows](guide/English/2-install-en.md)
+<summary><strong>English</strong></summary>
 
-#### Spanish
+1 - [Create partitions](guide/English/1-partition-en.md)
 
-1- [Particiones](guide/Español/1-particiones-es.md)
+2 - [Install Windows](guide/English/2-install-en.md)
+  
+</details> 
+  
+<details> 
 
-2- [Instalar Windows](guide/Español/2-instalacion-es.md)
+<summary><strong>Spanish</strong></summary>
 
-#### Russian
+1 - [Crear particiones](guide/Español/1-particiones-es.md)
 
-1- [Разделы](/guide/Russian/1-partitions-ru.md)
+2 - [Instalar Windows](guide/Español/2-instalacion-es.md)
+  
+</details> 
 
-2- [Установка Windows](/guide/Russian/2-install-ru.md)
+<details> 
+  
+<summary><strong>Russian</strong></summary>
 
-## Other Commands:
+1 - [Создание разделов](/guide/Russian/1-partitions-ru.md)
 
-#### English
+2 - [Установка Windows](/guide/Russian/2-install-ru.md)
+  
+</details> 
+
+### Other guides:
+
+<details> 
+
+<summary><strong>English</strong></summary>
 
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
 
 - [If you want to uninstall Windows follow these commands](guide/English/delete-en.md)
+  
+</details> 
 
-#### Spanish
+<details> 
+
+<summary><strong>Spanish</strong></summary>
 
 - [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
 - [Si solo quieres desinstalar Windows sigue estos comandos commands](guide/Español/Eliminar-es.md)
+  
+</details> 
 
-#### Russian
+<details> 
+
+<summary><strong>Russian</strong></summary>
 
 - [Если вы хотите обновить драйвера следуйте этим командам](guide/Russian/update-ru.md)
 
 - [Если вы хотите удалить Windows следуйте этим командам](guide/Russian/delete-ru.md)
+
+</details> 
 
 ## Contributors
 
