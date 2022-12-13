@@ -160,5 +160,7 @@ Phone:
 
 - [bibarub](https://github.com/bibarub) ```Guide improvenents```
 
+- [wormstest](https://github.com/wormstest) ```Translate guide to Russian``` 
+
 </details>  
 
