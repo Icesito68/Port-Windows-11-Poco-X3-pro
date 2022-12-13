@@ -29,7 +29,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [ ] Audio ```Only if it is by usb or bluetooth```
 - [x] Bluetooth
 - [ ] Camera
-- [x] LTE ```Only SIM1 now work```
+- [x] LTE ```Only SIM1 now work, with extra steps on each reboot```
 
 ### Sensors
 - [x] Accelerometer
