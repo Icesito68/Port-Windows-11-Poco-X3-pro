@@ -14,9 +14,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 Most of the hardware works, but some important components (sound, camera) do not work. We're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it will work on the Poco X3 Pro.
 
-<details>
-<summary><strong>Hardware status</strong></summary>
-
 #### Features
 
 - [x] USB ```Powered hub needed```
@@ -43,7 +40,6 @@ Most of the hardware works, but some important components (sound, camera) do not
 - [x] Light sensor
 - [ ] Fingerprint
 
-</details>
 
 ## Guides and requirements
 
