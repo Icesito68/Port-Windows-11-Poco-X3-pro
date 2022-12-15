@@ -1,8 +1,8 @@
-# Running Windows 11 On The Poco X3 Pro
+# Windows ARM on POCO X3 Pro
 
 <img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/Vayu-Windows11 (3).png" width="425" alt="Windows 11 Running On A Poco X3 Pro">
 
-# ⚠️ **Warning**
+## Disclaimer
 
 We're not responsible for bricked devices, missing recovery partitions, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
@@ -10,12 +10,15 @@ This project is in an early stage, all the files here have been contributed by o
 
 **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
-## Project Status
+## Project status
 
-Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it will work on the Poco X3 Pro.
+Most of the hardware works, but some important components (sound, camera) do not work. We're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it will work on the Poco X3 Pro.
 
-## Hardware status
-### Features
+<details>
+<summary><strong>Hardware status</strong></summary>
+
+#### Features
+
 - [x] USB ```Powered hub needed```
 - [x] UEFI buttons
 - [x] UFS
@@ -31,7 +34,7 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [ ] Camera
 - [x] LTE ```Only SIM1 now work, with extra steps on each reboot```
 
-### Sensors
+#### Sensors
 - [x] Accelerometer
 - [x] Magnetometer
 - [x] Gyroscope 
@@ -40,12 +43,11 @@ Beta, we're porting drivers from Xiaomi Pad 5 and Surface Duo in hope that it wi
 - [x] Light sensor
 - [ ] Fingerprint
 
+</details>
 
 ## Guides and requirements
 
-
 <details> 
-
 <summary><strong>Required Tools/Files</strong></summary>
 
 Human:
@@ -60,7 +62,7 @@ Human:
 
 PC:
 
-- [Windows on ARM image](https://uupdump.net/) (Windows 11 is Recommended)
+- [Windows on ARM image](https://uupdump.net/) (Windows 11 is recommended)
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
