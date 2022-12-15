@@ -29,7 +29,7 @@ diskpart
 ### Assign `x` to Windows volume
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's usually the ones named "WINVAYU" and "ESPVAYU"
+> Use `list volume` to find it, it's the ones named "WINVAYU" and "ESPVAYU"
 
 ```diskpart
 select volume <number>
