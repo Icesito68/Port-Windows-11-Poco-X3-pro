@@ -30,7 +30,7 @@ adb shell
 # Setup Partitions
 #### Give correct permissions to the tools
 ```sh
-chmod 755 parted
+chmod +x /sbin/*
 ```
 
 ### Resize the partition table
