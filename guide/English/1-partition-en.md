@@ -111,12 +111,12 @@ adb shell
 ### Format partitions
 -  Format the ESP partiton as FAT32
 ```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp
+mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
 ```
 
 -  Format the Windows partition as NTFS
 ```sh
-mkfs.ntfs -f /dev/block/by-name/win
+mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
 ```
 
 - Format data
