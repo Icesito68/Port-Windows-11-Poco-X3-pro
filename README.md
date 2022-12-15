@@ -1,4 +1,4 @@
-# Windows ARM on POCO X3 Pro
+# Running Windows on Arm on the POCO X3 Pro
 
 <img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/Vayu-Windows11 (3).png" width="425" alt="Windows 11 Running On A Poco X3 Pro">
 
