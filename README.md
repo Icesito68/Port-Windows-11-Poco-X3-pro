@@ -12,7 +12,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Project status
 
-Most of the hardware works, but some important components (sound, camera) do not work yet. These drivers were ported from Xiaomi Pad 5 and Surface Duo in hopes that it will work on our Poco X3 Pro.
+Alpha, Most of the hardware works, but some important components (sound, camera) do not work yet. These drivers were ported from Xiaomi Pad 5 and Surface Duo in hopes that it will work on our Poco X3 Pro.
 
 #### Features
 
