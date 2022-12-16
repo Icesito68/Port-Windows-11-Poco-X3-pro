@@ -108,7 +108,7 @@ bcdboot X:\Windows /s Y: /f UEFI
   
   
 
-# Allow unsigned driver
+# Allow unsigned drivers
 
 > If you don't do this you'll get a BSOD
 
@@ -141,9 +141,9 @@ adb push <uefi.img> /external_sd
 
 
 ### Flash the uefi image from twrp.
-navigate to the `uefi.img` file and flash it into boot.
+Navigate to the `uefi.img` file and flash it into boot.
 
 # Boot back into Android
-> use your backup boot image from twrp.
+> Use your backup boot image from TWRP.
 
 # Finished!
