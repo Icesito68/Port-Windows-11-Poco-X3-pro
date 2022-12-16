@@ -2,7 +2,7 @@
 
 <img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/Vayu-Windows11 (3).png" width="425" alt="Windows 11 Running On A Poco X3 Pro">
 
-## Disclaimer
+## ⚠️ **Warning**
 
 We're not responsible for bricked devices, missing recovery partitions, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
