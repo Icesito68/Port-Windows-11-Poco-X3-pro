@@ -12,7 +12,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Project status
 
-Alpha, Most of the hardware works, but some components do not work yet.
+Beta, Most of the hardware works, but some components do not work yet.
 
 #### Features
 
