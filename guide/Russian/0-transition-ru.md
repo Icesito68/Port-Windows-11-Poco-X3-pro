@@ -11,9 +11,9 @@
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-# Очистка userdata, чтобы избежать bootloop (не требуется, если userdata расшифрована)
+# Очистка userdata, чтобы избежать bootloop и восстановить размер файловой системы
 ```cmd
 fastboot -w
 ```
 
-## [Следующий шаг: Разделы](/guide/Russian/1-partitions-ru.md)
+## [Следующий шаг: Разметка](/guide/Russian/1-partitions-ru.md)

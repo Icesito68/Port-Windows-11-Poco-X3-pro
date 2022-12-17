@@ -1,15 +1,10 @@
 # Install Windows
 > You will need to have MTP disabled in Mount
 
-## Push needed tools:
-```cmd
-adb push msc.sh /sbin
-```
-
-### Execute script
+### Execute the msc script
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc.sh
 ```
 
   
@@ -26,7 +21,7 @@ diskpart
 ```
 
 
-### Assign `x` to Windows volume
+### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
 > Use `list volume` to find it, it's the ones named "WINVAYU" and "ESPVAYU"
@@ -35,12 +30,12 @@ diskpart
 select volume <number>
 ```
 
-#### Assign the letter x
+#### Assign the letter X
 ```diskpart
 assign letter=x
 ```
 
-### Assign `y` to esp volume
+### Assign `Y` to esp volume
 
 #### Select the esp volume of the phone
 > Use `list volume` to find it, it's usually the last one
@@ -49,7 +44,7 @@ assign letter=x
 select volume <number>
 ```
 
-#### Assign the letter y
+#### Assign the letter Y
 
 ```diskpart
 assign letter=y
@@ -65,9 +60,9 @@ exit
 
 ## Install
 
-> Replace `<path/to/Install.wim>` with the actual install.wim path,
+> Replace `<path/to/install.wim>` with the actual install.wim path,
 
-> `install.wim` is located in sources folder inside your iso
+> `install.wim` is located in sources folder inside your ISO
 > You can get it either by mounting or extracting it
 
 ```cmd
@@ -76,10 +71,10 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Check what type of panel you have
 
-> In TWRP go to Advanced, Terminal
+> Open cmd as an Administrator
 
- ```cmd
- cat /proc/cmdline
+```cmd
+adb shell cat /proc/cmdline
 ```
 > Look for display almost at the bottom
 
@@ -90,8 +85,6 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 # Install Drivers
 
 > Replace `<vayudriversfolder>` with the location of the drivers folder
-
-> Open cmd as an Administrator
 
 ```cmd
 driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
@@ -117,9 +110,6 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 # Boot into Windows
-> I recommend having a microSD you store the boot images on
-
-> So that you don't need a pc to push the files.
 
 ### Move the `<uefi.img>` file to the device
 
@@ -140,10 +130,10 @@ adb push <uefi.img> /external_sd
 > Put it to the microSD card if possible
 
 
-### Flash the uefi image from twrp.
-Navigate to the `uefi.img` file and flash it into boot.
+### Flash the uefi image from TWRP
+Navigate to the `uefi.img` file and flash it into boot
 
 # Boot back into Android
-> Use your backup boot image from TWRP.
+> Use your backup boot image from TWRP
 
 # Finished!

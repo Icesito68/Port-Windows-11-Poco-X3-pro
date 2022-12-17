@@ -1,15 +1,10 @@
 # Установка Windows
 > Вам нужно будет отключить MTP в разделе "Монтирование"
 
-## Переместите нужные утилиты в телефон:
-```cmd
-adb push msc.sh /sbin
-```
-
 ### Запустите скрипт
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc.sh
 ```
 
 
@@ -24,30 +19,30 @@ adb shell sh /sbin/msc.sh
 diskpart
 ```
 
-### Назначение буквы `x` разделу Windows
+### Назначение буквы `X` разделу Windows
 
 #### Выбор раздела Windows в телефоне
-> Используйте `list volume` для того чтобы найти раздел Windows, обычно он предпоследний
+> Используйте `list volume` для того, чтобы найти раздел Windows, обычно он предпоследний
 
 ```diskpart
 select volume <number>
 ```
 
-#### Назначение буквы `x`
+#### Назначение буквы `X`
 ```diskpart
 assign letter=x
 ```
 
-### Назначение буквы `x` разделу ESP
+### Назначение буквы `Y` разделу ESP
 
 #### Выбор раздела ESP в телефоне
-> Используйте `list volume` для того чтобы найти раздел Windows, обычно он последний
+> Используйте `list volume` для того, чтобы найти раздел Windows, обычно он последний
 
 ```diskpart
 select volume <number>
 ```
 
-### Назначение буквы `y`
+### Назначение буквы `Y`
 
 ```diskpart
 assign letter=y
@@ -61,11 +56,11 @@ exit
 
 ## Установка Windows
 
-> Замените `<path/to/Install.wim>` действительным путём к install.wim,
+> Замените `<path/to/install.wim>` действительным путём к install.wim,
 
-> `install.wim` находится в папке sources внутри вашего iso
+> `install.wim` находится в папке sources внутри вашего ISO
 
-> Вы можете получить этот файл распаковав его(или смонтировав)
+> Вы можете получить этот файл распаковав или смонтировав его
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -73,12 +68,12 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Проверьте, какой у вас тип панели
 
-> В TWRP перейдите в Дополнительно->Терминал
+> Откройте cmd от имени Администратора
 
- ```cmd
- cat /proc/cmdline
+```cmd
+adb shell cat /proc/cmdline
 ```
-> Ищите экран в почти самом внизу
+> Ищите экран почти в самом внизу
 
 > Если ваше устройство `<tianma>`: j20s_36
 
@@ -88,15 +83,13 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Замените `<vayudriversfolder>` путём к папке с вашими драйверами
 
-> Откройте cmd от имени администратора
-
 ```cmd
 driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
 ```
 
 
 
-# Создайте файлы загрузчика Windows для EFI
+# Создайте файлы загрузчика Windows
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
@@ -107,22 +100,21 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 # Разрешите неподписанные драйвера
 
-> Если вы этого не сделаете, вы получите BSOD
+> Если вы этого не сделаете, то получите BSOD
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 # Загрузитесь в Windows
-> Я рекомендую иметь microSD, на котором вы храните загрузочные образы, для того чтобы не использовать комьютер для загрузки в ту или иную ОС.
 
-### Переместите файл `<uefi.img>` на устройство
+### Скопируйте файл `<uefi.img>` на устройство
 
 ```cmd
 adb push <uefi.img> /sdcard
 ```
 
-##### Если вы используете sd карту используйте это
+##### Если у вас есть microSD карта, то скопируйте файл на нее
 
 ```cmd
 adb push <uefi.img> /external_sd
@@ -132,13 +124,13 @@ adb push <uefi.img> /external_sd
 ### Сделайте резервную копию текущего загрузочного раздела
 > Вам нужно сделать это только один раз
 
-> Поместите его на карту microSD, если это возможно
+> Поместите его на microSD карту, если возможно
 
 
-### Прошейте UEFI используя TWRP.
-Найдите файл `uefi.img` и прошейте его в boot.
+### Прошейте UEFI через TWRP
+Найдите файл `uefi.img` и прошейте его в boot
 
 # Загрузитесь обратно в Android
-> Используйте вашу резервную копию в TWRP.
+> Используйте вашу резервную копию в TWRP
 
 # Готово!
