@@ -197,7 +197,9 @@ Phone:
 
 - [bibarub](https://github.com/bibarub) ```Guide improvenents```
 
-- [wormstest](https://github.com/wormstest) ```Translate guide to Russian``` 
+- [wormstest](https://github.com/wormstest) ```Translated guide to Russian``` 
+
+- [proganime1200](https://github.com/proganime1200) ```Tremendously helped to make this possible, heavily contirbuted to the old guide by finding bk01-04 partitions and had managed to nearly get winpe booting in the early stages```
 
 </details>  
 
