@@ -179,7 +179,7 @@ Phone:
 
 - [Degdag](https://github.com/degdag) ```Improves UEFI and ported drivers```
 
-- [Halal-Beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot Windows, also ported drivers```
+- [halal-beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot Windows, also ported drivers```
   
 - [Renegade Project](https://github.com/edk2-porting) ```Making the core of this project```
 
