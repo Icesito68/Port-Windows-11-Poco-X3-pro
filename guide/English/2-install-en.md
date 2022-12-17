@@ -76,7 +76,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```cmd
 adb shell cat /proc/cmdline
 ```
-> Look for "msm_drm.dsi_display0" almost at the bottom
+> Look for `msm_drm.dsi_display0` almost at the bottom
 
 > If your device is `Tianma` msm_drm.dsi_display0 will be `dsi_j20s_36_02_0a_video_display`
 
