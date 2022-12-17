@@ -12,7 +12,7 @@
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-# Erase userdata to avoid bootloop (not needed if userdata decrypted)
+# Erase userdata to avoid bootloop
 ```cmd
 fastboot -w
 ```
