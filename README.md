@@ -76,11 +76,11 @@ Phone:
 
 <summary><strong>For people who followed the old guide, broke their partition table or just want to uninstall Windows</strong></summary>
 
-[English](guide/English/0-transition-en.md)
+- [English](guide/English/0-transition-en.md)
 
-[Español](guide/Español/0-transicion-es.md)
+- [Español](guide/Español/0-transicion-es.md)
  
-[Русский](/guide/Russian/0-transition-ru.md) 
+- [Русский](/guide/Russian/0-transition-ru.md) 
 
 </details> 
 
