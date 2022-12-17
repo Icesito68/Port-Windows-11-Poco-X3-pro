@@ -68,7 +68,7 @@ PC:
 Phone:
 - [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
 
-- [Modified TWRP/OFRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/recovery)
+- [Modified TWRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/recovery)
 
 </details> 
 
