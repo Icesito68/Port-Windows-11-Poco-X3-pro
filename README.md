@@ -12,33 +12,34 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Project status
 
-Beta, Most of the hardware works, but some components do not work yet.
+Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
 
-- [x] USB ```Powered hub needed```
-- [x] UEFI buttons
-- [x] UFS
-- [x] Touchscreen
-- [x] Display
-- [x] Brightness
-- [x] WiFi
+- [ ] Audio ```Only by USB or Bluetooth```
 - [x] Battery status
-- [ ] Charging ```In progress, working partially```
-- [x] GPU
-- [ ] Audio ```Only if it is by usb or bluetooth```
 - [x] Bluetooth
+- [x] Brightness
 - [ ] Camera
-- [x] LTE ```Only SIM1 now work, with extra steps on each reboot```
+- [ ] Charging ```In progress, working partially```
+- [x] Display
+- [ ] FM
+- [x] GPU
+- [x] LTE ```Only SIM1; requires provisioning on every boot```
+- [ ] SD 
+- [x] Touchscreen
+- [x] UFS
+- [x] USB ```PD hub needed```
+- [x] Wi-Fi
 
 #### Sensors
 - [x] Accelerometer
-- [x] Magnetometer
-- [x] Gyroscope 
-- [x] GPS
-- [x] Proximity
-- [x] Light sensor
 - [ ] Fingerprint
+- [x] GPS
+- [x] Gyroscope
+- [x] Light sensor
+- [x] Magnetometer
+- [x] Proximity
 
 
 ## Guides and requirements
@@ -64,42 +65,22 @@ PC:
 
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
 
-- [Binaries](../../releases/tag/binaries) required for partitioning
-
 Phone:
-- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest) for Poco X3 Pro
+- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
 
-- [TWRP](https://twrp.me/xiaomi/xiaomipocox3pro.html) for Poco X3 Pro.
+- [Modified TWRP/OFRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/recovery)
 
 </details> 
 
 <details> 
 
-<summary><strong>For people who followed the old guide or broke their partition table</strong></summary>
-  
-<details> 
+<summary><strong>For people who followed the old guide, broke their partition table or just want to uninstall Windows</strong></summary>
 
-<summary><strong>English</strong></summary>
+[English](guide/English/0-transition-en.md)
 
-[Transition from the old guide](guide/English/0-transition-en.md)
-  
-</details> 
-
-<details> 
-
-<summary><strong>Spanish</strong></summary>
-
-[Transicion desde la guia vieja](guide/Español/0-transicion-es.md)
-  
-</details> 
-
-<details> 
-
-<summary><strong>Russian</strong></summary>
-
-[Переход со старого руководства](/guide/Russian/0-transicion-ru.md)
-  
-</details> 
+[Español](guide/Español/0-transicion-es.md)
+ 
+[Русский](/guide/Russian/0-transition-ru.md) 
 
 </details> 
 
@@ -117,7 +98,7 @@ Phone:
   
 <details> 
 
-<summary><strong>Spanish</strong></summary>
+<summary><strong>Español</strong></summary>
 
 1 - [Crear particiones](guide/Español/1-particiones-es.md)
 
@@ -127,9 +108,9 @@ Phone:
 
 <details> 
   
-<summary><strong>Russian</strong></summary>
+<summary><strong>Русский</strong></summary>
 
-1 - [Создание разделов](/guide/Russian/1-partitions-ru.md)
+1 - [Создание разделов](/guide/Russian/1-partition-ru.md)
 
 2 - [Установка Windows](/guide/Russian/2-install-ru.md)
   
@@ -142,28 +123,22 @@ Phone:
 <summary><strong>English</strong></summary>
 
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
-
-- [If you want to uninstall Windows follow these commands](guide/English/delete-en.md)
   
 </details> 
 
 <details> 
 
-<summary><strong>Spanish</strong></summary>
+<summary><strong>Español</strong></summary>
 
 - [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
-
-- [Si solo quieres desinstalar Windows sigue estos comandos commands](guide/Español/Eliminar-es.md)
   
 </details> 
 
 <details> 
 
-<summary><strong>Russian</strong></summary>
+<summary><strong>Русский</strong></summary>
 
-- [Если вы хотите обновить драйвера следуйте этим командам](guide/Russian/update-ru.md)
-
-- [Если вы хотите удалить Windows следуйте этим командам](guide/Russian/delete-ru.md)
+- [Если вы хотите обновить драйвера, следуйте этим командам](guide/Russian/update-ru.md)
 
 </details> 
 
@@ -197,7 +172,7 @@ Phone:
 
 - [bibarub](https://github.com/bibarub) ```Guide improvenents```
 
-- [wormstest](https://github.com/wormstest) ```Translated guide to Russian``` 
+- [wormstest](https://github.com/wormstest) ```Russian translation``` 
 
 - [proganime1200](https://github.com/proganime1200) ```Tremendously helped to make this possible, heavily contirbuted to the old guide by finding bk01-04 partitions and had managed to nearly get winpe booting in the early stages```
 
