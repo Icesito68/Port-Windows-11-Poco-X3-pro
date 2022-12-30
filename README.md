@@ -63,10 +63,10 @@ PC:
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/MollySophia/LGE-sm8150-Drivers/releases/)
 
 Phone:
-- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
+- [UEFI image](https://github.com/MollySophia/MU-sm8150pkg/releases/)
 
 - [Modified TWRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
 
