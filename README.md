@@ -148,6 +148,8 @@ Phone:
 
 <summary><b><strong>Credits</strong></b></summary>
 
+- [Morc](Https://GitHub.com/themorc) ```Made the vayu images```
+
 - [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made this repo```
 
 - [Map220v](https://github.com/map220v) ```Provided help and vayu UEFI uses nabu UFS patches and ACPI and also ported mi pad 5 drivers```
