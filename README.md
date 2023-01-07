@@ -82,6 +82,8 @@ Phone:
  
 - [Русский](/guide/Russian/0-transition-ru.md) 
 
+- [Українська](/guide/Ukrainian/0-transition-uk.md) 
+
 </details> 
 
 ### Windows installation instructions
@@ -116,6 +118,16 @@ Phone:
   
 </details> 
 
+<details> 
+
+<summary><strong>Українська</strong></summary>
+
+1 - [Створення розділів](guide/Ukrainian/1-partition-uk.md)
+
+2 - [Встановлення Windows](guide/Ukrainian/2-install-uk.md)
+  
+</details> 
+
 ### Other guides:
 
 <details> 
@@ -139,6 +151,14 @@ Phone:
 <summary><strong>Русский</strong></summary>
 
 - [Если вы хотите обновить драйвера, следуйте этим командам](guide/Russian/update-ru.md)
+
+</details> 
+
+<details> 
+
+<summary><strong>Українська</strong></summary>
+
+- [Якщо ви хочете оновити драйвера, дотримуйтесь цих командам](guide/Ukrainian/update-uk.md)
 
 </details> 
 
