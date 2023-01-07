@@ -14,4 +14,4 @@ fastboot flash partition:0 <gpt_both0.bin>
 fastboot -w
 ````
 
-## [Наступний крок: Розмітка](/guide/Ukrainian/0-partition-uk.md)
+## [Наступний крок: Розмітка](/guide/Ukrainian/1-partition-uk.md)
