@@ -8,7 +8,7 @@ adb shell msc.sh
 ```
 
 
-## Назначние букв разделам
+## Назначение букв разделам
 
 
 #### Запуск diskpart
@@ -36,7 +36,7 @@ assign letter=x
 ### Назначение буквы `Y` разделу ESP
 
 #### Выбор раздела ESP в телефоне
-> Используйте `list volume` для того, чтобы найти раздел Windows, обычно он последний
+> Используйте `list volume` для того, чтобы найти раздел ESP, обычно он последний
 
 ```diskpart
 select volume <number>
@@ -52,7 +52,6 @@ assign letter=y
 ```diskpart
 exit
 ```
-
 
 ## Установка Windows
 
@@ -87,16 +86,11 @@ adb shell cat /proc/cmdline
 driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
 ```
 
-
-
 # Создайте файлы загрузчика Windows
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-
-
 
 # Разрешите неподписанные драйвера
 
@@ -120,12 +114,10 @@ adb push <uefi.img> /sdcard
 adb push <uefi.img> /external_sd
 ```
 
-
 ### Сделайте резервную копию текущего загрузочного раздела
 > Вам нужно сделать это только один раз
 
 > Поместите его на microSD карту, если возможно
-
 
 ### Прошейте UEFI через TWRP
 Найдите файл `uefi.img` и прошейте его в boot
