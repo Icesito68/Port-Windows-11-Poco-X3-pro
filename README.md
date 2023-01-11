@@ -158,7 +158,7 @@ Phone:
 
 <summary><strong>Українська</strong></summary>
 
-- [Якщо ви хочете оновити драйвера, дотримуйтесь цих командам](guide/Ukrainian/update-uk.md)
+- [Якщо ви хочете оновити драйвера, дотримуйтесь цих команд](guide/Ukrainian/update-uk.md)
 
 </details> 
 
