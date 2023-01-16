@@ -1,119 +1,120 @@
-This step is required so that we make partitions where our Windows installation will be
+Šis žingsnis yra privalomas, kad galima būtų sukurti particijas kur bus įrašyti Windows
 
-## Notes:
-> **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
-- All your data will be erased! Backup now if needed.
-- These commands have been tested.
-- Ignore `udevadm` warnings
-- Do not run the same command twice
-- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayu)
+## Pastabos:
+> **Dėmesio** jeigu vėliau arba dabar ištrinsite bet kurią particiją per diskpart, Windows išsiųs UFS komandą, kuri bus nesuprasta ir ištrins visą UFS saugyklą
+- Visi jūsų duomenys bus ištrinti! Jeigu reikia, padarykite atsarginęs kopijas dabar.
+- Šios komandos buvo išbandytos.
+- Nekreipkite dėmęsio į `udevadm` įspėjimus
+- Nenaudokite tos pačios komandos daugiau nei vieną kartą
+- NEPERKRAUKITE TELEFONO, jeigu manote, kad padarėte klaidą, klauskite pagalbos [Telegram pokalbiuose](https://t.me/winonvayu)
 
-#### Boot TWRP recovery through the PC with the command
+#### Paleiskite telefoną į TWRP per kompiuterį su šia komanda:
 ```cmd
 fastboot boot <twrp.img>
 ```
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
+> Jeigu jūsų telefone TWRP jau įrašytas, laikykite įjungimo ir vol+ mygtukus įjungiant telefoną
 
-#### Unmount all partitions
-Go to TWRP settings and unmount all partitions
+#### Atmontuokite visas particijas
+Eikite į TWRP nustatymus ir atmontuokite visas particijas
 
-## Start the ADB shell
+## Paleiskite ADB shell
 ```cmd
 adb shell
 ```
 
-### Resize the partition table
-> So that the Windows partitions would fit
+### Pakeiskite particijos lentelės dydį
+> Kad tilptų Windows particijos
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Start parted
+### Paleiskite parted
 ```sh
 parted /dev/block/sda
 ```
 
 
-### Delete the `userdata` partition
-> You can make sure that 32 is the userdata partition number by running
+### Ištrinkite `userdata` particiją
+> Galite patikrinti, kad 32 yra userdata particijos numeris paleidžiant šią komandą
 >  `print all`
 ```sh
 rm 32
 ```
 
-### Create partitions
-> If you get any warning message telling you to ignore or cancel, just type i and enter
+### Sukurkite particijas
+> Jeigu gausite įspėjamą pranešimą prašantį ignoruoti arba atšaukti, rašykite i ir spauskite enter
 
-#### For 128Gb models:
+#### Skirta 128Gb modeliams:
 
-- Create the ESP partition (stores Windows bootloader data and EFI files)
+- Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
 ```sh
 mkpart esp fat32 11.8GB 12.2GB
 ```
 
-- Create the main partition where Windows will be installed to
+- Sukurkite pagrindinę particiją, kur bus įrašyti Windows
 ```sh
 mkpart win ntfs 12.2GB 70.2GB
 ```
 
-- Create Android's data partition
+- Sukurkite Android duomenų particiją
 ```sh
 mkpart userdata ext4 70.2GB 127GB
 ```
 
 
-#### For 256Gb models:
+#### Skirta 256Gb modeliams:
 
-- Create the ESP partition (stores Windows bootloader data and EFI files)
+- Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
 ```sh
 mkpart esp fat32 11.8GB 12.2GB
 ```
 
-- Create the main partition where Windows will be installed to
+-  Sukurkite pagrindinę particiją, kur bus įrašyti Windows
 ```sh
 mkpart win ntfs 12.2GB 132.2GB
 ```
 
-- Create Android's data partition
+- Sukurkite Android duomenų particiją
 ```sh
 mkpart userdata ext4 132.2GB 255GB
 ```
 
 
-### Make ESP partiton bootable so the EFI image can detect it
+### Padarykite ESP particiją paleidžiamą, kad EFI disko atvaizdas galėtų tai aptikti
 ```sh
 set 32 esp on
 ```
 
-### Quit parted
+### Išeikite iš parted
 ```sh
 quit
 ```
 
-### Reboot to TWRP
+### Perkraukite telefoną į TWRP
 
-### Start the shell again on your PC
+### Jūsų kompiuteryje paleiskite komandinę eilutę iš naujo
 ```cmd
 adb shell
 ```
 
-### Format partitions
--  Format the ESP partiton as FAT32
+### Suformatuokite particijas
+-  Suformatuokite ESP particiją kaip FAT32
 ```sh
 mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
 ```
 
--  Format the Windows partition as NTFS
+-  Suformatuokite Windows particiją kaip NTFS
 ```sh
 mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
 ```
 
-- Format data
-Go to Wipe menu and press Format Data, 
-then type `yes`.
+- Suformatuokite Android duomenų particiją
 
-### Check if Android still starts
-just restart the phone, and see if Android still works
+Eikite į išvalymo meniu ir paspauskite Format Data, 
+tada parašykite `yes`.
+
+### Patikrinkite, ar Android sistema vis dar pasileidžia
+Perkraukite telefona, ir patikrinkite ar Android operacinė sistema pilnai pasileidžia
 
 
-## [Next step: Install Windows](/guide/English/2-install-en.md)
+## [Kitas žingsnis: Įdiegti Windows](/guide/Lithuanian/2-install-lt.md)
