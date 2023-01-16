@@ -138,4 +138,4 @@ Nueikite iki `uefi.img` failo vietos, ir įrašykite tai į boot particiją
 # Perkraukite telefoną atgal į Android sistemą
 > Naudokite jūsų atsarginės kopijos padarytą boot atvaizdą iš TWRP
 
-# Finished!
+# Darbas užbaigtas!
