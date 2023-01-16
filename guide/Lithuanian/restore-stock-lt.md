@@ -7,7 +7,7 @@ Jeigu sekėte seną gidą, jūsų particijų sąrašo eilės bus per daug skirti
 Jeigu norite pašalinti Windows sistemą, šis gidas yra naudojamas tam, kad rankiniu būdu ištrinant particijas niekas nebūtų sugadinta dėl žmogaus klaidos + rašant visą gidą, skirtą tik Windows sistemos pašalinimui
 
 Jeigu norėsite užrakinti telefono sistemos paleidyklę (bootloader), telefonui reikalinga įprastinė, nemodifikuota particijos lentelė.
-### Dependencies
+### Privalomi failai
 
 [gpt_both0.bin](../../../../releases/tag/binaries)
 
@@ -22,7 +22,7 @@ Jeigu norėsite užrakinti telefono sistemos paleidyklę (bootloader), telefonui
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-## Ištrinkite userdata, kad išvengti sistemos beribio persikrovimo ciklo (bootloop), ir atstatyti FS dydi
+## Ištrinkite userdata, kad išvengti sistemos beribio persikrovimo ciklo (bootloop), ir atstatyti FS dydį
 
 ```cmd
 fastboot -w
