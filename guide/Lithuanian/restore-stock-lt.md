@@ -1,29 +1,29 @@
-## Restore stock partition table
+## Atstatykite įprastinę particijos lentelę
 
-### Why is this needed?
+### Kam to reikia?
 
-If you have followed the old guide your partition order will be too different and may have some consequences if you dont restore your stock partition table.
+Jeigu sekėte seną gidą, jūsų particijų sąrašo eilės bus per daug skirtingos, ir tai gali turėti pasekmių jeigu neatstatysite įprastinės particijos lentelės.
 
-If you want to uninstall windows this is used instead of deleting partitions manually to avoid human error + writing a whole dedicated guide to just uninstalling.
+Jeigu norite pašalinti Windows sistemą, šis gidas yra naudojamas tam, kad rankiniu būdu ištrinant particijas niekas nebūtų sugadinta dėl žmogaus klaidos + rašant visą gidą, skirtą tik Windows sistemos pašalinimui
 
-If you want to relock your bootloader you'll need your partition table to be stock.
-
+Jeigu norėsite užrakinti telefono sistemos paleidyklę (bootloader), telefonui reikalinga įprastinė, nemodifikuota particijos lentelė.
 ### Dependencies
 
 [gpt_both0.bin](../../../../releases/tag/binaries)
 
-### Notes
+### Pastabos
 
-> Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.
+> Pakeiskite ```<gpt_both0.bin>``` su keliu į gpt_both0.bin failą.
 
 
-## Restore GPT
+## Atstatykite GPT
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-## Erase userdata to avoid bootloop and restore FS size
+## Ištrinkite userdata, kad išvengti sistemos beribio persikrovimo ciklo (bootloop), ir atstatyti FS dydi
+
 ```cmd
 fastboot -w
 ```
