@@ -1,60 +1,60 @@
-#### Start TWRP recovery through the PC with the command
+#### Paleiskite TWRP recovery per kompiuterį su šia komanda
 
 ```cmd
 fastboot boot <twrp.img>
 ```
 
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
+> Jeigu jūsų telefone TWRP jau įrašytas, laikykite įjungimo ir vol+ mygtukus įjungiant telefoną
 
 
-## Push script
+## Išsiuskite skriptą į telefoną
 
 ```cmd
 adb push msc /sbin
 ```
 
-### Execute script
+### Paleiskite šį skriptą
 
 ```cmd
 adb shell sh /sbin/msc
 ```
 
-## Assign letters to disks
+## Priskirkite raides diskams
 
-#### Start the Windows disk manager
+#### Paleiskite Windows diskų tvarkytuvę
 
-> Once the X3 Pro is detected as a disk
+> Kai X3 Pro yra aptiktas kaip diskas
 
 ```cmd
 diskpart
 ```
 
 
-### Assign `x` to Windows volume
+### Priskirkite `x` Windows diskui
 
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, it's usually the one before the last
+#### Pasirinkite telefono Windows diską
+> Naudokite `list volume` norint tai rasti, dažniausiai taip būna paskutinis pasirinkimas
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter x
+#### Priskirkite raidę x
 ```diskpart
 assign letter=x
 ```
 
-### Exit diskpart:
+### Išeikite iš diskpart:
 ```diskpart
 exit
 ```
 
 
-# Install Drivers
+# Įrašykite draiverius
 
-> Replace `<vayudriversfolder>` with the location of the drivers folder
+> Pakeiskite `<vayudriversfolder>` su draiverių aplanko vieta
 
-> Open cmd as administrator
+> Atidarykite komandinę eilutę su administratoriaus teisėmis
 
 
 ```cmd
@@ -62,7 +62,7 @@ exit
 ```
 
 
-##### Boot with Windows bootable UEFI image #####
+##### Paleiskite Windows sistemą su UEFI atvaizdu #####
 
 ```
 fastboot flash boot <uefi.img>
@@ -71,4 +71,4 @@ fastboot flash boot <uefi.img>
   
   
 
-# Finished!
+# Darbas užbaigtas!
