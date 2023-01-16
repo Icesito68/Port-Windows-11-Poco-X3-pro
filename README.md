@@ -84,6 +84,8 @@ Phone:
 
 - [Українська](/guide/Ukrainian/0-transition-uk.md) 
 
+- [Lietuvių](guide/Lithuanian/restore-stock-lt.md)
+
 </details> 
 
 ### Windows installation instructions
