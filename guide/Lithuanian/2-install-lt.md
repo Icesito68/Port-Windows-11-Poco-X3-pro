@@ -1,5 +1,4 @@
 # Įdiekite Windows
-> You will need to have MTP disabled in Mount
 > Jūs turėsite būti išjungę MTP esančiame Mount meniu
 
 ### Paleiskite msc skriptą
