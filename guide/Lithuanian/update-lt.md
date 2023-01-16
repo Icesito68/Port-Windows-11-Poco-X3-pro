@@ -7,7 +7,7 @@ fastboot boot <twrp.img>
 > Jeigu jūsų telefone TWRP jau įrašytas, laikykite įjungimo ir vol+ mygtukus įjungiant telefoną
 
 
-## Išsiuskite skriptą į telefoną
+## Išsiųskite skriptą į telefoną
 
 ```cmd
 adb push msc /sbin
