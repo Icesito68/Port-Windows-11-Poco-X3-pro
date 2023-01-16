@@ -128,6 +128,16 @@ Phone:
   
 </details> 
 
+<details> 
+
+<summary><strong>Lietuvių</strong></summary>
+
+1 - [Particijų sukūrimas](guide/Lithuanian/1-partition-lt.md)
+
+2 - [Įdiegti Windows](guide/Lithuanian/2-install-lt.md)
+  
+</details> 
+
 ### Other guides:
 
 <details> 
@@ -160,6 +170,14 @@ Phone:
 
 - [Якщо ви хочете оновити драйвера, дотримуйтесь цих команд](guide/Ukrainian/update-uk.md)
 
+</details> 
+
+<details> 
+
+<summary><strong>Lietuvių</strong></summary>
+
+- [Jeigu norite atnaujinti tik draiverius, sekite šias komandas](guide/Lithuanian/update-lt.md)
+  
 </details> 
 
 ## Contributors
