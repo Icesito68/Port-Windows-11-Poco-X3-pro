@@ -23,7 +23,7 @@ If you want to relock your bootloader you'll need your partition table to be sto
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-# Erase userdata to avoid bootloop and restore FS size
+## Erase userdata to avoid bootloop and restore FS size
 ```cmd
 fastboot -w
 ```
