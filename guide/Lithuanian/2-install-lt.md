@@ -1,7 +1,8 @@
-# Install Windows
+# Įdiekite Windows
 > You will need to have MTP disabled in Mount
+> Jūs turėsite būti išjungę MTP esančiame Mount meniu
 
-### Execute the msc script
+### Paleiskite msc skriptą
 
 ```cmd
 adb shell msc.sh
@@ -9,48 +10,50 @@ adb shell msc.sh
 
   
 
-## Assign letters to disks
+## Priskirkite raides diskams
+
   
 
-#### Start the Windows disk manager
+#### Paleiskite Windows diskų tvarkytuvą
 
-> Once the X3 Pro is detected as a disk
+> Kai X3 Pro yra aptiktas kaip diskas
 
 ```cmd
 diskpart
 ```
 
 
-### Assign `X` to Windows volume
+### Priskirkite `X` Windows diskui
 
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the ones named "WINVAYU" and "ESPVAYU"
+#### Pasirinkite telefono Windows diską
+> Naudokite `list volume` komandą norint tai rasti, jie pavadinti "WINVAYU" ir "ESPVAYU"
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter X
+#### Priskirkite raidę X
 ```diskpart
 assign letter=x
 ```
 
-### Assign `Y` to esp volume
+### Priskirkite `Y` ESP diskui
 
-#### Select the esp volume of the phone
-> Use `list volume` to find it, it's usually the last one
+#### Pasirinkite telefono ESP diską
+
+> Naudokite `list volume` norint tai rasti, dažniausiai taip būna paskutinis pasirinkimas
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter Y
+#### Priskirkite raidę Y
 
 ```diskpart
 assign letter=y
 ```
 
-### Exit diskpart:
+### Išeikite iš diskpart:
 ```diskpart
 exit
 ```
@@ -58,33 +61,33 @@ exit
   
   
 
-## Install
+## Įdiegimas
 
-> Replace `<path/to/install.wim>` with the actual install.wim path,
+> Pakeiskite `<path/to/install.wim>` su egzistuojančiu install.wim failo keliu,
 
-> `install.wim` is located in sources folder inside your ISO
-> You can get it either by mounting or extracting it
+> `install.wim` failas yra sources aplanke, ISO disko viduje
+> Jūs tai galite gauti arba užmontavę, arba atskleidę ISO failą kaip archyvą
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-# Check what type of panel you have
+# Patikrinkite, kokią ekrano panelę turi jūsų telefonas
 
-> Open cmd
+> Atidarykite komandinę eilutę
 
 ```cmd
 adb shell cat /proc/cmdline
 ```
-> Look for `msm_drm.dsi_display0` almost at the bottom
+> Ieškokite `msm_drm.dsi_display0` eilutės, kuri yra beveik apačioje
 
-> If your device is `Tianma` msm_drm.dsi_display0 will be `dsi_j20s_36_02_0a_video_display`
+> Jeigu jūsų įrenginys yra `Tianma`, msm_drm.dsi_display0 bus `dsi_j20s_36_02_0a_video_display`
 
-> If your device is `Huaxing` msm_drm.dsi_display0 will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) and delete j20s_novatek_ts_fw01.bin, finally rename j20s_novatek_ts_fw02.bin to j20s_novatek_ts_fw01.bin
+> Jeigu jūsų įrenginys yra `Huaxing`, msm_drm.dsi_display0 bus `dsi_j20s_42_02_0b_video_display`, jeigu taip ir yra, eikite į draiverių aplanką (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) ir ištrinkite j20s_novatek_ts_fw01.bin, galiausiai pervadinkite j20s_novatek_ts_fw02.bin į j20s_novatek_ts_fw01.bin
 
-# Install Drivers
+# Įrašykite draiverius
 
-> Replace `<vayudriversfolder>` with the location of the drivers folder
+> Pakeiskite `<vayudriversfolder>` su draiverių aplanko vieta
 
 ```cmd
 driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
@@ -92,7 +95,7 @@ driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu
 
   
 
-# Create Windows bootloader files for the EFI
+# Sukurkite Windows paleidimo instrukcijų failus skirtas EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
@@ -101,39 +104,39 @@ bcdboot X:\Windows /s Y: /f UEFI
   
   
 
-# Allow unsigned drivers
+# Leiskite nepasirašytus draiverius
 
-> If you don't do this you'll get a BSOD
+> Jeigu to nepadarysite, paleidžiant sistemą gausite BSOD klaidą
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-# Boot into Windows
+# Paleiskite į Windows
 
-### Move the `<uefi.img>` file to the device
+### Perkelkite `<uefi.img>` failą į savo įrenginį
 
 ```cmd
 adb push <uefi.img> /sdcard
 ```
 
-##### if you have a microSD card use this
+##### Jeigu naudojate microSD kortelę, naudokite šią komandą
 
 ```cmd
 adb push <uefi.img> /external_sd
 ```
 
 
-### Make a backup of your existing boot image
-> You need to do it just once
+### Padarykite atsarginę kopiją jūsų egzistuojančio boot atvaizdo
+> Jums tai reikės padaryti tik vieną kartą
 
-> Put it to the microSD card if possible
+> Jeigu įmanoma, įkelkite tai į microSD kortelę
 
 
-### Flash the uefi image from TWRP
-Navigate to the `uefi.img` file and flash it into boot
+### Įrašykite uefi atvaizdą iš TWRP
+Nueikite iki `uefi.img` failo vietos, ir įrašykite tai į boot particiją
 
-# Boot back into Android
-> Use your backup boot image from TWRP
+# Perkraukite telefoną atgal į Android sistemą
+> Naudokite jūsų atsarginės kopijos padarytą boot atvaizdą iš TWRP
 
 # Finished!
