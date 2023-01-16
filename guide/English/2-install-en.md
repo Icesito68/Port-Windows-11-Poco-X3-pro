@@ -71,7 +71,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Check what type of panel you have
 
-> Open cmd as an Administrator
+> Open cmd
 
 ```cmd
 adb shell cat /proc/cmdline
