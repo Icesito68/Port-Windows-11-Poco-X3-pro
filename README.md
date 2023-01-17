@@ -80,9 +80,9 @@ Phone:
 
 - [Español](guide/Español/0-transicion-es.md)
  
-- [Русский](/guide/Russian/0-transition-ru.md) 
+- [Русский](/guide/Russian/restore-stock-ru.md) 
 
-- [Українська](/guide/Ukrainian/0-transition-uk.md) 
+- [Українська](/guide/Ukrainian/restore-stock-uk.md) 
 
 - [Lietuvių](guide/Lithuanian/restore-stock-lt.md)
 
