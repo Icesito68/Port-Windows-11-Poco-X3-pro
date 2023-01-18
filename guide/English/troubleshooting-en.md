@@ -3,6 +3,10 @@
 
 ### Device can boot into android but not bootloader
 
+Prerequisites:
+
+- [platform-tools](https://developer.android.com/studio/releases/platform-tools)
+
 This is caused by partitions with volume names the bootloader cannot handle, to fix this:
 
 - Boot to recovery
@@ -26,11 +30,11 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 Prerequisites:
 
-- (platform-tools)[https://developer.android.com/studio/releases/platform-tools]
+- [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
-- (OLD UEFI image)[https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip]
+- [OLD UEFI image](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip)
 
-- (NEW UEFI image)[http://github.com/degdag/edk2-msm/releases/latest]
+- (NEW UEFI image)(http://github.com/degdag/edk2-msm/releases/latest)
 
 - Boot to bootloader
 
@@ -54,4 +58,4 @@ Prerequisites:
 
 You have incorrectly configured the touch driver to fix this:
 
-- (Follow this part of the guide)[https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/English/2-install-en.md#check-what-type-of-panel-you-have]
+- [Follow this part of the guide](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/English/2-install-en.md#check-what-type-of-panel-you-have)
