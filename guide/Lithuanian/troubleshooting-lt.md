@@ -55,6 +55,7 @@ Reikiami įrankiai:
 
 
 ### Touchscreen touches are inaccurate/aukštyn kojomis
-Liečiamo ekrano lietimai yra netikslūs/ap
+
 Jūs neteisingai sukonfigūravote liečiamojo ekrano draiverius, norint tai sutvarkyti:
+
 - [Sekite šią gido dalį](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/English/2-install-en.md#check-what-type-of-panel-you-have)
