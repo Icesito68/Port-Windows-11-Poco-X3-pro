@@ -1,61 +1,60 @@
-## Troubleshooting Issues
+## Problemų šalinimas
 
 
-### Device can boot into android but not bootloader
+### Įrenginys gali pasileisti į Android sistemą, bet ne į sistemos paleidyklę (bootloader)
 
-Prerequisites:
-
-- [platform-tools](https://developer.android.com/studio/releases/platform-tools)
-
-This is caused by partitions with volume names the bootloader cannot handle, to fix this:
-
-- Boot to recovery
-
-- Connect phone to PC
-
-- Open cmd on PC
-
-- Run ```adb shell```
-
-- Run ```parted```
-
-- Run ```print``` to list all partitions
-
-- Look for partitions that have spaces in the names e.g "Basic Data Partition" and note their volume number
-
-- Now run ```rm <vol number>``` e.g ```rm 36```
-
-
-### BOUND_IMAGE_UNSUPPORTED BSOD on boot
-
-Prerequisites:
+Reikiami įrankiai:
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
-- [OLD UEFI image](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip)
+Šią problemą sukelia particijos su pavadinimais, kurių sistemos paleidyklė (bootloader) negali apdoroti, norint tai sutvarkyti:
 
-- (NEW UEFI image)[http://github.com/degdag/edk2-msm/releases/latest]
+- Paleiskite telefoną į recovery režimą
 
-- Boot to bootloader
+- Prijunkite telefoną prie kompiuterio
 
-- Connect phone to PC
+- Atidarykite komandinę eilutę kompiuteryje
 
-- Open cmd on PC
+- Paleiskite komandą ```adb shell```
 
-- Run ```fastboot boot <old_uefi.img>```, being sure to replace ```<old_uefi.img>``` with the appropiate image
+- Paleiskite komandą ```parted```
 
-- After the phone boots into windows reboot into bootloader again
+- Paleiskite komandą ```print``` kad išvardyti visas particijas
 
-- Run ```fastboot boot <new_uefi.img>```, being sure to replace ```<new_uefi.img>``` with the appropiate image
+- Ieškokite particijų, kurios turi tarpus pavadinimuose, pvz "Basic Data Partition" ir įsiminkite jų particijų numerius
 
-
-### Touchscreen doesnt work
-
-- Turn display off and on
+- Dabar paleiskite komandą ```rm <vol number>``` pvz ```rm 36```
 
 
-### Touchscreen touches are inaccurate/upside down
+### BOUND_IMAGE_UNSUPPORTED BSOD paleidus sistemą
 
-You have incorrectly configured the touch driver to fix this:
+Reikiami įrankiai:
 
-- [Follow this part of the guide](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/English/2-install-en.md#check-what-type-of-panel-you-have)
+- [platform-tools](https://developer.android.com/studio/releases/platform-tools)
+
+- [SENAS UEFI atvaizdas](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip)
+
+- (NAUJAS UEFI atvaizdas)[http://github.com/degdag/edk2-msm/releases/latest]
+
+- Paleiskite telefoną į bootloader režimą
+
+- Prijunkite telefoną prie kompiuterio
+
+- Atidarykite komandinę eilutę kompiuteryje
+
+- Paleiskite komandą ```fastboot boot <old_uefi.img>```, būdami tikri, kad pakeitėte ```<old_uefi.img>``` su tinkamu UEFI atvaizdu
+
+- Kai telefonas pasileis į Windows sistemą, perkraukite į bootloader režimą iš naujo
+
+- Paleiskite komandą ```fastboot boot <new_uefi.img>```, būdami tikri, kad pakeitėte ```<new_uefi.img>``` su tinkamu UEFI atvaizdu
+
+
+### Liečiamas ekranas neveikia
+
+- Išjunkite ir įjunkite telefono ekraną (maitinimo mygtukas)
+
+
+### Touchscreen touches are inaccurate/aukštyn kojomis
+Liečiamo ekrano lietimai yra netikslūs/ap
+Jūs neteisingai sukonfigūravote liečiamojo ekrano draiverius, norint tai sutvarkyti:
+- [Sekite šią gido dalį](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/English/2-install-en.md#check-what-type-of-panel-you-have)
