@@ -147,7 +147,9 @@ Phone:
 <summary><strong>English</strong></summary>
 
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
-  
+
+- [Troubleshooting issues](guide/English/troubleshooting-en.md)
+
 </details> 
 
 <details> 
@@ -164,6 +166,8 @@ Phone:
 
 - [Если вы хотите обновить драйвера, следуйте этим командам](guide/Russian/update-ru.md)
 
+- [Устранение проблем](guide/Russian/troubleshooting-ru.md)
+
 </details> 
 
 <details> 
@@ -171,6 +175,8 @@ Phone:
 <summary><strong>Українська</strong></summary>
 
 - [Якщо ви хочете оновити драйвера, дотримуйтесь цих команд](guide/Ukrainian/update-uk.md)
+
+- [Усуненя проблем](guide/Ukrainian/troubleshooting-uk.md)
 
 </details> 
 
