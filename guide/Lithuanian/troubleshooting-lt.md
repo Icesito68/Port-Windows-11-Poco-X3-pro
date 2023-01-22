@@ -54,7 +54,7 @@ Reikiami įrankiai:
 - Išjunkite ir įjunkite telefono ekraną (maitinimo mygtukas)
 
 
-### Touchscreen touches are inaccurate/aukštyn kojomis
+### Liečiamo ekrano palietimai netikslūs/aukštyn kojomis
 
 Jūs neteisingai sukonfigūravote liečiamojo ekrano draiverius, norint tai sutvarkyti:
 
