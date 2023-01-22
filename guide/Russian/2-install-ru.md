@@ -65,7 +65,7 @@ exit
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-# Проверьте, какой у вас тип панели
+# Узнайте ваш тип панели
 
 > Откройте cmd от имени Администратора
 
