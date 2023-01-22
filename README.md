@@ -185,7 +185,9 @@ Phone:
 <summary><strong>Lietuvių</strong></summary>
 
 - [Jeigu norite atnaujinti tik draiverius, sekite šias komandas](guide/Lithuanian/update-lt.md)
-  
+
+- [Problemų šalinimas](guide/Lithuanian/troubleshooting-lt.md)
+
 </details> 
 
 ## Contributors
