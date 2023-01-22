@@ -44,7 +44,7 @@ Prerequisites:
 
 - Run ```fastboot boot <old_uefi.img>```, being sure to replace ```<old_uefi.img>``` with the appropiate image
 
-- After the phone boots into windows reboot into bootloader again
+- After the phone boots into windows, reboot into bootloader again
 
 - Run ```fastboot boot <new_uefi.img>```, being sure to replace ```<new_uefi.img>``` with the appropiate image
 
@@ -56,6 +56,6 @@ Prerequisites:
 
 ### Touchscreen touches are inaccurate/upside down
 
-You have incorrectly configured the touch driver to fix this:
+You have incorrectly configured the touch driver, to fix this:
 
 - [Follow this part of the guide](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/English/2-install-en.md#check-what-type-of-panel-you-have)
