@@ -34,7 +34,7 @@ Prerequisites:
 
 - [OLD UEFI image](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip)
 
-- (NEW UEFI image)[http://github.com/degdag/edk2-msm/releases/latest]
+- [NEW UEFI image](http://github.com/degdag/edk2-msm/releases/latest)
 
 - Boot to bootloader
 
