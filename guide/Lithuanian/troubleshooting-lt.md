@@ -34,7 +34,7 @@ Reikiami įrankiai:
 
 - [SENAS UEFI atvaizdas](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip)
 
-- (NAUJAS UEFI atvaizdas)[http://github.com/degdag/edk2-msm/releases/latest]
+- [NAUJAS UEFI atvaizdas](http://github.com/degdag/edk2-msm/releases/latest)
 
 - Paleiskite telefoną į bootloader režimą
 
