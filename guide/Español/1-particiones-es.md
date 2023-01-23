@@ -32,23 +32,24 @@ adb shell
 chmod +x /sbin/*
 ```
 
-### Redimensionar la tabla de particiones
-> so that the Windows partitions would fit
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
 
 ### Iniciar parted
 ```sh
 parted /dev/block/sda
 ```
 
-
-### Borrar la partición `userdata` 
->Para asegurarte de que la partición 32 es userdata puedes usar
+### Borrar la partición `grow` 
+>Para asegurarte de que la partición 31 es userdata puedes usar
 >  `print all`
 ```sh
-rm 32
+rm 31
+```
+
+### Borrar la partición `userdata` 
+>Para asegurarte de que la partición 30 es userdata puedes usar
+>  `print all`
+```sh
+rm 30
 ```
 
 ### Crear particiones
@@ -58,41 +59,23 @@ rm 32
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart esp fat32 19.1GB 19.5GB
 ```
 
 - Creamos la partición principal donde instalaremos Windows
 ```sh
-mkpart win ntfs 12.2GB 70.2GB
+mkpart win ntfs 19.5GB 75.5GB
 ```
 
 - Creamos la partición de datos de Android
 ```sh
-mkpart userdata ext4 70.2GB 127GB
-```
-
-
-#### Para modelos de 256Gb:
-
-- Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
-```sh
-mkpart esp fat32 11.8GB 12.2GB
-```
-
-- Creamos la partición principal donde instalaremos Windows
-```sh
-mkpart win ntfs 12.2GB 132.2GB
-```
-
-- Creamos la partición de datos de Android
-```sh
-mkpart userdata ext4 132.2GB 255GB
+mkpart userdata ext4 75.5GB 126GB
 ```
 
 
 ### Hace a ESP la partición de arranque para que la imagen EFI pueda detectarla
 ```sh
-set 32 esp on
+set 30 esp on
 ```
 
 ### Salir de parted
