@@ -21,7 +21,7 @@ diskpart
 
 ### Призначення літери `X` разделу Windows
 
-#### Вибір розділа Windows в телефоні
+#### Вибір розділа Windows у телефоні
 > Використовуйте `list volume` для того, щоб знайти розділ Windows, звичайно він передостанній
 
 ```diskpart
@@ -58,7 +58,7 @@ exit
 
 > Замініть `<path/to/install.wim>` дійсним шляхом до install.wim,
 
-> `install.wim` знаходиться в папці sources всередині вашого ISO
+> `install.wim` знаходиться у теці sources всередині вашого ISO
 
 > Ви можете отримати цей файл розпакувавши або смонтувавши йего
 
@@ -68,7 +68,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Дізнайтесь який у вас тип панелі
 
-> Відкрийте cmd от імені Адміністратора
+> Відкрийте cmd от імені адміністратора
 
 ```cmd
 adb shell cat /proc/cmdline
@@ -81,7 +81,7 @@ adb shell cat /proc/cmdline
 
 # Встановлення драйверів
 
-> Замініть `<vayudriversfolder>` шляхом к папці с вашими драйверами
+> Замініть `<vayudriversfolder>` шляхом к тецы с вашими драйверами
 
 ```cmd
 driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
