@@ -23,10 +23,9 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Camera
 - [ ] Charging ```In progress, working partially```
 - [x] Display
-- [ ] FM
 - [x] GPU
 - [x] LTE ```Only SIM1; requires provisioning on every boot```
-- [ ] SD 
+- [x] SD 
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```PD hub needed```
