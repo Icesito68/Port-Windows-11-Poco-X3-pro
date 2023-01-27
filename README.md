@@ -48,7 +48,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 Human:
 
-- Understand English, Spanish or Russian 
+- Understand English, Spanish, Russian, Lithuanian or Ukrainian 
 
 - Understand how to use TWRP
 
