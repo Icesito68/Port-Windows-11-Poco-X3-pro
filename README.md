@@ -21,17 +21,17 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [ ] Charging ```In progress, working partially```
+- [ ] Charging ```Only slow charging now```
 - [x] Display
 - [x] GPU
 - [x] LTE ```Only SIM1; requires provisioning on every boot```
-- [x] SD 
-- [x] Touchscreen
+- [x] SD ```Need unplug and plug many times```
+- [x] Touchscreen ```Need off on display after boot```
 - [x] UFS
 - [x] USB ```PD hub needed```
 - [x] Wi-Fi
 
-#### Sensors
+#### Sensors (Need to provision after install Windows)
 - [x] Accelerometer
 - [ ] Fingerprint
 - [x] GPS
