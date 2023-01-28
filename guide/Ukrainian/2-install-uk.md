@@ -75,9 +75,9 @@ adb shell cat /proc/cmdline
 ```
 > Шукайте екран майже в самом низу
 
-> Якщо ваш пристрій має панель `<tianma>`: j20s_36
+> Якщо ваш пристрій `Tianma`, `msm_drm.dsi_display0` буде `dsi_j20s_36_02_0a_video_display`
 
-> Якщо ваш пристрій має панель `<huaxing>`: j20s_42, то перейдіть в папку драйверів тачскріну (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) і видаліть j20s_novatek_ts_fw01.bin, після чого, перейменуйте j20s_novatek_ts_fw02.bin в j20s_novatek_ts_fw01.bin
+> Якщо ваш пристрій `Huaxing`, `msm_drm.dsi_display0` буде `dsi_j20s_42_02_0b_video_display`. Якщо це так, перейдіть до папки драйверів `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/`, видаліть j20s_novatek_ts_fw01.bin і перейменуйте j20s_novatek_ts_fw02.bin на j20s_novatek_ts_fw01.bin
 
 # Встановлення драйверів
 
