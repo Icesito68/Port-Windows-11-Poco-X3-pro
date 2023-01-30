@@ -33,7 +33,7 @@ chmod +x /sbin/*
 ```
 
 ### Redimensionar la tabla de particiones
-> so that the Windows partitions would fit
+> para que las particiones de Windows entren
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
