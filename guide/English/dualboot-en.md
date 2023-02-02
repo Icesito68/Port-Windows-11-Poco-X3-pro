@@ -6,13 +6,13 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP/OFOX](../../../releases/recoveries)
+- [TWRP/OFOX](../../../../releases/Recoveries)
 
-- [NTFS Android Magisk Module](../../../releases/ntfsdroid)
+- [NTFS Android Magisk Module](../../../../releases/ntfsdroid)
 
 - [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
 
-- [UEFI & Android Boot Flashing Script/App](../../../releases/dualboot)
+- [UEFI & Android Boot Flashing Script/App](../../../../releases/dualboot)
 
 - [Cygwin](https://www.cygwin.com/setup-x86_64.exe)
 
