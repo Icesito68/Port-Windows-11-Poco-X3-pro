@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- [TWRP/OFOX](../../../../Recoveries)
+- [TWRP/OFOX](../../../../releases/Recoveries)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
 
