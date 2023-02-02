@@ -1,6 +1,13 @@
 # Install Windows
 > You will need to have MTP disabled in Mount
 
+## Prerequisites
+
+- [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
+- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+
 ### Execute the msc script
 
 ```cmd
@@ -80,7 +87,7 @@ adb shell cat /proc/cmdline
 
 > If your device is `Tianma` `msm_drm.dsi_display0` will be `dsi_j20s_36_02_0a_video_display`
 
-> If your device is `Huaxing` `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/` and delete j20s_novatek_ts_fw01.bin, finally rename j20s_novatek_ts_fw02.bin to j20s_novatek_ts_fw01.bin
+> If your device is `Huaxing` `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/` and delete `j20s_novatek_ts_fw01.bin`, finally rename `j20s_novatek_ts_fw02.bin` to `j20s_novatek_ts_fw01.bin`
 
 # Install Drivers
 

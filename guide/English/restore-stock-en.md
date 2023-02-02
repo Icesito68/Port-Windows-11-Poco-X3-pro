@@ -8,9 +8,10 @@ If you want to uninstall windows this is used instead of deleting partitions man
 
 If you want to relock your bootloader you'll need your partition table to be stock.
 
-### Dependencies
+## Prerequisites
 
-[gpt_both0.bin](../../../../releases/tag/binaries)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [gpt_both0.bin](../../../../releases/tag/binaries)
 
 ### Notes
 

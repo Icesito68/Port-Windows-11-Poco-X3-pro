@@ -1,11 +1,11 @@
-## Troubleshooting Issues
+# Troubleshooting Issues
 
 
-### Device can boot into android but not bootloader
+## Device can boot into android but not bootloader
 
-Prerequisites:
+### Prerequisites:
 
-- [platform-tools](https://developer.android.com/studio/releases/platform-tools)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 This is caused by partitions with volume names the bootloader cannot handle, to fix this:
 
@@ -26,11 +26,11 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 - Now run ```rm <vol number>``` e.g ```rm 36```
 
 
-### BOUND_IMAGE_UNSUPPORTED BSOD on boot
+## BOUND_IMAGE_UNSUPPORTED BSOD on boot
 
-Prerequisites:
+### Prerequisites:
 
-- [platform-tools](https://developer.android.com/studio/releases/platform-tools)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 - [OLD UEFI image](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip)
 
@@ -49,12 +49,12 @@ Prerequisites:
 - Run ```fastboot boot <new_uefi.img>```, being sure to replace ```<new_uefi.img>``` with the appropiate image
 
 
-### Touchscreen doesnt work
+## Touchscreen doesnt work
 
 - Turn display off and on
 
 
-### Touchscreen touches are inaccurate/upside down
+## Touchscreen touches are inaccurate/upside down
 
 You have incorrectly configured the touch driver, to fix this:
 

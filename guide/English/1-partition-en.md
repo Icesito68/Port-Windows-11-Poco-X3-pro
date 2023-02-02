@@ -1,4 +1,10 @@
-This step is required so that we make partitions where our Windows installation will be
+# Partitioning your device
+
+## Prerequisites
+
+- [Modded TWRP/OFOX](../../../releases/recoveries)
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notes:
 > **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
@@ -7,6 +13,10 @@ This step is required so that we make partitions where our Windows installation 
 - Ignore `udevadm` warnings
 - Do not run the same command twice
 - DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayu)
+
+#### ⚠️ Do not run all commands at once, execute them in order!
+
+#### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
 #### Boot TWRP recovery through the PC with the command
 ```cmd
@@ -44,7 +54,8 @@ rm 32
 ### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
-#### For 128Gb models:
+<details>
+<summary><b><strong>For 128GB Models</strong></b></summary>
 
 - Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
@@ -60,9 +71,11 @@ mkpart win ntfs 12.2GB 70.2GB
 ```sh
 mkpart userdata ext4 70.2GB 127GB
 ```
+  </summary>
+</details>
 
-
-#### For 256Gb models:
+<details>
+<summary><b><strong>For 256GB Models</strong></b></summary>
 
 - Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
@@ -78,7 +91,8 @@ mkpart win ntfs 12.2GB 132.2GB
 ```sh
 mkpart userdata ext4 132.2GB 255GB
 ```
-
+  </summary>
+</details>
 
 ### Make ESP partiton bootable so the EFI image can detect it
 ```sh
