@@ -1,3 +1,11 @@
+# Update Drivers
+
+## Prerequisites
+
+- [TWRP/OFOX](../../../../Recoveries)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+
 #### Start TWRP recovery through the PC with the command
 
 ```cmd
