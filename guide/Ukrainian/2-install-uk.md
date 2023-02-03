@@ -1,6 +1,25 @@
 # Розгортання образу Windows
+> Вам потрібно вимкнути MTP в розділі "Монтування"
+
+### Запустіть скрипт msc.sh
+```cmd
+adb shell msc.sh
+```
+
+### Призначення літер розділам
+> Коли ваш телефон визначився як диск запустіть diskpart
+```diskpart
+Використовуйте list vol для того, щоб знайти розділи Windows і ESP, вони називаються "WINVAYU" і "ESPVAYU".
+# select volume <win-partition-number>
+# assign letter=x
+# select volume <esp-partition-number>
+# assign letter=y
+# exit
+```
+
 > Замініть `<path\to\install.wim>` дійсним шляхом до `install.wim`, він знаходиться у теці `sources` всередині вашого ISO
-> Ви можете отримати цей файл розпакувавши або смонтувавши йего
+
+> Ви можете отримати цей файл розпакувавши або смонтувавши його
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
@@ -36,7 +55,7 @@ driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu
 <details> 
 <summary><strong>Подвійне завантаження між Android та Windows</strong></summary>
 
-- [Ви маєте переглянути цей посібник](/dualboot.md)
+- [Ви маєте переглянути цей посібник](/https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide//dualboot-uk.md)
   
 </details>
 
