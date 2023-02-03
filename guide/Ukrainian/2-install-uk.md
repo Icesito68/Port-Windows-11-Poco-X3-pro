@@ -1,131 +1,57 @@
-# Встановлення Windows
-> Вам потрібно вимкнути MTP в розділі "Монтування"
-
-### Запустіть скрипт
-
-```cmd
-adb shell msc.sh
-```
-
-
-## Призначення літер розділам
-
-
-#### Запуск diskpart
-
-> Коли ваш телефон визначився як диск
-
-```cmd
-diskpart
-```
-
-### Призначення літери `X` разделу Windows
-
-#### Вибір розділа Windows у телефоні
-> Використовуйте `list volume` для того, щоб знайти розділ Windows, звичайно він передостанній
-
-```diskpart
-select volume <number>
-```
-
-#### Призначення літери `X`
-```diskpart
-assign letter=x
-```
-
-### Призначення літери `Y` розділу ESP
-
-#### Вибір розділа ESP в телефоні
-> Використовуйте `list volume` для того, щоб знайти розділ ESP, звичайно він останній
-
-```diskpart
-select volume <number>
-```
-
-### Призначення літери `Y`
-
-```diskpart
-assign letter=y
-```
-
-### Вихід із diskpart:
-```diskpart
-exit
-```
-
-
-## Встановлення Windows
-
-> Замініть `<path/to/install.wim>` дійсним шляхом до install.wim,
-
-> `install.wim` знаходиться у теці sources всередині вашого ISO
-
+# Розгортання образу Windows
+> Замініть `<path\to\install.wim>` дійсним шляхом до `install.wim`, він знаходиться у теці `sources` всередині вашого ISO
 > Ви можете отримати цей файл розпакувавши або смонтувавши йего
-
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-# Дізнайтесь який у вас тип панелі
-
-> Відкрийте cmd от імені адміністратора
-
-```cmd
-adb shell cat /proc/cmdline
-```
-> Шукайте екран майже в самом низу
-
-> Якщо ваш пристрій `Tianma`, `msm_drm.dsi_display0` буде `dsi_j20s_36_02_0a_video_display`
-
-> Якщо ваш пристрій `Huaxing`, `msm_drm.dsi_display0` буде `dsi_j20s_42_02_0b_video_display`. Якщо це так, перейдіть до папки драйверів `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/`, видаліть j20s_novatek_ts_fw01.bin і перейменуйте j20s_novatek_ts_fw02.bin на j20s_novatek_ts_fw01.bin
-
-# Встановлення драйверів
-
-> Замініть `<vayudriversfolder>` шляхом к тецы с вашими драйверами
-
-```cmd
-driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
-```
-
-# Створіть файли завантажувача Windows
-
+### Створіть файли завантажувача Windows
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-# Дозвольте непідписані драйвера
-
+### Дозвольте непідписані драйвера
 > Якщо ви цього не зробите, то отримаєте BSOD
-
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-# Завантажтеся у Windows
-
-### Скопіюйте файл `<uefi.img>` на пристрій
-
+### Встановлення драйверів
+#### Дізнайтесь, який у вас тип панелі
+> Перейдіть у теку `platform-tools`
 ```cmd
-adb push <uefi.img> /sdcard
+adb shell cat /proc/cmdline
+```
+> Шукайте екран майже в самом низу
+> Якщо ваш пристрій `Tianma`, то `msm_drm.dsi_display0` буде `dsi_j20s_36_02_0a_video_display`
+> Якщо ваш пристрій `Huaxing`, то `msm_drm.dsi_display0` буде `dsi_j20s_42_02_0b_video_display`. Вам треба перейти до папки драйверів `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/`, видалити j20s_novatek_ts_fw01.bin, і перейменувати j20s_novatek_ts_fw02.bin в j20s_novatek_ts_fw01.bin
+
+> Замініть `<vayudriversfolder>` шляхом к теці с вашими драйверами
+```cmd
+driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
 ```
 
-##### Якщо ви маєте microSD карту, то скопіюйте файл на неї
+### Завантаження Windows
 
-```cmd
-adb push <uefi.img> /external_sd
+<details> 
+<summary><strong>Подвійне завантаження між Android та Windows</strong></summary>
+
+- [Ви маєте переглянути цей посібник](/dualboot.md)
+  
+</details>
+
+<details> 
+<summary><strong>Ручне завантаження Windows кожного разу</strong></summary>
+ 
+Перезавантажте телефон у fastboot, потім завантажте UEFI:
+  
+```fastboot
+fastboot boot <uefi.img>
 ```
-
-
-### Зробіть резервну копію поточного загрузочного розділа
-> Вам потрібно це зробити тільки один раз
-
-> Помістіть його на microSD карту, якщо можливо
-
-
-### Прошийте UEFI через TWRP
-Знайдіть файл `uefi.img` і прошийте його в boot
-
-# Завантажтеся назад в Android
-> Використовуйте резервну копію в TWRP
+При перезавантаженні буде завантажуватись Android, для завантаження у Windows вам потрібно знов завантажити UEFI.
+  
+</details>  
+  
+- Якщо ви маєте BSOD з кодом помилки BOUND_IMAGE_UNSUPPORTED під час першого завантаження Windows, вам потрібно використовувати [старий UEFI](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases) для першого завантаження (тачскрін не працює у старій версії UEFI).
 
 # Готово!
