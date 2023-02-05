@@ -18,13 +18,13 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Display
 - [x] GPU
 - [x] LTE ```Only SIM1; requires provisioning on every boot```
-- [x] SD ```Need unplug and plug many times```
+- [x] SD ```Need to unplug and plug many times to get the SD Card detected```
 - [x] Touchscreen ```Need off on display after boot```
 - [x] UFS
 - [x] USB ```PD hub needed```
 - [x] Wi-Fi
 
-#### Sensors (Need to provision after install Windows)
+#### Sensors (Need to provision after installing Windows)
 - [x] Accelerometer
 - [ ] Fingerprint
 - [x] GPS
