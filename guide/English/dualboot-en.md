@@ -12,9 +12,7 @@
 
 - [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
 
-- [UEFI & Android Boot Flashing Script/App](../../../../releases/dualboot)
-
-- [Cygwin](https://www.cygwin.com/setup-x86_64.exe)
+- [UEFI & Android Boot Flashing App](../../../../releases/dualboot)
 
 ## Phone Setup
 
@@ -42,17 +40,11 @@
 
 - When the recovery has booted run ```adb shell mount.ntfs /dev/block/by-name/win /win```
 - Run ```adb shell dd if=/dev/block/by-name/boot of=/win/boot.img```
-- Run ```adb push switchtoandroid.bat /win/Users/<username>/Desktop/switchtoandroid.bat``` (Substituting <username> with the username on your windows partition)
-  
-### Phone Setup (Windows)
-  
-  - Run ```adb reboot bootloader```
-  - Run ```fastboot boot <uefi.img>``` (Substituting <uefi.img> with the uefi image for your device)
-  - When the phone has booted to windows install cygwin
+- Run ```adb push switchtoandroid.exe /win/Users/<username>/Desktop/switchtoandroid.exe``` (Substituting <username> with the username on your windows partition)
   
 ### Booting to android
   
-  - Run switchtoandroid.bat on the phone as **ADMINISTRATOR**
+  - Run switchtoandroid.exe on the phone as **ADMINISTRATOR**
 
 ### Booting to windows
   
