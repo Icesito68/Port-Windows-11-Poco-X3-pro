@@ -57,7 +57,7 @@ exit
 ```
 
 
-# Install Drivers
+### Install Drivers
 
 > Replace `<vayudriversfolder>` with the location of the drivers folder
 
@@ -69,13 +69,10 @@ exit
 ```
 
 
-##### Boot with Windows bootable UEFI image
+### Boot with Windows bootable UEFI image
 
 ```
 fastboot flash boot <uefi.img>
 ```
 
-  
-  
-
-# Finished!
+## Finished!
