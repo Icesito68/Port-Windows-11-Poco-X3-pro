@@ -28,7 +28,7 @@ adb shell msc.sh
 
 ### Assign letters to disks
 
-#### Start the Windows disk manager
+### Start the Windows disk manager
 
 > Once the X3 Pro is detected as a disk
 
