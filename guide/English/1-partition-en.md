@@ -105,7 +105,7 @@ mkpart userdata ext4 132.2GB 255GB
 set 32 esp on
 ```
 
-### Quit parted
+#### Quit parted
 ```sh
 quit
 ```
@@ -132,8 +132,8 @@ mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
 Go to Wipe menu and press Format Data, 
 then type `yes`.
 
-### Check if Android still starts
-just restart the phone, and see if Android still works
+#### Check if Android still starts
+Just restart the phone, and see if Android still works
 
 
 ## [Next step: Install Windows](/guide/English/2-install-en.md)
