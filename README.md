@@ -48,3 +48,4 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="Ilya114" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93242944?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/wormstest)
 [<img alt="proganime1200" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/32473502?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/proganime1200)
 [<img alt="KuatoDev" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17999613?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/KuatoDev)
+[<img alt="nedokaka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104865210?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/nedokaka)
