@@ -147,7 +147,7 @@ adb push <uefi.img> /external_sd
 #### Flash the uefi image from TWRP
 Navigate to the `uefi.img` file and flash it into boot
 
-# Boot back into Android
+## Boot back into Android
 > Use your backup boot image from TWRP
 
-# Finished!
+## Finished!
