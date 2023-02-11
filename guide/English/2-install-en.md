@@ -26,7 +26,7 @@ adb shell msc.sh
 ### Assign letters to disks
   
 
-##### Start the Windows disk manager
+#### Start the Windows disk manager
 
 > Once the X3 Pro is detected as a disk
 
@@ -35,36 +35,36 @@ diskpart
 ```
 
 
-#### Assign `X` to Windows volume
+### Assign `X` to Windows volume
 
-##### Select the Windows volume of the phone
+#### Select the Windows volume of the phone
 > Use `list volume` to find it, it's the ones named "WINVAYU" and "ESPVAYU"
 
 ```diskpart
 select volume <number>
 ```
 
-##### Assign the letter X
+#### Assign the letter X
 ```diskpart
 assign letter=x
 ```
 
-##### Assign `Y` to esp volume
+#### Assign `Y` to esp volume
 
-##### Select the esp volume of the phone
+#### Select the esp volume of the phone
 > Use `list volume` to find it, it's usually the last one
 
 ```diskpart
 select volume <number>
 ```
 
-##### Assign the letter Y
+#### Assign the letter Y
 
 ```diskpart
 assign letter=y
 ```
 
-##### Exit diskpart:
+#### Exit diskpart:
 ```diskpart
 exit
 ```
