@@ -5,15 +5,15 @@
 
 ## Installation
 
-# Partitioning your device
+## Partitioning your device
 
-## Prerequisites
+### Prerequisites
 
 - [Modded TWRP/OFOX](../../../../releases/Recoveries)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-## Notes:
+### Notes:
 > **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
 - All your data will be erased! Backup now if needed.
 - These commands have been tested.
@@ -21,15 +21,14 @@
 - Do not run the same command twice
 - DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayu)
 
-#### ⚠️ Do not run all commands at once, execute them in order!
+##### ⚠️ Do not run all commands at once, execute them in order!
 
-#### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
+##### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-#### Boot TWRP recovery through the PC with the command
+##### Boot TWRP recovery through the PC with the command
 ```cmd
 fastboot boot <twrp.img>
 ```
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
 #### Unmount all partitions
 Go to TWRP settings and unmount all partitions
