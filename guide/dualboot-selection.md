@@ -8,3 +8,4 @@
 ### Select your language
 
 - [English](English/dualboot-en.md)
+- [Русский](Russian/dualboot-ru.md)
