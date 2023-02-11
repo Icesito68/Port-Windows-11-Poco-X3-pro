@@ -1,27 +1,36 @@
-Обновление драйверов в Windows
-#### Запустите TWRP с помощью fastboot используя комьютер 
+<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
-```cmd
+
+# Запуск Windows на POCO X3 Pro
+
+## Обновление драйверов в Windows
+
+### Требования
+
+- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
+- [Modded TWRP/OFOX](../../../../releases/Recoveries)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+
+#### Запустите TWRP с помощью fastboot используя комьютер
+
+```
+cmd
 fastboot boot <twrp.img>
 ```
 
 > Если у вас уже установлен TWRP, просто зажмите кнопки питания и громкости + при запуске телефона
 
-## Переместите скрипт msc в телефон
+
+#### Выполните скрипт
 
 ```cmd
-adb push msc/sbin
+adb shell msc.sh
 ```
 
-### Выполнение скрипта msc
+### Назначение буквы диску
 
-```cmd
-adb shell sh /sbin/msc
-```
-
-## Назначение буквы диску
-
-#### Запуск diskpart
+#### Запустите менеджер дисков Windows
 
 > Когда X3 Pro определиться как диск
 
@@ -32,41 +41,39 @@ diskpart
 
 ### Назначение буквы `x` разделу Windows
 
-#### Выберите раздела Windows на телефоне
-> Используйте list volume, чтобы найти его, обычно это предоследний раздел.
+#### Выберите раздел Windows
+> Используйте `list volume`, чтобы найти его, его имя "WINVAYU"
+
 ```diskpart
 select volume <номер>
 ```
 
-#### Назначение буквы x
+#### Назначение буквы `x`
 ```diskpart
 assign letter=x
 ```
 
-### Выход из diskpart:
+#### Выход из diskpart
 ```diskpart
 exit
 ```
 
 
-# Установка драйверов
-
-> Замените `<vayudriversfolder>` на ваше название папки с драйверами.
+### Установка драйверов
+> Замените `<vayudriversfolder>` на полный путь к папке с драйверами
 
 > Откройте cmd от имени администратора
 
 
 ```cmd
-.\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+DriverUpdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
 ```
 
-##### Загрузка с загрузочного образа UEFI
+
+### Загрузка с загрузочного образа UEFI
 
 ```
 fastboot flash boot <uefi.img>
 ```
 
-
-
-
-# Готово!
+## Готово!
