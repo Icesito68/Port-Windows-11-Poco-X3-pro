@@ -33,31 +33,31 @@ fastboot boot <twrp.img>
 #### Unmount all partitions
 Go to TWRP settings and unmount all partitions
 
-## Start the ADB shell
+### Start ADB shell
 ```cmd
 adb shell
 ```
 
-### Resize the partition table
-> So that the Windows partitions would fit
+#### Resize the partition table
+> So that the Windows partitions can fit
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Start parted
+#### Start parted
 ```sh
 parted /dev/block/sda
 ```
 
 
-### Delete the `userdata` partition
+#### Delete the `userdata` partition
 > You can make sure that 32 is the userdata partition number by running
 >  `print all`
 ```sh
 rm 32
 ```
 
-### Create partitions
+#### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
 <details>
@@ -100,7 +100,7 @@ mkpart userdata ext4 132.2GB 255GB
   </summary>
 </details>
 
-### Make ESP partiton bootable so the EFI image can detect it
+#### Make ESP partiton bootable so the EFI image can detect it
 ```sh
 set 32 esp on
 ```
@@ -110,14 +110,14 @@ set 32 esp on
 quit
 ```
 
-### Reboot to TWRP
+#### Reboot to TWRP
 
-### Start the shell again on your PC
+#### Start the shell again on your PC
 ```cmd
 adb shell
 ```
 
-### Format partitions
+#### Format partitions
 -  Format the ESP partiton as FAT32
 ```sh
 mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
