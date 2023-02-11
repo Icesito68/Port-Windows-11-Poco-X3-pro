@@ -64,7 +64,7 @@ select volume <number>
 assign letter=y
 ```
 
-#### Exit diskpart:
+#### Exit diskpart
 ```diskpart
 exit
 ```
