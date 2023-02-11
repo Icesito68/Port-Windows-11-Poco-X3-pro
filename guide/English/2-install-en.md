@@ -115,7 +115,7 @@ bcdboot X:\Windows /s Y: /f UEFI
   
   
 
-# Allow unsigned drivers
+## Allow unsigned drivers
 
 > If you don't do this you'll get a BSOD
 
@@ -123,9 +123,9 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-# Boot into Windows
+## Boot into Windows
 
-### Move the `<uefi.img>` file to the device
+#### Move the `<uefi.img>` file to the device
 
 ```cmd
 adb push <uefi.img> /sdcard
@@ -138,13 +138,13 @@ adb push <uefi.img> /external_sd
 ```
 
 
-### Make a backup of your existing boot image
+#### Make a backup of your existing boot image
 > You need to do it just once
 
 > Put it to the microSD card if possible
 
 
-### Flash the uefi image from TWRP
+#### Flash the uefi image from TWRP
 Navigate to the `uefi.img` file and flash it into boot
 
 # Boot back into Android
