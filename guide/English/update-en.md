@@ -20,7 +20,7 @@ fastboot boot <twrp.img>
 > If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
 
-### Execute script
+#### Execute script
 
 ```cmd
 adb shell msc.sh
@@ -28,7 +28,7 @@ adb shell msc.sh
 
 ### Assign letters to disks
 
-### Start the Windows disk manager
+#### Start the Windows disk manager
 
 > Once the X3 Pro is detected as a disk
 
@@ -51,7 +51,7 @@ select volume <number>
 assign letter=x
 ```
 
-### Exit diskpart:
+#### Exit diskpart:
 ```diskpart
 exit
 ```
