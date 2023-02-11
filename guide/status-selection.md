@@ -8,3 +8,4 @@
 ### Select your language
 
 - [English](English/status.md)
+- [Русский](Russian/status-ru.md)
