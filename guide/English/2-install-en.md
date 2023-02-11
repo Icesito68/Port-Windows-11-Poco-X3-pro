@@ -38,7 +38,7 @@ diskpart
 ### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the ones named "WINVAYU" and "ESPVAYU"
+> Use `list volume` to find it, it's the one named "WINVAYU"
 
 ```diskpart
 select volume <number>
@@ -49,10 +49,10 @@ select volume <number>
 assign letter=x
 ```
 
-#### Assign `Y` to esp volume
+### Assign `Y` to esp volume
 
-#### Select the esp volume of the phone
-> Use `list volume` to find it, it's usually the last one
+#### Select the ESP volume of the phone
+> Use `list volume` to find it, it's the one named "ESPVAYU"
 
 ```diskpart
 select volume <number>
