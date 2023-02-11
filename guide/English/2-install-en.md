@@ -8,14 +8,14 @@
 ## Installing Windows
 > You will need to have MTP disabled in Mount
 
-## Prerequisites
+### Prerequisites
 
 - [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
 - [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
 
-### Execute the msc script
+#### Execute the msc script
 
 ```cmd
 adb shell msc.sh
@@ -23,10 +23,10 @@ adb shell msc.sh
 
   
 
-## Assign letters to disks
+### Assign letters to disks
   
 
-#### Start the Windows disk manager
+##### Start the Windows disk manager
 
 > Once the X3 Pro is detected as a disk
 
@@ -35,36 +35,36 @@ diskpart
 ```
 
 
-### Assign `X` to Windows volume
+#### Assign `X` to Windows volume
 
-#### Select the Windows volume of the phone
+##### Select the Windows volume of the phone
 > Use `list volume` to find it, it's the ones named "WINVAYU" and "ESPVAYU"
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter X
+##### Assign the letter X
 ```diskpart
 assign letter=x
 ```
 
-### Assign `Y` to esp volume
+##### Assign `Y` to esp volume
 
-#### Select the esp volume of the phone
+##### Select the esp volume of the phone
 > Use `list volume` to find it, it's usually the last one
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter Y
+##### Assign the letter Y
 
 ```diskpart
 assign letter=y
 ```
 
-### Exit diskpart:
+##### Exit diskpart:
 ```diskpart
 exit
 ```
@@ -72,7 +72,7 @@ exit
   
   
 
-## Install
+### Install
 
 > Replace `<path/to/install.wim>` with the actual install.wim path,
 
@@ -83,7 +83,7 @@ exit
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-# Check what type of panel you have
+#### Check what type of panel you have
 
 > Open cmd
 
@@ -96,7 +96,7 @@ adb shell cat /proc/cmdline
 
 > If your device is `Huaxing` `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/` and delete `j20s_novatek_ts_fw01.bin`, finally rename `j20s_novatek_ts_fw02.bin` to `j20s_novatek_ts_fw01.bin`
 
-# Install Drivers
+#### Install Drivers
 
 > Replace `<vayudriversfolder>` with the location of the drivers folder
 
@@ -106,7 +106,7 @@ driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu
 
   
 
-# Create Windows bootloader files for the EFI
+#### Create Windows bootloader files for the EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
