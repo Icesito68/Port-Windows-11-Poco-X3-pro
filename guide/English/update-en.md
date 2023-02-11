@@ -40,18 +40,18 @@ diskpart
 ### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's usually the one before the last
+> Use `list volume` to find it, it's the one named "WINVAYU"
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter x
+#### Assign the letter X
 ```diskpart
 assign letter=x
 ```
 
-#### Exit diskpart:
+#### Exit diskpart
 ```diskpart
 exit
 ```
