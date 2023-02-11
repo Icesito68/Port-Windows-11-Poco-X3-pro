@@ -1,7 +1,16 @@
+<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+
+
+# Запуск Windows на POCO X3 Pro
+
 ## Устранение проблем
 
-
 ### Устройство может загружаться в Android, но не в загрузчик
+
+
+### Необходимые файлы: 
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 >Необходимые файлы: [platform-tools](https://developer.android.com/studio/releases/platform-tools)
 
