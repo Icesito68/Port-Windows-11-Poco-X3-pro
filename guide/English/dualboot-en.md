@@ -29,8 +29,8 @@
 #### Application Setup
 
 - Install the APK provided
-- Create a folder named "vayu-uefi-2.1.0-release" on your internal storage
-- Copy all uefi images into that folder
+- Create a folder named "UEFI" on your internal storage
+- Copy all uefi images into that folder with the naming scheme vayu-(panel)-(version).img
 - Open the app and allow any root access it wants
 
 ### PC part
