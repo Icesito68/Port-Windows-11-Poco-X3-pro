@@ -91,7 +91,7 @@ mkpart esp fat32 254.6GB 255GB
 
 ### Hace a ESP la partición de arranque para que la imagen EFI pueda detectarla
 ```sh
-set 32 esp on
+set 34 esp on
 ```
 
 ### Salir de parted
