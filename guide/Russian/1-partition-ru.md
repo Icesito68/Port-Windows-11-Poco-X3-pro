@@ -61,7 +61,7 @@ mkpart userdata ext4 11.8GB 68.6GB
 
 - Создайте раздел, в который будет установлена Windows
 ```sh
-mkpart win ntfs 68.6GB 126.6GB
+mkpart win ntfs 68.6GB 126GB
 ```
 
 - Создайте ESP раздел (будет содержать загрузчик Windows)
@@ -79,12 +79,12 @@ mkpart userdata ext4 11.8GB 134.6GB
 
 - Создайте раздел на который будет установлена Windows
 ```sh
-mkpart win ntfs 134.6GB 254.6GB
+mkpart win ntfs 134.6GB 254GB
 ```
 
 - Создайте ESP раздел (будет содержать загрузчик Windows)
 ```sh
-mkpart esp fat32 254.6GB 255GB
+mkpart esp fat32 254GB 255GB
 ```
 </details>
 
