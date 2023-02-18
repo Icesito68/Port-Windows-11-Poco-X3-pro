@@ -63,39 +63,40 @@ rm 32
 <details>
 <summary><b><strong>For 128GB Models</strong></b></summary>
 
-- Create the ESP partition (stores Windows bootloader data and EFI files)
+
+
+- Create Android's data partition
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart userdata ext4 11.8GB 68.6GB
 ```
 
 - Create the main partition where Windows will be installed to
 ```sh
-mkpart win ntfs 12.2GB 70.2GB
+mkpart win ntfs 68.6GB 126.6GB
 ```
 
-- Create Android's data partition
+- Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
-mkpart userdata ext4 70.2GB 127GB
+mkpart esp fat32 126.6GB 127GB 
 ```
   </summary>
 </details>
 
 <details>
 <summary><b><strong>For 256GB Models</strong></b></summary>
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
+- Create Android's data partition
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart userdata ext4 11.8GB 134.6GB
 ```
 
 - Create the main partition where Windows will be installed to
 ```sh
-mkpart win ntfs 12.2GB 132.2GB
+mkpart win ntfs 134.6GB 254.6GB
 ```
 
-- Create Android's data partition
+- Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
-mkpart userdata ext4 132.2GB 255GB
+mkpart esp fat32 254.6GB 255GB
 ```
   </summary>
 </details>

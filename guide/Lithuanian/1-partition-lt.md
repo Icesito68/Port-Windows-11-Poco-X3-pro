@@ -46,37 +46,37 @@ rm 32
 
 #### Skirta 128Gb modeliams:
 
-- Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
+- Sukurkite Android duomenų particiją
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart userdata ext4 11.8GB 68.6GB
 ```
 
 - Sukurkite pagrindinę particiją, kur bus įrašyti Windows
 ```sh
-mkpart win ntfs 12.2GB 70.2GB
+mkpart win ntfs 68.6GB 126.6GB
 ```
 
-- Sukurkite Android duomenų particiją
+- Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
 ```sh
-mkpart userdata ext4 70.2GB 127GB
+mkpart esp fat32 126.6GB 127GB
 ```
 
 
 #### Skirta 256Gb modeliams:
 
-- Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
+- Sukurkite Android duomenų particiją
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart userdata ext4 11.8GB 134.6GB
 ```
 
 -  Sukurkite pagrindinę particiją, kur bus įrašyti Windows
 ```sh
-mkpart win ntfs 12.2GB 132.2GB
+mkpart win ntfs 134.6GB 254.6GB
 ```
 
-- Sukurkite Android duomenų particiją
+- Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
 ```sh
-mkpart userdata ext4 132.2GB 255GB
+mkpart esp fat32 254.6GB 255GB
 ```
 
 

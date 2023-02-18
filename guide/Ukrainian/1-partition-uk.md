@@ -55,33 +55,33 @@ rm 32
 <details> 
 <summary><strong>Для моделей 6/128</strong></summary>
 
-- Створіть ESP розділ (буде містити завантажувач Windows)
+- Створіть розділ `userdata` для використання Android поряд з Windows
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart userdata ext4 11.8GB 68.6GB
 ```
 - Створіть розділ, до якого буде встановлена Windows
 ```sh
-mkpart win ntfs 12.2GB 70.2GB
+mkpart win ntfs 68.6GB 126.6GB
 ```
-- Створіть розділ `userdata` для використання Android поряд з Windows
+- Створіть ESP розділ (буде містити завантажувач Windows)
 ```sh
-mkpart userdata ext4 70.2GB 127GB
+mkpart esp fat32 126.6GB 127GB
 ```
 </details>
 <details> 
 <summary><strong>Для моделей 8/256</strong></summary>
 
-- Створіть ESP розділ (буде містити завантажувач Windows)
+- Створіть розділ `userdata` для використання Android поряд з Windows
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart userdata ext4 11.8GB 134.6GB
 ```
 - Створіть розділ, до якого буде встановлена Windows
 ```sh
-mkpart win ntfs 12.2GB 132.2GB
+mkpart win ntfs 134.6GB 254.6GB
 ```
-- Створіть розділ `userdata` для використання Android поряд з Windows
+- Створіть ESP розділ (буде містити завантажувач Windows)
 ```sh
-mkpart userdata ext4 132.2GB 255GB
+mkpart esp fat32 254.6GB 255GB
 ```
 </details> 
 
