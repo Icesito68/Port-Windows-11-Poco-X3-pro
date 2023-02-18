@@ -53,7 +53,7 @@ mkpart userdata ext4 11.8GB 68.6GB
 
 - Sukurkite pagrindinę particiją, kur bus įrašyti Windows
 ```sh
-mkpart win ntfs 68.6GB 126.6GB
+mkpart win ntfs 68.6GB 126GB
 ```
 
 - Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
@@ -71,12 +71,12 @@ mkpart userdata ext4 11.8GB 134.6GB
 
 -  Sukurkite pagrindinę particiją, kur bus įrašyti Windows
 ```sh
-mkpart win ntfs 134.6GB 254.6GB
+mkpart win ntfs 134.6GB 254GB
 ```
 
 - Sukurkite ESP particiją (čia bus laikoma Windows paleidimo instrukcijos ir EFI failai)
 ```sh
-mkpart esp fat32 254.6GB 255GB
+mkpart esp fat32 254GB 255GB
 ```
 
 

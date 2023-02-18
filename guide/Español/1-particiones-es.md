@@ -62,12 +62,12 @@ mkpart userdata ext4 11.8GB 68.6GB
 
 - Creamos la partición principal donde instalaremos Windows
 ```sh
-mkpart win ntfs 68.6GB 126.6GB
+mkpart win ntfs 68.6GB 126GB
 ```
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
-mkpart esp fat32 126.6GB 127GB 
+mkpart esp fat32 126GB 127GB 
 ```
 
 
@@ -80,12 +80,12 @@ mkpart userdata ext4 11.8GB 134.6GB
 
 - Creamos la partición principal donde instalaremos Windows
 ```sh
-mkpart win ntfs 134.6GB 254.6GB
+mkpart win ntfs 134.6GB 254GB
 ```
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
-mkpart esp fat32 254.6GB 255GB
+mkpart esp fat32 254GB 255GB
 ```
 
 
