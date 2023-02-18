@@ -91,7 +91,7 @@ mkpart esp fat32 254.6GB 255GB
 
 ### Сделайте раздел ESP загрузочным, чтобы образ EFI смог его обнаружить
 ```sh
-set 32 esp on
+set 34 esp on
 ```
 
 ### Закройте parted
