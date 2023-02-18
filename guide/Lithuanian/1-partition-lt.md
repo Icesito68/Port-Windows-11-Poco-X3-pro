@@ -82,7 +82,7 @@ mkpart esp fat32 254.6GB 255GB
 
 ### Padarykite ESP particiją paleidžiamą, kad EFI disko atvaizdas galėtų tai aptikti
 ```sh
-set 32 esp on
+set 34 esp on
 ```
 
 ### Išeikite iš parted
