@@ -8,4 +8,5 @@
 ### Select your language
 
 - [English](English/status.md)
+- [Español](ESpañol/soporte.md)
 - [Русский](Russian/status-ru.md)
