@@ -77,7 +77,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
   
   
   
-  # Comprueba que tipo panel tienes
+  # Comprueba que tipo de panel tienes
 
 > En TWRP ve a Advanced, Terminal
 
