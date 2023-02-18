@@ -103,7 +103,7 @@ mkpart esp fat32 254.6GB 255GB
 
 #### Make ESP partiton bootable so the EFI image can detect it
 ```sh
-set 32 esp on
+set 34 esp on
 ```
 
 #### Quit parted
