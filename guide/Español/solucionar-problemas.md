@@ -63,4 +63,4 @@ Esto es causado por particiones con nombres de volumen que el bootloader no pued
 
 Configuraste mal el driver del táctil, para solucionarlo:
 
-- [Sigue esta parte de la guia](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/Español/2-instalacion-es.md#Comprueba-que-tipo-panel-tienes)
+- [Sigue esta parte de la guia](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/Español/2-instalacion-es.md#Comprueba-que-tipo-de-panel-tienes)
