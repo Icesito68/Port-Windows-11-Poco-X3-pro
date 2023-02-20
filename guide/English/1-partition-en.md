@@ -84,6 +84,8 @@ mkpart esp fat32 126GB 127GB
 
 <details>
 <summary><b><strong>For 256GB Models</strong></b></summary>
+
+
 - Create Android's data partition
 ```sh
 mkpart userdata ext4 11.8GB 134.6GB
