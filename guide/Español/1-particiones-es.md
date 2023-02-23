@@ -54,7 +54,10 @@ rm 32
 ### Crear particiones
 > Si recibes cualquier advertencia que te diga ignorar o cancelar, solo escribe i y dale a enter enter
 
-#### Para los modelos de 128Gb:
+<details>
+<summary><b><strong>Para modelos de 128Gb</strong></b></summary>
+  
+  
 - Creamos la partición de datos de Android
 ```sh
 mkpart userdata ext4 11.8GB 68.6GB
@@ -70,8 +73,13 @@ mkpart win ntfs 68.6GB 126GB
 mkpart esp fat32 126GB 127GB 
 ```
 
-
-#### Para modelos de 256Gb:
+  </summary>
+</details>  
+  
+  
+<details>
+<summary><b><strong>Para modelos de 256Gb</strong></b></summary>
+  
 
 - Creamos la partición de datos de Android
 ```sh
@@ -87,7 +95,8 @@ mkpart win ntfs 134.6GB 254GB
 ```sh
 mkpart esp fat32 254GB 255GB
 ```
-
+  </summary>
+</details> 
 
 ### Hace a ESP la partición de arranque para que la imagen EFI pueda detectarla
 ```sh
