@@ -10,3 +10,4 @@
 - [English](English/dualboot-en.md)
 - [Español](Español/dualboot-es.md)
 - [Русский](Russian/dualboot-ru.md)
+- [Українська](Ukrainian/dualboot-uk.md)
