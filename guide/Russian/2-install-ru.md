@@ -52,7 +52,7 @@ driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu
 <details>
 <summary><strong>Двойная загрузка между Android и Windows</strong></summary>
 
-- [Вы должны следовать этой инструкции](/https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/blob/main/guide/Russian/dualboot-ru.md)
+- [Вы должны следовать этой инструкции](dualboot-ru.md)
 </details>
 
 <details>
