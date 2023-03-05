@@ -1,3 +1,7 @@
+<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+
+# Windows en el POCO X3 Pro
+
 ## Restaurar la tabla de particiones stock
 
 ### ¿Por qué lo necesitamos?
@@ -8,16 +12,17 @@ Si quieres desinstalar Windows usa esto para evitar el error humano evitar escri
 
 Si quieres blooquear tu bootloader de nuevo necesitas la tabla de particiones stock
 
-### Dependencias
+### Requisitos Previos
 
-[gpt_both0.bin](../../../../releases/tag/binaries)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [gpt_both0.bin](../../../../releases/tag/binaries)
 
 ### Notes
 
 > Reemplaza ```<gpt_both0.bin>``` por el directorio de gpt_both0.bin 
 
 
-## REstaurar GPT
+## Restaurar GPT
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
