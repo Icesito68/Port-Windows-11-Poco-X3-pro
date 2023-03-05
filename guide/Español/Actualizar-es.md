@@ -1,27 +1,35 @@
-#### Incia el TWRP desde el pc con este comando
+<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+
+
+# Windows en el POCO X3 Pro
+
+## Actualizar Drivers
+
+### Requisitos Previos
+
+- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
+- [TWRP/OFOX Modificado](../../../../releases/Recoveries)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+
+#### Iniciar TWRP desde el pc con el comando
 
 ```cmd
 fastboot boot <twrp.img>
 ```
 
-> si ya tienes el TWRP instalado,solo presiona el botón de encendido y vol+ para iniciarlo
+> Si ya tienes el TWRP instalado, solo presiona el botón de encendido y vol+ para iniciarlo
 
 
-## pasar el script
-
-```cmd
-adb push msc /sbin
-```
-
-### ejecutar el script
+#### Ejecutar el script
 
 ```cmd
-adb shell sh /sbin/msc
+adb shell msc.sh
 ```
 
-## asignar letras a los discos
+### Asignar Letras A Los Discos
 
-#### Iniciar el administrador de discos de Windows
+#### Iniciar El Administrador De Discos De Windows
 
 > Cuando el X3 Pro sea detectado como disco
 
@@ -30,45 +38,42 @@ diskpart
 ```
 
 
-### Asigna `x` al volumen de Windows
+### Asignar la letra `X` a la partición de Windows
 
-#### Seleciona el volumen de Windows del teléfono
-> use `list volume` to find it, it's usually the one before the last
+#### Seleccione el volumen de Windows del teléfono
+> Usa `list vol` para encontrarlo, es el que se llama "WINVAYU"
 
 ```diskpart
-select volume <number>
+sel vol <number>
 ```
 
-#### Agsigna la letra x
+#### Asignar la letra X
 ```diskpart
 assign letter=x
 ```
 
-### Salir de diskpart:
+#### Salir de diskpart
 ```diskpart
 exit
 ```
 
 
-# Instalar los Drivers
+### Instalar Los Drivers
 
-> reemplaza `<vayudriversfolder>` por la localización de la carpeta de los drivers
+> Reemplaza `<vayudriversfolder>` por la localización de la carpeta de los drivers
 
-> abre un cmd como administrador
+> Abre un cmd como administrador
 
 
 ```cmd
-.\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+DriverUpdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
 ```
 
 
-##### Arranca con la imagen de aranque de Windows #####
+### Arranca Windows con la UEFI
 
 ```
 fastboot flash boot <uefi.img>
 ```
 
-  
-  
-
-# ¡Terminado!
+## ¡Terminado!
