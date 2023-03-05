@@ -1,5 +1,12 @@
 Estos pasos son necesarios para crear las particiones donde pondremos Windows
 
+### Requisitos Previos
+
+- [TWRP/OFOX Modificados](../../../../releases/Recoveries)
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
+
 ## Notas:
 > **Advertencia** si eliminas alguna partición via diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda la ufs
 - Estos comandos han sido testeados.
