@@ -20,7 +20,7 @@ fastboot boot <twrp.img>
 
 > If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
-
+> You will need to disable MTP in Mount
 #### Execute script
 
 ```cmd
