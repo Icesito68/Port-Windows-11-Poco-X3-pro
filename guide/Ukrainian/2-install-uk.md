@@ -30,7 +30,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 ### Дозвольте непідписані драйвера
 > Якщо ви цього не зробите, то отримаєте BSOD
 ```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
 ### Встановлення драйверів

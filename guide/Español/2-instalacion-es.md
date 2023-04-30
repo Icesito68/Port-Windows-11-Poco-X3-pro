@@ -123,7 +123,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 > si no haces esto obtendrás un BSOD
 
 ```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
 # Arrancar en Windows

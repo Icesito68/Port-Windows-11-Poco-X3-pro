@@ -120,7 +120,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 > If you don't do this you'll get a BSOD
 
 ```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
 ## Boot into Windows

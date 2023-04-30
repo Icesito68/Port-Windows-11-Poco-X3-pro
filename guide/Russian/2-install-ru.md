@@ -30,7 +30,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 ### Разрешите неподписанные драйвера
 > Если вы этого не сделаете, то получите BSOD.
 ```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 ### Установка драйверов
 #### Узнайте ваш тип панели
