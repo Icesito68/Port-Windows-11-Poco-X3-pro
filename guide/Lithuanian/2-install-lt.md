@@ -108,7 +108,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 > Jeigu to nepadarysite, paleidžiant sistemą gausite BSOD klaidą
 
 ```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
 # Paleiskite į Windows

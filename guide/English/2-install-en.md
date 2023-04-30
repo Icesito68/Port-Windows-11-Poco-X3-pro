@@ -6,7 +6,7 @@
 ## Installation
 
 ## Installing Windows
-> You will need to have MTP disabled in Mount
+> You will need to have MTP disabled in "Mount"
 
 ### Prerequisites
 
@@ -14,6 +14,8 @@
 - [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+
+#### Boot into TWRP
 
 #### Execute the msc script
 
@@ -74,10 +76,11 @@ exit
 
 ### Install
 
-> Replace `<path/to/install.wim>` with the actual install.wim path,
+> Replace `<path/to/install.wim>` with the actual path to install.wim,
 
 > `install.wim` is located in sources folder inside your ISO
-> You can get it either by mounting or extracting it
+> (it might also be named `install.esd`)
+> You can get it either by mounting or extracting the ISO
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -92,21 +95,21 @@ adb shell cat /proc/cmdline
 ```
 > Look for `msm_drm.dsi_display0` almost at the bottom
 
-> If your device is `Tianma` `msm_drm.dsi_display0` will be `dsi_j20s_36_02_0a_video_display`
+> If your device is `Tianma`, `msm_drm.dsi_display0` will be `dsi_j20s_36_02_0a_video_display`
 
-> If your device is `Huaxing` `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/` and delete `j20s_novatek_ts_fw01.bin`, finally rename `j20s_novatek_ts_fw02.bin` to `j20s_novatek_ts_fw01.bin`
+> If your device is `Huaxing`, `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/` and delete `j20s_novatek_ts_fw01.bin`, finally rename `j20s_novatek_ts_fw02.bin` to `j20s_novatek_ts_fw01.bin`
 
 ### Install Drivers
 
-> Replace `<vayudriversfolder>` with the location of the drivers folder
+> Replace `<vayudriversfolder>` with the actual location of the drivers folder
 
 ```cmd
-driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+.\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
 ```
 
   
 
-### Create Windows bootloader files for the EFI
+### Create Windows bootloader files
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
@@ -120,7 +123,46 @@ bcdboot X:\Windows /s Y: /f UEFI
 > If you don't do this you'll get a BSOD
 
 ```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
+```
+
+### Unssign disk letters
+  
+> So that they don't stay there after disconnecting the device
+
+```cmd
+diskpart
+```
+
+
+#### Select the Windows volume of the phone
+> Use `list volume` to find it, it's the one named "WINVAYU"
+
+```diskpart
+select volume <number>
+```
+
+#### Unassign the letter X
+```diskpart
+remove letter x
+```
+
+#### Select the ESP volume of the phone
+> Use `list volume` to find it, it's the one named "ESPVAYU"
+
+```diskpart
+select volume <number>
+```
+
+#### Unassign the letter Y
+
+```diskpart
+remove lettery
+```
+
+#### Exit diskpart
+```diskpart
+exit
 ```
 
 ## Boot into Windows
