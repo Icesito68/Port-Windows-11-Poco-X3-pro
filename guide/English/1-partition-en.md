@@ -14,24 +14,25 @@
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
-> **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
+> **Warning** if you ever delete any partitions via diskpart, Windows will send a UFS command which would erase the entire UFS storage!
 - All your data will be erased! Backup now if needed.
 - These commands have been tested.
-- Ignore `udevadm` warnings
-- Do not run the same command twice
-- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayu)
+- Ignore `udevadm` warnings.
+- Do not run the same command twice.
+- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayu).
 
 #### ⚠️ Do not run all commands at once, execute them in order!
 
 ##### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-##### Boot TWRP recovery through the PC with the command
+##### Flash the modified TWRP recovery
 ```cmd
-fastboot boot <twrp.img>
+fastboot flash recovery <twrp.img>
+fastboot reboot recovery
 ```
 
 #### Unmount all partitions
-Go to TWRP settings and unmount all partitions
+Go to "Mount" section and unmount all partitions
 
 #### Start ADB shell
 ```cmd
@@ -58,7 +59,7 @@ rm 32
 ```
 
 #### Create partitions
-> If you get any warning message telling you to ignore or cancel, just type i and enter
+> If you get any warning message telling you to ignore or cancel, just type i and press Enter
 
 <details>
 <summary><b><strong>For 128GB Models</strong></b></summary>
@@ -103,7 +104,7 @@ mkpart esp fat32 254GB 255GB
   </summary>
 </details>
 
-#### Make ESP partiton bootable so the EFI image can detect it
+#### Make ESP partiton bootable so the UEFI image can detect it
 ```sh
 set 34 esp on
 ```
@@ -113,7 +114,7 @@ set 34 esp on
 quit
 ```
 
-#### Reboot to TWRP
+#### Reboot to TWRP again
 
 #### Start the shell again on your PC
 ```cmd
@@ -132,7 +133,7 @@ mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
 ```
 
 - Format data
-Go to Wipe menu and press Format Data, 
+Go to "Wipe" menu and press "Format Data", 
 then type `yes`.
 
 #### Check if Android still starts
