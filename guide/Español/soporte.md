@@ -10,7 +10,7 @@ Beta. Muchos de los componentes funcionan, pero aún quedan algunos
 #### Características
 
 - [ ] Audio ```Solo por USB o Bluetooth```
-- [] Porcentaje de la batería
+- [ ] Porcentaje de la batería
 - [x] Bluetooth
 - [x] Brillo
 - [ ] Cámara
