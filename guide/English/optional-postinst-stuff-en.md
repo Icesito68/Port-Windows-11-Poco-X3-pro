@@ -13,9 +13,9 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-##### Boot modded recovery
+##### Flash and boot modded recovery
 
-```fastboot boot <recovery.img>```
+```fastboot flash <recovery.img> reboot recovery```
 
 ##### Mounting partitions
 
