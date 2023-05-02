@@ -10,7 +10,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 #### Features
 
 - [ ] Audio ```Only by USB or Bluetooth```
-- [x] Battery status
+- [] Battery status
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
@@ -21,7 +21,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] SD ```Need to unplug and plug many times to get the SD Card detected```
 - [x] Touchscreen ```Need off on display after boot```
 - [x] UFS
-- [x] USB ```PD hub needed```
+- [x] USB ```Registry hack needed for non powered hubs```
 - [x] Wi-Fi
 
 #### Sensors (Need to provision after installing Windows)
