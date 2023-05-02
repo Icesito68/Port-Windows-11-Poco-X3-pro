@@ -7,10 +7,10 @@
 
 ### Требования
 
-- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
+- [UEFI](https://github.com/halal-beef/edk2-msm/releases/latest)
 - [Modded TWRP/OFOX](../../../../releases/Recoveries)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/halal-beef/Vayu-Drivers/releases/latest)
 
 #### Запустите TWRP с помощью fastboot используя комьютер
 

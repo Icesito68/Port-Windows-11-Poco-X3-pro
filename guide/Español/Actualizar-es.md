@@ -7,10 +7,10 @@
 
 ### Requisitos Previos
 
-- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
+- [UEFI](https://github.com/halal-beef/edk2-msm/releases/latest)
 - [TWRP/OFOX Modificado](../../../../releases/Recoveries)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/halal-beef/Vayu-Drivers/releases/latest)
 
 #### Iniciar TWRP desde el pc con el comando
 

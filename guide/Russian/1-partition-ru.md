@@ -12,7 +12,7 @@
 - [Образ Windows 10/11 ARM (Windows 11 рекомендуется)](https://uupdump.net/)
 - [platform-tools(ADB & Fastboot)](https://developer.android.com/studio/releases/platform-tools)
 - [DriverUpdater для установки и обновления драйверов](https://github.com/WOA-Project/DriverUpdater/releases/)
-- [UEFI образ](https://github.com/degdag/edk2-msm/releases/tag/V2.1.0)
+- [UEFI образ](https://github.com/halal-beef/edk2-msm/releases/tag/latest)
 - [Модифицированный TWRP или OrangeFox](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
 
 ### Запустите TWRP через комьютер с помощью fastboot

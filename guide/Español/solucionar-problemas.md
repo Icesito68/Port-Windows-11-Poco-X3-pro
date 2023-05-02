@@ -31,33 +31,6 @@ Esto es causado por particiones con nombres de volumen que el bootloader no pued
 - Ahora pon ```rm <vol number>``` por ejemplo ```rm 36```
 
 
-## BOUND_IMAGE_UNSUPPORTED BSOD en el arranque
-
-### Requisitos previos:
-
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
-- [UEFI vieja](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/download/old_uefi/vayu_old_uefi.zip)
-
-- [UEFI nueva](http://github.com/degdag/edk2-msm/releases/latest)
-
-- Arranca el bootloader
-
-- Conecta el teléfono en el PC
-
-- Abre el cmd en el PC
-
-- Pon ```fastboot boot <old_uefi.img>```, asegúrate de reemplazar ```<old_uefi.img>``` por la imagen apropiada
-
-- Después de que el teléfono arranque windows ve al bootloader de nuevo
-
-- Pon ```fastboot boot <new_uefi.img>```, asegúrate de reemplazar ```<new_uefi.img>``` por la imagen apropiada
-
-
-## La pantalla táctil no funciona
-
-- Apaga y enciende la pantalla
-
 
 ## Touchscreen touches are inaccurate/upside down
 

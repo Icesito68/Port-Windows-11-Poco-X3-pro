@@ -11,9 +11,9 @@
 ### Prerequisites
 
 - [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
-- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
+- [UEFI image](https://github.com/halal-beef/edk2-msm/releases/latest)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/halal-beef/Vayu-Drivers/releases/latest)
 
 #### Boot into TWRP
 
