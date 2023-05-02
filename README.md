@@ -21,9 +21,11 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
-- [Dualboot Setup](guide/dualboot-selection.md)
+- [Dualboot setup](guide/dualboot-selection.md)
 
-- [Project Status](guide/status-selection.md)
+- [Optional post-install stuff](guide/optional-postinst-stuff-selection.md)
+
+- [Project status](guide/status-selection.md)
 
 - [Troubleshooting](guide/troubleshooting-selection.md)
 
