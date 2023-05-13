@@ -157,7 +157,7 @@ select volume <number>
 #### Unassign the letter Y
 
 ```diskpart
-remove lettery
+remove letter y
 ```
 
 #### Exit diskpart
