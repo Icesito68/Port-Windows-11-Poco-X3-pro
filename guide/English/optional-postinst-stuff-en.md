@@ -30,10 +30,10 @@
 
 ###### Remove any Qualcomm remnants
 
-```rm -rf /win/Windows/System32/Drivers/DriverData/QUALCOMM/fastRPC/persist/sensors```
+```rm -rf /win/Windows/System32/drivers/DriverData/QUALCOMM/fastRPC/persist/sensors```
 
 ###### Copy sensor data over
 
-```cp -r /persist/sensors /win/Windows/System32/Drivers/DriverData/QUALCOMM/fastRPC/persist/sensors```
+```cp -r /persist/sensors /win/Windows/System32/drivers/DriverData/QUALCOMM/fastRPC/persist/sensors```
 
 ## Finished!
