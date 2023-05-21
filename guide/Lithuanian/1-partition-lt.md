@@ -6,7 +6,7 @@
 - Šios komandos buvo išbandytos.
 - Nekreipkite dėmęsio į `udevadm` įspėjimus
 - Nenaudokite tos pačios komandos daugiau nei vieną kartą
-- NEPERKRAUKITE TELEFONO, jeigu manote, kad padarėte klaidą, klauskite pagalbos [Telegram pokalbiuose](https://t.me/winonvayual)
+- NEPERKRAUKITE TELEFONO, jeigu manote, kad padarėte klaidą, klauskite pagalbos [Telegram pokalbiuose](https://t.me/winonvayualt)
 
 #### Paleiskite telefoną į TWRP per kompiuterį su šia komanda:
 ```cmd
